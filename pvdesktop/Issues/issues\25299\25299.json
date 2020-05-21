@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Solved",
+    "ClosedDate": "2014-03-24T10:23:29.443-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Remove the check box and rename as \"Online Basemap:\" and then have an option of \"None\" in the drop down.",
+    "LastUpdatedDate": "2014-03-24T10:23:29.443-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-19T14:35:44.66-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "modify online basemap behavior",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25299
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6787,
+      "FileName": "Screenshot 2014-03-24 11.21.54.png",
+      "DownloadUrl": ".\\6787"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25299&FileAttachmentId=6787)",
+      "PostedDate": "2014-03-24T10:23:13.827-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-24T10:23:29.443-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

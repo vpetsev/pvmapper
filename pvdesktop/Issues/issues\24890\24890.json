@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-12-04T09:45:03.417-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In the PVMapper Desktop Tab I selected the Site properties drop down, put a check mark on the \"Building\" check box and clicked the create layer button. I received the following warning message attached.\nThe only thing I did that preceded this warning was select the \"Google Map\" base map.\n![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24890&FileAttachmentId=6599)\nThe details of the error are included:\n\nSee the end of this message for details on invoking \njust-in-time (JIT) debugging instead of this dialog box.\n\n************** Exception Text **************\nSystem.UnauthorizedAccessException: Access to the path 'C:\\Program Files (x86)\\pvDesktop\\Plugins\\pvDesktop\\Temp\\Building.shp' is denied.\n   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\n   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)\n   at DotSpatial.Data.ShapefileHeader.Write(String destFilename, Int32 destFileLength) in d:\\BYU Work\\DotSpatialCode\\DotSpatial.Data\\ShapefileHeader.cs:line 212\n   at DotSpatial.Data.ShapefileHeader.SaveAs(String outFilename) in d:\\BYU Work\\DotSpatialCode\\DotSpatial.Data\\ShapefileHeader.cs:line 189\n   at DotSpatial.Data.PolygonShapefile.SaveAs(String fileName, Boolean overwrite) in d:\\BYU Work\\DotSpatialCode\\DotSpatial.Data\\PolygonShapefile.cs:line 357\n   at DotSpatial.Data.FeatureSet.Save() in d:\\BYU Work\\DotSpatialCode\\DotSpatial.Data\\FeatureSet.cs:line 893\n   at DotSpatial.Data.FeatureSet.SaveAs(String fileName, Boolean overwrite) in d:\\BYU Work\\DotSpatialCode\\DotSpatial.Data\\FeatureSet.cs:line 942\n   at pvMapperPlugin.pvMapForm.cmdNewBldgShp_Click(Object sender, EventArgs e) in d:\\codeplex\\pvdesktop\\pvMapperPlugin\\frmPvMap.cs:line 979\n   at System.Windows.Forms.Control.OnClick(EventArgs e)\n   at System.Windows.Forms.Button.OnClick(EventArgs e)\n   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)\n   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)\n   at System.Windows.Forms.Control.WndProc(Message& m)\n   at System.Windows.Forms.ButtonBase.WndProc(Message& m)\n   at System.Windows.Forms.Button.WndProc(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)\n   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)\n\n\n************** Loaded Assemblies **************\nmscorlib\n    Assembly Version: 4.0.0.0\n    Win32 Version: 4.0.30319.18052 built by: FX45RTMGDR\n    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll\n----------------------------------------\nDemoMap\n    Assembly Version: 0.11.9.6\n    Win32 Version: 1.0.0.0\n    CodeBase: file:///C:/Program%20Files%20(x86)/pvDesktop/PvDesktopMap.exe\n----------------------------------------\nSystem.Windows.Forms\n    Assembly Version: 4.0.0.0\n    Win32 Version: 4.0.30319.18047 built by: FX45RTMGDR\n    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll\n----------------------------------------\nSystem.Drawing\n    Assembly Version: 4.0.0.0\n    Win32 Version: 4.0.30319.18021 built by: FX45RTMGDR\n    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll\n----------------------------------------\nSystem\n    Assembly Version: 4.0.0.0\n    Win32 Version: 4.0.30319.18044 built by: FX45RTMGDR",
+    "LastUpdatedDate": "2013-12-04T09:45:03.883-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2013-11-18T13:54:02.1-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Error Creating a Layer",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24890
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6599,
+      "FileName": "issue1.PNG",
+      "DownloadUrl": ".\\6599"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Because Window not allow to create temporary in Program files folder.\nI add new dialog for selecting temporary folder.",
+      "PostedDate": "2013-12-04T09:44:12.097-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:44:41.28-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:45:03.417-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:45:03.883-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

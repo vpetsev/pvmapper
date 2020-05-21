@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-03-04T09:44:43.893-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When I clicked AC Production button after creating an array of panels I received an error.\nSee Attachment",
+    "LastUpdatedDate": "2014-03-04T09:44:43.893-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-02-27T15:50:29.2-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "AC Production button",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25215
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6746,
+      "FileName": "Ac Production.PNG",
+      "DownloadUrl": ".\\6746"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Looks like it doesn't like having a negative angle for the panel.",
+      "PostedDate": "2014-02-27T15:54:11.137-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25215&FileAttachmentId=6746)",
+      "PostedDate": "2014-02-28T19:02:03.633-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I think tilts value cannot be a negative value;",
+      "PostedDate": "2014-02-28T19:03:33.547-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-04T09:44:43.893-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

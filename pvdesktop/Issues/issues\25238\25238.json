@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "private void cmdSaveAsCSV_Click(object sender, EventArgs e)\n        {\n            SaveFileDialog saveFile = new SaveFileDialog();\n            saveFile.DefaultExt = \"csv\";\n            saveFile.ShowDialog(); \n            string CsvFpath = saveFile.FileName;\n            if (CsvFpath.Length = 0)\n                {\n                    columnHeaderText = grdSolarRose.Columns[0].HeaderText;\n                }\n\n                for (int i = 1; i <= countColumn; i++)\n                {\n                    columnHeaderText = columnHeaderText + ',' + grdSolarRose.Columns[i].HeaderText;\n                }\n\n\n                csvFileWriter.WriteLine(columnHeaderText);\n\n                foreach (DataGridViewRow dataRowObject in grdSolarRose.Rows)\n                {\n                    if (!dataRowObject.IsNewRow)\n                    {\n                        string dataFromGrid = \"\";\n\n                        dataFromGrid = dataRowObject.Cells[0].Value.ToString();\n\n                        for (int i = 1; i <= countColumn; i++)\n                        {\n                            dataFromGrid = dataFromGrid + ',' + dataRowObject.Cells[i].Value.ToString();\n                        }\n                        csvFileWriter.WriteLine(dataFromGrid);\n                    }\n                }\n\n\n                csvFileWriter.Flush();\n                csvFileWriter.Close();\n            }\n            catch (Exception exceptionObject)\n            {\n                MessageBox.Show(exceptionObject.ToString());\n            }\n        }",
+    "ClosedDate": "2014-03-11T10:32:28.983-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "export to excel button doesnt work",
+    "LastUpdatedDate": "2014-03-11T10:32:28.983-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-05T12:45:20.017-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "sun rose diagram form export to excel",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25238
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-12-04T09:34:04.3-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There is no option to add layers directly like we are used to doing in other GIS software.![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24928&FileAttachmentId=6607)",
+    "LastUpdatedDate": "2013-12-04T09:34:04.3-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2013-12-02T14:19:40.557-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add layers to the map layer set.",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24928
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6607,
+      "FileName": "1.png",
+      "DownloadUrl": ".\\6607"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "It's Dotspatial core. Sorry, I don't need to change it. ",
+      "PostedDate": "2013-12-04T09:33:37.227-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:34:04.3-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

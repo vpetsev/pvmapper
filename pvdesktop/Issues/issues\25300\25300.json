@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Let's use the DotSpatial save/open stuff so that we can get all the information about the map and base data and layers.\n\nWe will need to write the PVDesktop stuff into the DotSpatial project file. This usually happens by injecting the information from the plugin into the project file during the DotSpatial project file writing event.\n\nAgain we can look at HydroDesktop for the example.",
+    "LastUpdatedDate": "2014-03-19T14:44:38.537-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-19T14:44:38.537-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Re think save/open paradigm",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25300
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

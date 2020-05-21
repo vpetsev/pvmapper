@@ -1,0 +1,61 @@
+D:\codeplex\pvMapperDesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.dll
+D:\codeplex\pvMapperDesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.pdb
+D:\codeplex\pvMapperDesktop\Application\Plugins\pvDesktop\zh-CN\pvDesktopPlugin.resources.dll
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csprojResolveAssemblyReference.cache
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvDesktopPlugin.Properties.Resources.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.zh-CN.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csproj.GenerateResource.Cache
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\zh-CN\pvDesktopPlugin.resources.dll
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.dll
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.pdb
+D:\codeplex\pvdesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.dll
+D:\codeplex\pvdesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.pdb
+D:\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csprojResolveAssemblyReference.cache
+D:\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+D:\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\PvDesktopPlugin.Properties.Resources.resources
+D:\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csproj.GenerateResource.Cache
+D:\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.dll
+D:\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.pdb
+C:\Kasem\week10\pvdesktop_from_NB\Application\Plugins\pvDesktop\pvDesktopPlugin.dll
+C:\Kasem\week10\pvdesktop_from_NB\Application\Plugins\pvDesktop\pvDesktopPlugin.pdb
+C:\Kasem\week10\pvdesktop_from_NB\Application\Plugins\pvDesktop\zh-CN\pvDesktopPlugin.resources.dll
+C:\Kasem\week10\pvdesktop_from_NB\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csprojResolveAssemblyReference.cache
+C:\Kasem\week10\pvdesktop_from_NB\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+C:\Kasem\week10\pvdesktop_from_NB\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.resources
+C:\Kasem\week10\pvdesktop_from_NB\pvMapperPlugin\obj\Debug\PvDesktopPlugin.Properties.Resources.resources
+C:\Kasem\week10\pvdesktop_from_NB\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.zh-CN.resources
+C:\Kasem\week10\pvdesktop_from_NB\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csproj.GenerateResource.Cache
+C:\Kasem\week10\pvdesktop_from_NB\pvMapperPlugin\obj\Debug\zh-CN\pvDesktopPlugin.resources.dll
+C:\Kasem\week10\pvdesktop_from_NB\pvMapperPlugin\obj\Debug\pvDesktopPlugin.dll
+C:\Kasem\week10\pvdesktop_from_NB\pvMapperPlugin\obj\Debug\pvDesktopPlugin.pdb
+C:\Kasem\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csprojResolveAssemblyReference.cache
+C:\Kasem\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+C:\Kasem\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\PvDesktopPlugin.Properties.Resources.resources
+C:\Kasem\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csproj.GenerateResource.Cache
+C:\Kasem\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.dll
+C:\Kasem\codeplex\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.pdb
+C:\Kasem\codeplex\pvdesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.dll
+C:\Kasem\codeplex\pvdesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.pdb
+C:\Users\Kasem Pinthong\Desktop\pvdesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.dll
+C:\Users\Kasem Pinthong\Desktop\pvdesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.pdb
+C:\Users\Kasem Pinthong\Desktop\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csprojResolveAssemblyReference.cache
+C:\Users\Kasem Pinthong\Desktop\pvdesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+C:\Users\Kasem Pinthong\Desktop\pvdesktop\pvMapperPlugin\obj\Debug\PvDesktopPlugin.Properties.Resources.resources
+C:\Users\Kasem Pinthong\Desktop\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csproj.GenerateResource.Cache
+C:\Users\Kasem Pinthong\Desktop\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.dll
+C:\Users\Kasem Pinthong\Desktop\pvdesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.pdb
+D:\PVDesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.dll
+D:\PVDesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.pdb
+D:\PVDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csprojResolveAssemblyReference.cache
+D:\PVDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+D:\PVDesktop\pvMapperPlugin\obj\Debug\PvDesktopPlugin.Properties.Resources.resources
+D:\PVDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csproj.GenerateResource.Cache
+D:\PVDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.dll
+D:\PVDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.pdb
+C:\dev\pvDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csprojResolveAssemblyReference.cache
+C:\dev\pvDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+C:\dev\pvDesktop\pvMapperPlugin\obj\Debug\PvDesktopPlugin.Properties.Resources.resources
+C:\dev\pvDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.csproj.GenerateResource.Cache

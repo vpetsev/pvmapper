@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Icon was changed and will show with next release.",
+    "ClosedDate": "2014-04-24T16:14:54.37-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "put the sun guy on as the desktop icon and the main form icon and start menu icon.",
+    "LastUpdatedDate": "2014-04-24T16:14:54.37-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-19T14:23:35.07-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Desktop / start menu icon should be the sun-guy",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25292
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Icon for main form has been changed.",
+      "PostedDate": "2014-03-25T13:21:58.473-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-04-24T16:14:54.37-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

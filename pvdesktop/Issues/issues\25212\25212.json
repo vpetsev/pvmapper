@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "I used a  temporary path. It will create when open the program. \nc# code is\ntemp_path = Path.GetDirectoryName(System.IO.Path.GetTempFileName());",
+    "ClosedDate": "2014-03-04T10:19:21.017-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When exporting to sketch up there is an unhandled expception. I've attached a screenshot of the error.",
+    "LastUpdatedDate": "2014-03-04T10:19:21.017-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-02-27T13:13:50.217-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Error when exporting to Sketch Up",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25212
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6743,
+      "FileName": "GSU Error.PNG",
+      "DownloadUrl": ".\\6743"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "See screenshot attached. ",
+      "PostedDate": "2014-02-27T13:14:31.917-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25212&FileAttachmentId=6743)",
+      "PostedDate": "2014-02-28T19:06:38.127-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This problem occurred because some computer didn't allow to write any file in Program file folder. (by other  software).\r\n\r\nTo solve this problem, I will use the location in window temporary  folder to create a Sketchup temporary files.",
+      "PostedDate": "2014-02-28T19:11:28.223-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-04T10:19:21.017-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

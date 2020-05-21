@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "private void splitContainer1_Panel2_MouseMove(object sender, MouseEventArgs e)\n        {\n            /*\n            if (e.X < 200 & e.Y < 40)\n            {\n                cmdMapZoomIn.Visible = true;\n                cmdMapZoomOut.Visible = true;\n                cmdMapZoomExt.Visible = true;\n                cmdMapPan.Visible = true;\n                cmdMapSelection.Visible = true;\n                cmdMapSelectionNone.Visible = true;\n            }\n            else\n            {\n                cmdMapZoomIn.Visible = false;\n                cmdMapZoomOut.Visible = false;\n                cmdMapZoomExt.Visible = false;\n                cmdMapPan.Visible = false;\n                cmdMapSelection.Visible = false;\n                cmdMapSelectionNone.Visible = false;\n            }\n             */ \n        }",
+    "ClosedDate": "2014-03-24T10:04:35.37-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "make tool bar not disappear",
+    "LastUpdatedDate": "2014-03-24T10:04:35.37-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-19T14:33:52.56-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "make tool bar not disappear",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25298
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

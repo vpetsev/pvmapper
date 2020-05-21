@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Solved",
+    "ClosedDate": "2014-03-24T10:10:18.433-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Remove the button on the sun path properties dialgo box.\n\nAlso give it an icon and a title case title.",
+    "LastUpdatedDate": "2014-03-24T10:10:18.433-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-19T14:54:11.83-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Remove the button on the sun path properties dialgo box",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25302
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6785,
+      "FileName": "Screenshot 2014-03-24 11.08.18.png",
+      "DownloadUrl": ".\\6785"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25302&FileAttachmentId=6785)",
+      "PostedDate": "2014-03-24T10:10:05.877-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-24T10:10:18.433-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+<div class="wikidoc">
+<h2>DC to AC Derate Factor</h2>
+<p><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvdesktop&DownloadId=742012" alt="" width="720" height="530"></p>
+<p><strong>DC to AC Derate Factor&nbsp;<strong>(From:&nbsp;<a href="http://rredc.nrel.gov/solar/calculators/pvwatts/system.html">NREL</a>&nbsp;<img src="http://rredc.nrel.gov/solar/calculators/pvwatts/version1/images/pvwatts1.jpg" alt="" width="33" height="13">&nbsp;)</strong></strong></p>
+<p>PVWATTS multiplies the nameplate DC power rating by an overall DC to AC derate factor to determine the AC power rating at STC. The overall DC to AC derate factor accounts for losses from the DC nameplate power rating and is the mathematical product of the
+ derate factors for the components of the PV system. A list of the default component derate factors used by PVWATTS and the ranges that might be encountered in practice are listed in the table.</p>
+<table border="6" width="600">
+<caption><font size="4"><strong>Derate Factors for AC Power Rating at STC</strong></font></caption>
+<tbody>
+<tr>
+<th align="LEFT" valign="TOP" width="48%&gt;&lt;B&gt;&lt;FONT SIZE=">Component Derate Factors</th>
+<th align="CENTER" valign="TOP" width="30%"><strong><font size="3">PVWATTS Default</font></strong></th>
+<th align="CENTER" valign="TOP"><strong><font size="3">Range</font></strong></th>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">PV module nameplate DC rating</font></td>
+<td align="CENTER"><font size="3">0.95</font></td>
+<td align="CENTER"><font size="3">0.80 - 1.05</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">Inverter and Transformer</font></td>
+<td align="CENTER"><font size="3">0.92</font></td>
+<td align="CENTER"><font size="3">0.88 - 0.98</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">Mismatch</font></td>
+<td align="CENTER"><font size="3">0.98</font></td>
+<td align="CENTER"><font size="3">0.97 - 0.995</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">Diodes and connections</font></td>
+<td align="CENTER"><font size="3">0.995</font></td>
+<td align="CENTER"><font size="3">0.99 - 0.997</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">DC wiring</font></td>
+<td align="CENTER"><font size="3">0.98</font></td>
+<td align="CENTER"><font size="3">0.97 - 0.99</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">AC wiring</font></td>
+<td align="CENTER"><font size="3">0.99</font></td>
+<td align="CENTER"><font size="3">0.98 - 0.993</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">Soiling</font></td>
+<td align="CENTER"><font size="3">0.95</font></td>
+<td align="CENTER"><font size="3">0.30 - 0.995</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">System availabilty</font></td>
+<td align="CENTER"><font size="3">0.98</font></td>
+<td align="CENTER"><font size="3">0.00 - 0.995</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">Shading</font></td>
+<td align="CENTER"><font size="3">1.00</font></td>
+<td align="CENTER"><font size="3">0.00 - 1.00</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">Sun-tracking</font></td>
+<td align="CENTER"><font size="3">1.00</font></td>
+<td align="CENTER"><font size="3">0.95 - 1.00</font></td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">Age</font></td>
+<td align="CENTER"><font size="3">1.00</font></td>
+<td align="CENTER"><font size="3">0.70 - 1.00</font></td>
+</tr>
+<tr>
+<td colspan="3" align="CENTER" bgcolor="#222222" height="1">&nbsp;</td>
+</tr>
+<tr>
+<td align="LEFT"><font size="3">Overall DC-to-AC derate factor</font></td>
+<td align="CENTER"><font size="3">0.77</font></td>
+<td align="CENTER">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>The overall DC to AC derate factor is calculated by multiplying the component derate factors. For the PVWATTS default values:</p>
+<p><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Overall DC to AC derate factor</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = 0.95 x 0.92 x 0.98 x 0.995 x 0.98 x 0.99 x 0.95 x 0.98 x 1.00 x 1.00 x 1.00</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = 0.77</p>
+<p><br>
+The value of 0.77 means that the AC power rating at STC is 77% of the nameplate DC power rating. In most cases, the overall default value of 0.77 will provide a reasonable estimate for modeling the energy production. However, if so warranted, users have two
+ options to change the overall DC to AC derate factor. The first option is to enter in the text box a new overall DC to AC derate factor. The second option is to click the&nbsp;<em><strong>Calculate Derate Factor</strong></em>&nbsp;button which provides the
+ user with the opportunity to change any of the component derate factors in the table and then PVWATTS calculates a new overall DC to AC derate factor. Descriptions of the component derate factors are described in the following paragraphs.</p>
+<p>The derate factor for the PV module nameplate DC rating accounts for the accuracy of the manufacturer's nameplate rating. Field measurements of a representative sample of PV modules may show that the PV module powers are different than the nameplate rating
+ or that they experienced light-induced degradation upon exposure (even crystalline silicon PV modules typically lose 2% of their initial power before power stabilizes after the first few hours of exposure to sunlight). A derate factor of 0.95 represents that
+ testing yielded power measurements at STC that were 5% less than the manufacturer's nameplate rating.</p>
+<p>The derate factor for the inverter and transformer is their combined efficiency in converting DC power to AC power. A list of inverter efficiencies by manufacturer is at&nbsp;<a href="http://www.gosolarcalifornia.ca.gov/equipment/inverter.php">http://www.gosolarcalifornia.ca.gov/equipment/inverter.php</a>.
+ These inverter efficiencies include transformer related losses when a transformer is used or required by the manufacturer.</p>
+<p>The derate factor for PV module mismatch accounts for manufacturing tolerances that yield PV modules with slightly different current-voltage characteristics. Consequently, when connected together electrically they do not operate at their respective peak
+ efficiencies. The default value of 0.98 represents a loss of 2% due to mismatch.</p>
+<p>The derate factor for diodes and connections accounts for losses from voltage drops across diodes used to block the reverse flow of current and from resistive losses in electrical connections.</p>
+<p>The derate factor for DC wiring accounts for resistive losses in the wiring between modules and the wiring connecting the PV array to the inverter.</p>
+<p>The derate factor for AC wiring accounts for resistive losses in the wiring between the inverter and the connection to the local utility service.</p>
+<p>The derate factor for soiling accounts for dirt, snow, or other foreign matter on the front surface of the PV module that reduces the amount of solar radiation reaching the solar cells of the PV module. Dirt accumulation on the PV module surface is location
+ and weather dependent, with greater soiling losses (up to 25% for some California locations) for high-trafffic, high-pollution areas with infrequent rain. For northern locations in winter, snow will reduce the amount of energy produced, with the severity of
+ the reduction a function of the amount of snow received and how long it remains on the PV modules. Snow remains the longest when sub-freezing temperatures prevail, small PV array tilt angles prevent snow from sliding off, the PV array is closely integrated
+ into the roof, and the roof or other structure in the vicinity facilitates snow drifting onto the PV modules. For a roof-mounted PV system in Minnesota with a tilt angle of 23<sup><font size="1">o</font></sup>, snow was observed to reduce the energy production
+ during the winter by 70%; a nearby roof-mounted PV system with a tilt angle of 40<sup><font size="1">o</font></sup>&nbsp;experienced a 40% reduction.</p>
+<p>The derate factor for system availability accounts for times when the system is off due to maintenance and inverter and utility outages. The default value of 0.98 represents the system being off for 2% of the year.</p>
+<p>The derate factor for shading accounts for situations when PV modules are shaded by nearby buildings, objects, or other PV modules and array structure. For the default value of 1.00, PVWATTS assumes the PV modules are not shaded. Tools such as Solar Pathfinder
+ may be used to determine a derate factor for shading by buildings and objects. For PV arrays consisting of multiple rows of PV modules and array structure, the shading derate factor should be changed to account for losses occurring when one row shades an adjacent
+ row. The figure below shows the shading derate factor as a function of the type of PV array (fixed or tracking); the Ground Cover Ratio (GCR), defined as the ratio of the PV array area to the total ground area; and the tilt angle for fixed PV arrays. As shown
+ in the figure, spacing the rows further apart (smaller GCR) corresponds to a larger derate factor (smaller shading loss). For fixed PV arrays, if the tilt angle is decreased the rows may be spaced closer together (larger GCR) to achieve the same shading derate
+ factor. For the same value of shading derate factor, land area requirements are greatest for 2-axis tracking, as indicated by its relatively low GCR values when compared with those for fixed or 1-axis tracking. If you know the GCR value for your PV array,
+ the figure may be used to estimate the appropriate shading derate factor. Industry practice is to optimize the use of space by configuring the PV system for a GCR corresponding to a shading derate factor of 0.975 (2.5% loss).</p>
+<p>&nbsp;</p>
+<p><strong><strong>&lt;center&gt;<img src="http://rredc.nrel.gov/solar/calculators/pvwatts/images/CGR.jpg" alt="" border="1">&nbsp;<br>
+Shading Derate Factor for Multiple-Row PV Arrays as a&nbsp;<br>
+Function of PV Array Type and Ground Cover Ratio&lt;/center&gt;</strong></strong></p>
+<p>&nbsp;</p>
+<p><br>
+The derate factor for sun-tracking accounts for losses for one- and two-axis tracking systems when the tracking mechanisms do not keep the PV arrays at the optimum orientation with respect to the sun's position. For the default value of 1.00, PVWATTS assumes
+ that the PV arrays of tracking systems are always positioned at their optimum orientation and performance is not adversely affected.</p>
+<p>The derate factor for age accounts for losses in performance over time due primarily to weathering of the PV modules. The loss in performance is typically 1% per year. For the default value of 1.00, PVWATTS assumes that the PV system is in its 1st year of
+ operation. For the 11th year of operation, a derate factor of 0.90 would be appropriate.</p>
+<p>Because the PVWATTS overall DC to AC derate factor is determined for STC, a component derate factor for temperature is not part of its determination. Power corrections for PV module operating temperature are performed for each hour of the year as PVWATTS
+ reads the meteorological data for the location and computes the performance. A power correction of -0.5% per&nbsp;<sup><font size="1">o</font></sup>C for crystalline silicon PV modules is used.</p>
+</div><div class="ClearBoth"></div>

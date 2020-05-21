@@ -1,0 +1,6 @@
+C:\Kasem\original DotSpatial\Debug\bin\Windows Extensions\pvMapperPlugin.dll
+C:\Kasem\original DotSpatial\Debug\bin\Windows Extensions\pvMapperPlugin.pdb
+C:\Kasem\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\DemoPlugin.csproj.GenerateResource.Cache
+C:\Kasem\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.dll
+C:\Kasem\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.pdb
+C:\Kasem\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\DemoPlugin.pvMapForm.resources

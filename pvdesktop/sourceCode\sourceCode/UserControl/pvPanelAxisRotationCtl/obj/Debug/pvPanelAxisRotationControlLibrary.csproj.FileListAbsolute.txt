@@ -1,0 +1,16 @@
+D:\codeplex\pvdesktop\UserControl\Debug\bin\Plugins\pvmapper\pvPanelAxisRotationCtl.dll
+D:\codeplex\pvdesktop\UserControl\Debug\bin\Plugins\pvmapper\pvPanelAxisRotationCtl.pdb
+D:\codeplex\pvdesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationControlLibrary.csprojResolveAssemblyReference.cache
+D:\codeplex\pvdesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationCtl.Properties.Resources.resources
+D:\codeplex\pvdesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanel3DAngleCtl.pvPanelAxisRotationCtl.resources
+D:\codeplex\pvdesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationControlLibrary.csproj.GenerateResource.Cache
+D:\codeplex\pvdesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationCtl.dll
+D:\codeplex\pvdesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationCtl.pdb
+C:\dev\pvDesktop\UserControl\Debug\bin\Plugins\pvmapper\pvPanelAxisRotationCtl.dll
+C:\dev\pvDesktop\UserControl\Debug\bin\Plugins\pvmapper\pvPanelAxisRotationCtl.pdb
+C:\dev\pvDesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationControlLibrary.csprojResolveAssemblyReference.cache
+C:\dev\pvDesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationCtl.Properties.Resources.resources
+C:\dev\pvDesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanel3DAngleCtl.pvPanelAxisRotationCtl.resources
+C:\dev\pvDesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationControlLibrary.csproj.GenerateResource.Cache
+C:\dev\pvDesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationCtl.dll
+C:\dev\pvDesktop\UserControl\pvPanelAxisRotationCtl\obj\Debug\pvPanelAxisRotationCtl.pdb

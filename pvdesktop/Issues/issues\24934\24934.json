@@ -1,0 +1,71 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-12-04T09:16:08.987-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The way to end a shape is not clear enough. Either there should be a info text somewhere saying that right click to end drawing or we should adopt the standard GIS way where double clicking will end it.![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24934&FileAttachmentId=6611)",
+    "LastUpdatedDate": "2013-12-04T09:16:08.987-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2013-12-02T14:34:19.113-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "End drawing in building layer",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24934
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6611,
+      "FileName": "1.png",
+      "DownloadUrl": ".\\6611"
+    },
+    {
+      "FileId": 6615,
+      "FileName": "Untitled.png",
+      "DownloadUrl": ".\\6615"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24934&FileAttachmentId=6615)",
+      "PostedDate": "2013-12-04T08:59:53.91-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:00:25.29-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:06:46.52-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:16:08.987-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

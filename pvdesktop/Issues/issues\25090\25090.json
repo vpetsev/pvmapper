@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-02-12T08:55:42.487-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Need to capture the sun and shrink it into an icon.",
+    "LastUpdatedDate": "2014-02-12T08:55:42.487-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-01-17T14:30:16.923-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "form icon and launcher icon needs to be the PVMapper sun",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25090
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6728,
+      "FileName": "Untitled.png",
+      "DownloadUrl": ".\\6728"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25090&FileAttachmentId=6728)",
+      "PostedDate": "2014-02-12T08:55:02.04-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-02-12T08:55:42.487-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PvMapperPlugin.SolarCal">
+    <Position X="3.25" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>2NTwCCMUAkiAVI0ikIIAaEImNNEAokhAIUJFAEkqBwM=</HashCode>
+      <FileName>ClassSolarCal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PvMapperPlugin.kUtility">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAAAAAAIA=</HashCode>
+      <FileName>ClassSolarCal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

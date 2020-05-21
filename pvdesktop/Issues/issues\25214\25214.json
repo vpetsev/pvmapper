@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "void saveAlignmentAttribute()\n        {\n            if (ProjectFile.LyrAlignment != -1)\n            {\n                IMapFeatureLayer alignmentFe = pvMap.Layers[ProjectFile.LyrAlignment] as IMapFeatureLayer;\n                int nShp = alignmentFe.DataSet.NumRows();\n\n                for (int iRow = 0; iRow < nShp; iRow++)\n                {\n                    IFeature fs = alignmentFe.DataSet.GetFeature(iRow);\n                    try\n                    {\n                        if (chkSystemSpacing.Checked == true) grdAlignment.Rows[iRow].Cells[1].Value = Convert.ToDouble(txtDx.Text);\n                        fs.DataRow.BeginEdit();\n                        fs.DataRow[\"spacing\"] = grdAlignment.Rows[iRow].Cells[1].Value;\n                        fs.DataRow[\"Remark\"] = grdAlignment.Rows[iRow].Cells[2].Value;\n                        fs.DataRow.EndEdit();\n                    }\n                    catch { }\n\n                }\n            }\n        }",
+    "ClosedDate": "2014-03-12T12:44:36.307-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In the 'Create Pole by alignment' form you can check to use the same spacing on each line. If you do so then close the window, when re-opened the check box does not remember your previous selection (neither the value or if the box is checked)\n\nMaybe set so it remembers selection and value when it is opened again.",
+    "LastUpdatedDate": "2014-03-12T12:44:36.307-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-02-27T15:39:07.923-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Create Pole by alignment Form",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25214
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6745,
+      "FileName": "Alignment Form.PNG",
+      "DownloadUrl": ".\\6745"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25214&FileAttachmentId=6745)",
+      "PostedDate": "2014-02-28T19:04:15.19-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-12T12:44:36.307-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

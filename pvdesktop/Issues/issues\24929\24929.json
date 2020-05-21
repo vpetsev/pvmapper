@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-12-04T11:04:51.653-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Would be great if we could also enter the point based on coordinates? Apart from just selecting the coordinates by clicking on the map. Also, if that input is opened, then a box needs to be put in for UTM zone which right now is a bit ambiguous.",
+    "LastUpdatedDate": "2013-12-04T11:04:51.653-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2013-12-02T14:20:15.877-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Coordinates Input",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24929
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "\n                Coordinate c = new Coordinate();\n                c = vMap.PixelToProj(e.Location);\n                Extent ext = pvMap.ViewExtents;\n                double dx = (ext.MaxX - ext.MinX);\n                double dy = (ext.MaxX - ext.MinX);\n                ext.SetCenter(c);\n                pvMap.ViewExtents = ext;\n",
+      "PostedDate": "2013-12-04T11:03:55.557-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T11:04:51.653-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

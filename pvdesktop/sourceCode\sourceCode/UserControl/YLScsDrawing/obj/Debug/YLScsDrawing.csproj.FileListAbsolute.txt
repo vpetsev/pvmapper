@@ -1,0 +1,10 @@
+D:\codeplex\pvdesktop\UserControl\YLScsDrawing\bin\Debug\YLScsDrawing.dll
+D:\codeplex\pvdesktop\UserControl\YLScsDrawing\bin\Debug\YLScsDrawing.pdb
+D:\codeplex\pvdesktop\UserControl\YLScsDrawing\obj\Debug\YLScsDrawing.csprojResolveAssemblyReference.cache
+D:\codeplex\pvdesktop\UserControl\YLScsDrawing\obj\Debug\YLScsDrawing.dll
+D:\codeplex\pvdesktop\UserControl\YLScsDrawing\obj\Debug\YLScsDrawing.pdb
+C:\dev\pvDesktop\UserControl\YLScsDrawing\bin\Debug\YLScsDrawing.dll
+C:\dev\pvDesktop\UserControl\YLScsDrawing\bin\Debug\YLScsDrawing.pdb
+C:\dev\pvDesktop\UserControl\YLScsDrawing\obj\Debug\YLScsDrawing.csprojResolveAssemblyReference.cache
+C:\dev\pvDesktop\UserControl\YLScsDrawing\obj\Debug\YLScsDrawing.dll
+C:\dev\pvDesktop\UserControl\YLScsDrawing\obj\Debug\YLScsDrawing.pdb

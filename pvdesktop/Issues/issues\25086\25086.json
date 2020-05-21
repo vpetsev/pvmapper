@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-02-18T09:28:49.74-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Go through all the code and find everywhere that it says \"PVDesktop\" and change it to PVMapper - Site Designer\"",
+    "LastUpdatedDate": "2014-02-18T09:28:49.74-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-01-17T14:19:58.16-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "We've been asked to rename PVDesktop to PVMapper - Site Designer",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25086
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

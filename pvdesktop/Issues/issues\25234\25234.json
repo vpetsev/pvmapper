@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Fixed for weather station name.\n pvMap.Layers.Add(weatherShp).LegendText = \"Weather Stations\";   \n\nbut for Basemap, BruTileLayer not allow to change the layer name.",
+    "ClosedDate": "2014-03-11T12:18:11.36-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Layer names should default to \"Weather Stations\" and \"Basemap\"",
+    "LastUpdatedDate": "2014-03-11T12:18:11.36-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-05T12:35:26.897-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Change layer names",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25234
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Solved",
+    "ClosedDate": "2014-03-25T14:46:15.807-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Automatically build the sun rose diagram when selecting a new site (or importing one from KML).\n\nAutomatically show it at 100 m, always show it for the current year. \n\n(At a later date, we may create a options button that allows you to specify these two things)\n\nRemove the check box and the build run sunrose button and the diameter button.\n\nSite tab will now include the solar info.\n\nRename \"Sun Path\" to \"Solar Data\".",
+    "LastUpdatedDate": "2014-03-25T14:46:15.807-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-19T14:53:36.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Automatically build the sun rose diagram when selecting a new site (or importing one from KML)",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25301
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6794,
+      "FileName": "Screenshot 2014-03-25 15.42.56.png",
+      "DownloadUrl": ".\\6794"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25301&FileAttachmentId=6794)",
+      "PostedDate": "2014-03-25T14:45:23.343-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-25T14:46:15.807-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

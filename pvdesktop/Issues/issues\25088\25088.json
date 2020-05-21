@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-03-04T09:47:31.74-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Need to be consistent and use PVDesktop but we're dropping that term so change everything to PVMapper - Site Designer where \"PVMapper\" is spelled like that.",
+    "LastUpdatedDate": "2014-03-04T09:47:31.74-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-01-17T14:26:35.48-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "There are places where Photo Voltaic is shortened to Pv.",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25088
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,101 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-03-24T14:20:53.113-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The help should include\n1) a button to visit the CodePlex Web site\n2) a button to visit the PVMapper web application\n3) a button to show a help file\n4) a button to show a you tube video training thing",
+    "LastUpdatedDate": "2014-03-24T14:20:53.113-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-19T14:31:11.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Create a help tab on the far right with some help",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25296
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6788,
+      "FileName": "Screenshot 2014-03-24 13.31.29.png",
+      "DownloadUrl": ".\\6788"
+    },
+    {
+      "FileId": 6789,
+      "FileName": "Screenshot 2014-03-24 15.19.38.png",
+      "DownloadUrl": ".\\6789"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "This means also moving the home and web page buttons away from where they are now.",
+      "PostedDate": "2014-03-19T14:31:37.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-19T14:45:31.34-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Move the \"report errors\" button to the help tab.",
+      "PostedDate": "2014-03-19T14:45:44.827-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-24T12:46:34.693-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-24T12:46:35.577-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25296&FileAttachmentId=6788)",
+      "PostedDate": "2014-03-24T12:47:11.08-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-24T14:20:16.693-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-24T14:20:17.343-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25296&FileAttachmentId=6789)",
+      "PostedDate": "2014-03-24T14:20:39.403-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-24T14:20:53.113-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

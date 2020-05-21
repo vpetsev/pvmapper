@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "if (util.IsNumeric(this.txtRoseScale.Text)==false) txtRoseScale.Text= \"1\";  //Set scale = 1 for default\n                double RoseScale = Convert.ToDouble(this.txtRoseScale.Text);",
+    "ClosedDate": "2014-03-13T14:48:23.53-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Scale is not working.....",
+    "LastUpdatedDate": "2014-03-13T14:48:23.53-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-13T14:35:55.15-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Scale is not working.....",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25269
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

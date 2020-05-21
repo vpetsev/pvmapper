@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The default DotSpatial tool strip seems out of place above the custom ribbon. Maybe we can move it below?",
+    "LastUpdatedDate": "2014-04-24T16:16:10.513-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-05T12:39:23.65-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Try moving the dotspatial toolbar below the tab control",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25236
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Looks like we will be removing the toolbar altogether.",
+      "PostedDate": "2014-04-24T16:16:10.513-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

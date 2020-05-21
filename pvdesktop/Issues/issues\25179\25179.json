@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-02-12T08:46:50.747-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This should probably display in their default browser.",
+    "LastUpdatedDate": "2014-02-12T08:46:50.747-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-02-11T14:31:43.64-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Add a button to launch pvmapper from pvdesktop",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25179
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "        private void cmdPVMapperWeb_Click(object sender, EventArgs e)\n        {\n            System.Diagnostics.Process.Start(\"http://pvmapper.org/app\");\n        }",
+      "PostedDate": "2014-02-12T08:46:10.113-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-02-12T08:46:50.747-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

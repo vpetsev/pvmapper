@@ -1,0 +1,51 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "It solved",
+    "ClosedDate": "2014-03-04T09:20:15.057-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Maybe pop out the graphs in standalone windows.",
+    "LastUpdatedDate": "2014-03-04T09:21:17.88-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-01-17T14:22:38.463-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "All graphs need to be bigger...",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25087
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6752,
+      "FileName": "Untitled.png",
+      "DownloadUrl": ".\\6752"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25087&FileAttachmentId=6752)",
+      "PostedDate": "2014-03-04T09:21:17.88-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

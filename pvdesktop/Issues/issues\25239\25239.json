@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Solved",
+    "ClosedDate": "2014-03-11T10:18:49.883-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "on the frmSunPath, the Sun path calcuation tab should default to caluclate the default date that is shown.",
+    "LastUpdatedDate": "2014-03-11T10:18:49.883-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-05T12:47:04.083-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "sun path form default calculate values",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25239
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

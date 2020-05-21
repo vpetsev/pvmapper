@@ -1,0 +1,96 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-12-04T09:17:01.997-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Why is that a user editable text box? Because as soon as I enter one character I get an error popup? Either it should let me complete typing or just be a disabled or read only textbox. Also can I import stuff?![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24932&FileAttachmentId=6609)",
+    "LastUpdatedDate": "2013-12-04T09:17:01.997-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2013-12-02T14:21:56.197-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Building site data layer boxes",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24932
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6609,
+      "FileName": "1.png",
+      "DownloadUrl": ".\\6609"
+    },
+    {
+      "FileId": 6616,
+      "FileName": "Untitled.png",
+      "DownloadUrl": ".\\6616"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I edited the DropDownStyle property to ComboBoxStyle.DropDownList.\nNow user cannot edit it.",
+      "PostedDate": "2013-12-03T21:08:14.04-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-03T21:09:56.877-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-03T21:09:57.437-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "** Closed by Kasem_Pinthong 12/3/2013 9:09 PM",
+      "PostedDate": "2013-12-04T09:10:45.02-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:10:45.2-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:10:46.007-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:12:08.18-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24932&FileAttachmentId=6616)",
+      "PostedDate": "2013-12-04T09:12:31.473-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:17:01.997-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

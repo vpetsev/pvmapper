@@ -1,0 +1,119 @@
+C:\Kasem\original DotSpatial\Debug\bin\Windows Extensions\pvMapperPlugin.dll
+C:\Kasem\original DotSpatial\Debug\bin\Windows Extensions\pvMapperPlugin.pdb
+C:\Kasem\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\PVMAPPERPlugin.pvMapForm.resources
+C:\Kasem\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+C:\Kasem\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.dll
+C:\Kasem\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.pdb
+C:\Kasem\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.dll
+C:\Kasem\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.pdb
+C:\Kasem\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+C:\Kasem\Week03\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.dll
+C:\Kasem\Week03\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.pdb
+C:\Kasem\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+C:\Kasem\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\PVMAPPERPlugin.pvMapForm.resources
+C:\Kasem\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+C:\Kasem\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.dll
+C:\Kasem\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.pdb
+C:\Kasem\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+D:\BYU Week03\BYUweek03 from dropbox\Week03\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.dll
+D:\BYU Week03\BYUweek03 from dropbox\Week03\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.pdb
+D:\BYU Week03\BYUweek03 from dropbox\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+D:\BYU Week03\BYUweek03 from dropbox\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+D:\BYU Week03\BYUweek03 from dropbox\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\PVMAPPERPlugin.pvMapForm.resources
+D:\BYU Week03\BYUweek03 from dropbox\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+D:\BYU Week03\BYUweek03 from dropbox\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.dll
+D:\BYU Week03\BYUweek03 from dropbox\Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.pdb
+D:\BYU Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+D:\BYU Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+D:\BYU Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\PVMAPPERPlugin.pvMapForm.resources
+D:\BYU Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+D:\BYU Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.dll
+D:\BYU Week03\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.dll
+D:\BYU Week03\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.pdb
+D:\BYU Week03\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.pdb
+C:\Kasem\week04 (May 28-31)\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.dll
+C:\Kasem\week04 (May 28-31)\original DotSpatial\Debug\bin\Plugins\pvMapperPlugin.pdb
+C:\Kasem\week04 (May 28-31)\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+C:\Kasem\week04 (May 28-31)\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+C:\Kasem\week04 (May 28-31)\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\PVMAPPERPlugin.pvMapForm.resources
+C:\Kasem\week04 (May 28-31)\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+C:\Kasem\week04 (May 28-31)\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.dll
+C:\Kasem\week04 (May 28-31)\original DotSpatial\DotSpatial.Examples.DemoPlugin\obj\Debug\pvMapperPlugin.pdb
+C:\Kasem\week04 (May 28-31)\pvMapperDesktop\Debug\bin\Plugins\pvMapperPlugin.dll
+C:\Kasem\week04 (May 28-31)\pvMapperDesktop\Debug\bin\Plugins\pvMapperPlugin.pdb
+C:\Kasem\week04 (May 28-31)\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+C:\Kasem\week04 (May 28-31)\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+C:\Kasem\week04 (May 28-31)\pvMapperDesktop\pvMapperPlugin\obj\Debug\PVMAPPERPlugin.pvMapForm.resources
+C:\Kasem\week04 (May 28-31)\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+C:\Kasem\week04 (May 28-31)\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.dll
+C:\Kasem\week04 (May 28-31)\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pdb
+D:\BYU Work\pvMapperDesktop\Debug\bin\Plugins\pvMapperPlugin.dll
+D:\BYU Work\pvMapperDesktop\Debug\bin\Plugins\pvMapperPlugin.pdb
+D:\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+D:\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+D:\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+D:\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+D:\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.dll
+D:\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pdb
+C:\Kasem\week04 (May 28-31)\BYU Work\pvMapperDesktop\Debug\bin\Plugins\pvMapper\pvMapperPlugin.dll
+C:\Kasem\week04 (May 28-31)\BYU Work\pvMapperDesktop\Debug\bin\Plugins\pvMapper\pvMapperPlugin.pdb
+C:\Kasem\week04 (May 28-31)\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+C:\Kasem\week04 (May 28-31)\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+C:\Kasem\week04 (May 28-31)\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+C:\Kasem\week04 (May 28-31)\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.dll
+C:\Kasem\week04 (May 28-31)\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pdb
+C:\Kasem\week04 (May 28-31)\BYU Work\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+D:\BYU Work\pvMapperDesktop\Debug\bin\Plugins\pvmapper\pvMapperPlugin.dll
+D:\BYU Work\pvMapperDesktop\Debug\bin\Plugins\pvmapper\pvMapperPlugin.pdb
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.dll
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.pdb
+C:\Kasem\week07\DotSpatialCode\Debug\bin\Plugins\pvmapper\pvMapperPlugin.dll
+C:\Kasem\week07\DotSpatialCode\Debug\bin\Plugins\pvmapper\pvMapperPlugin.pdb
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.resources
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.zh-CN.resources
+C:\Kasem\week07\DotSpatialCode\Debug\bin\Plugins\pvmapper\zh-CN\pvMapperPlugin.resources.dll
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\zh-CN\pvMapperPlugin.resources.dll
+C:\Kasem\week07\DotSpatialCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.Properties.Resources.resources
+D:\BYU Work\DotSpatialCode\Debug\bin\Plugins\pvmapper\pvMapperPlugin.dll
+D:\BYU Work\DotSpatialCode\Debug\bin\Plugins\pvmapper\pvMapperPlugin.pdb
+D:\BYU Work\DotSpatialCode\Debug\bin\Plugins\pvmapper\zh-CN\pvMapperPlugin.resources.dll
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.resources
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.Properties.Resources.resources
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.zh-CN.resources
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\zh-CN\pvMapperPlugin.resources.dll
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.dll
+D:\BYU Work\DotSpatialCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.pdb
+D:\BYU Work\PvDesktopCode\Debug\bin\Plugins\pvmapper\pvMapperPlugin.dll
+D:\BYU Work\PvDesktopCode\Debug\bin\Plugins\pvmapper\pvMapperPlugin.pdb
+D:\BYU Work\PvDesktopCode\Debug\bin\Plugins\pvmapper\zh-CN\pvMapperPlugin.resources.dll
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.resources
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.Properties.Resources.resources
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.zh-CN.resources
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\zh-CN\pvMapperPlugin.resources.dll
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.dll
+D:\BYU Work\PvDesktopCode\pvMapperPlugin\obj\Debug\pvMapperPlugin.pdb
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.csprojResolveAssemblyReference.cache
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmDailySolarCal.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.pvMapForm.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvDesktopPlugin.Properties.Resources.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\PvMapperPlugin.frmLayoutDialog.zh-CN.resources
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvMapperPlugin.csproj.GenerateResource.Cache
+D:\codeplex\pvMapperDesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.dll
+D:\codeplex\pvMapperDesktop\Application\Plugins\pvDesktop\pvDesktopPlugin.pdb
+D:\codeplex\pvMapperDesktop\Application\Plugins\pvDesktop\zh-CN\pvDesktopPlugin.resources.dll
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\zh-CN\pvDesktopPlugin.resources.dll
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.dll
+D:\codeplex\pvMapperDesktop\pvMapperPlugin\obj\Debug\pvDesktopPlugin.pdb

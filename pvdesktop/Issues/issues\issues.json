@@ -1,0 +1,210 @@
+[
+  {
+    "Id": 24890,
+    "Title": "Error Creating a Layer"
+  },
+  {
+    "Id": 24926,
+    "Title": "Error messages when skipping a step"
+  },
+  {
+    "Id": 24927,
+    "Title": "Base Map"
+  },
+  {
+    "Id": 24928,
+    "Title": "Add layers to the map layer set."
+  },
+  {
+    "Id": 24929,
+    "Title": "Coordinates Input"
+  },
+  {
+    "Id": 24930,
+    "Title": "Default Layout"
+  },
+  {
+    "Id": 24932,
+    "Title": "Building site data layer boxes"
+  },
+  {
+    "Id": 24933,
+    "Title": "Clear Reference Point button"
+  },
+  {
+    "Id": 24934,
+    "Title": "End drawing in building layer"
+  },
+  {
+    "Id": 24935,
+    "Title": "Switching off base map throughs exception."
+  },
+  {
+    "Id": 24936,
+    "Title": "Map mix up"
+  },
+  {
+    "Id": 25086,
+    "Title": "We've been asked to rename PVDesktop to PVMapper - Site Designer"
+  },
+  {
+    "Id": 25087,
+    "Title": "All graphs need to be bigger..."
+  },
+  {
+    "Id": 25088,
+    "Title": "There are places where Photo Voltaic is shortened to Pv."
+  },
+  {
+    "Id": 25089,
+    "Title": "Basemap should appear immediately on startup"
+  },
+  {
+    "Id": 25090,
+    "Title": "form icon and launcher icon needs to be the PVMapper sun"
+  },
+  {
+    "Id": 25091,
+    "Title": "Automatically set colors and labels for sun rose diagram"
+  },
+  {
+    "Id": 25092,
+    "Title": "Auto symbolize the shadows drawn by shadow tool"
+  },
+  {
+    "Id": 25178,
+    "Title": "Create help buttons to take user to Issue tracker and Discussion forum"
+  },
+  {
+    "Id": 25179,
+    "Title": "Add a button to launch pvmapper from pvdesktop"
+  },
+  {
+    "Id": 25180,
+    "Title": "make a new banner for this site"
+  },
+  {
+    "Id": 25212,
+    "Title": "Error when exporting to Sketch Up"
+  },
+  {
+    "Id": 25213,
+    "Title": "Browse new working directory button"
+  },
+  {
+    "Id": 25214,
+    "Title": "Create Pole by alignment Form"
+  },
+  {
+    "Id": 25215,
+    "Title": "AC Production button"
+  },
+  {
+    "Id": 25233,
+    "Title": "Sketchup export for PV panel error"
+  },
+  {
+    "Id": 25234,
+    "Title": "Change layer names"
+  },
+  {
+    "Id": 25235,
+    "Title": "Look at HydroDesktop, use the zoom pan tools that are on the map"
+  },
+  {
+    "Id": 25236,
+    "Title": "Try moving the dotspatial toolbar below the tab control"
+  },
+  {
+    "Id": 25237,
+    "Title": "sun rose diagram form name"
+  },
+  {
+    "Id": 25238,
+    "Title": "sun rose diagram form export to excel"
+  },
+  {
+    "Id": 25239,
+    "Title": "sun path form default calculate values"
+  },
+  {
+    "Id": 25240,
+    "Title": "Need to add tree shadows..."
+  },
+  {
+    "Id": 25263,
+    "Title": "The solar scale  is not verifying the type of data"
+  },
+  {
+    "Id": 25268,
+    "Title": "Opening a KML accepts whatever file..."
+  },
+  {
+    "Id": 25269,
+    "Title": "Scale is not working....."
+  },
+  {
+    "Id": 25277,
+    "Title": "Critical: Installer shouldn't install to \"Startup\" start menu"
+  },
+  {
+    "Id": 25291,
+    "Title": "The install file needs to have a descriptive name"
+  },
+  {
+    "Id": 25292,
+    "Title": "Desktop / start menu icon should be the sun-guy"
+  },
+  {
+    "Id": 25293,
+    "Title": "Need a startup form that has instructions and the video and such"
+  },
+  {
+    "Id": 25294,
+    "Title": "Need to include a sample project and sample data with installer"
+  },
+  {
+    "Id": 25295,
+    "Title": "Helper text box needed below the legend"
+  },
+  {
+    "Id": 25296,
+    "Title": "Create a help tab on the far right with some help"
+  },
+  {
+    "Id": 25297,
+    "Title": "Change \"Add site\" to \"Import Site from KML\""
+  },
+  {
+    "Id": 25298,
+    "Title": "make tool bar not disappear"
+  },
+  {
+    "Id": 25299,
+    "Title": "modify online basemap behavior"
+  },
+  {
+    "Id": 25300,
+    "Title": "Re think save/open paradigm"
+  },
+  {
+    "Id": 25301,
+    "Title": "Automatically build the sun rose diagram when selecting a new site (or importing one from KML)"
+  },
+  {
+    "Id": 25302,
+    "Title": "Remove the button on the sun path properties dialgo box"
+  },
+  {
+    "Id": 25303,
+    "Title": "rename Solar tab as \"Shading\""
+  },
+  {
+    "Id": 25424,
+    "Title": "Attribute editing"
+  },
+  {
+    "Id": 25425,
+    "Title": "Save form data so it doesn't reset when opening the form"
+  }
+]

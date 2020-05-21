@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-03-18T10:33:11.393-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "PVDesktop installer is adding a shortcut to the \"startup folder\" in the start menu. This means every time that you start your computer, it restarts PVDesktop.... Please change...",
+    "LastUpdatedDate": "2014-03-18T10:33:11.393-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-17T07:00:42.95-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Critical: Installer shouldn't install to \"Startup\" start menu",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25277
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I'm sorry. \nIt's may false. It have one check box in Install to Go about Startup menu.  \nI didn't though it run every time. I will unchecked it for the new setup file.  ",
+      "PostedDate": "2014-03-17T09:59:08.487-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-18T10:33:11.393-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

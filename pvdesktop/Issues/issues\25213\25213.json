@@ -1,0 +1,61 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "private void cmdUseCurrentPath_Click(object sender, EventArgs e)\n        {\n            string tmpPath = prj.Path;\n            prj.Path = \"\";\n            CheckWorkingPath();\n            if (prj.Path != \"\")\n            {\n                txtWorkingPath.Text = prj.Path;\n            }\n            else\n            {\n                prj.Path = tmpPath;\n            }\n        }",
+    "ClosedDate": "2014-03-12T12:39:20.723-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The browse new working directory button doesn't work. Clicking on it doesn't open up a folder to browse locations.",
+    "LastUpdatedDate": "2014-03-12T12:39:20.723-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-02-27T15:13:30.623-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Browse new working directory button",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25213
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6744,
+      "FileName": "Browse Button.PNG",
+      "DownloadUrl": ".\\6744"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "see attachment ",
+      "PostedDate": "2014-02-27T15:13:50.18-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25213&FileAttachmentId=6744)",
+      "PostedDate": "2014-02-28T19:05:41.09-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-12T12:39:20.723-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

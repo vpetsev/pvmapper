@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "I solved it. \nI used a temporary path.\ntemp_path = Path.GetDirectoryName(System.IO.Path.GetTempFileName());",
+    "ClosedDate": "2014-03-12T14:28:18.793-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25233&FileAttachmentId=6753)Sketchup export for PV panel error",
+    "LastUpdatedDate": "2014-03-12T14:28:35.95-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-05T11:58:37.897-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Sketchup export for PV panel error",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25233
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6753,
+      "FileName": "Untitled.png",
+      "DownloadUrl": ".\\6753"
+    }
+  ],
+  "Comments": []
+}

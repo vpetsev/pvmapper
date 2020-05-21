@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-02-18T09:24:38.887-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The shadow tool draws polygons. They need to automatically symbolized with no outlines, gray color and semi transparent so that you can see the basemap underneath.",
+    "LastUpdatedDate": "2014-02-18T09:24:41.683-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-01-17T14:43:49.483-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Auto symbolize the shadows drawn by shadow tool",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25092
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "    MapPolygonLayer ShadowArea;\n    ShadowArea = new MapPolygonLayer(myFe);// MapPolygonLayer(fs);\n    PolygonSymbolizer ShadowSymboize = new PolygonSymbolizer(Color.Black,Color.Red);\n    // set transparent\n    SimplePattern sp = new SimplePattern(Color.Black);\n    sp.Opacity = 0.5f;\n    ShadowSymboize.Patterns.Clear();\n    ShadowSymboize.Patterns.Add(sp);\n    ShadowArea.Symbolizer = ShadowSymboize;\n    pvMap.Layers.Add(ShadowArea);",
+      "PostedDate": "2014-02-18T09:24:41.683-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<div class="wikidoc">
+<h2>DC Rating parameter</h2>
+<p>&nbsp;<img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvdesktop&DownloadId=742011" alt="" width="720" height="530"></p>
+<p>&nbsp;</p>
+<p><strong><span style="text-decoration:underline">DC Rating (0.5 to 1000 kW)</span>&nbsp;<strong>(From:&nbsp;<a href="http://rredc.nrel.gov/solar/calculators/pvwatts/system.html">NREL</a>&nbsp;<img src="http://rredc.nrel.gov/solar/calculators/pvwatts/version1/images/pvwatts1.jpg" alt="" width="33" height="13">&nbsp;)</strong></strong></p>
+<p>The size of the PV system is the nameplate DC power rating. This is determined by summing the PV module powers listed on the nameplates on the backsides of the PV modules in units of watts and then dividing by 1000 to convert to kilowatts (kW). The PV module
+ power ratings are for Standard Test Conditions (STC) of 1000 W/m2 solar irradiance and 25oC PV module temperature. The default PV system size is 4 kW. This corresponds to a
+<strong>PV array area of approximately 35 m2 (377 ft2)</strong>.</p>
+<p>Caution: To achieve proper results, the DC rating input must be the nameplate DC power rating as described above, and not based on other rating conditions, such as PVUSA Test Conditions (PTC). PTC are defined as 1000 W/m2 plane-of-array irradiance, 20oC
+ ambient temperature, and 1 m/s wind speed. PTC differs from standard test conditions (STC) in that its test conditions of ambient temperature and wind speed will result in a PV module temperature of about 50oC, instead of the 25oC for STC. Consequently, for
+ crystalline silicon PV systems with a power degradation due to temperature of -0.5% per degree C, the PV module PTC power rating is about 88% of the PV module nameplate rating. If a user incorrectly uses a DC rating based on PTC power ratings, the energy production
+ calculated by PVWATTS will be reduced by about 12% from the proper calculation. In essence, the effects of temperature will have been erroneously compensated for twice, first with the use of the PTC rating, and again as PVWATTS performs hour-by-hour calculations
+ of PV module temperatures and applies temperature corrections from STC to the hourly PV energy values.</p>
+<p>&nbsp;</p>
+</div><div class="ClearBoth"></div>

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Add the button for link to https://pvdesktop.codeplex.com/workitem/list/basic",
+    "ClosedDate": "2014-02-18T09:46:03.793-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We need two buttons. One will take the user to a web page with the issue tracker and one to the discussion forum on codeplex.",
+    "LastUpdatedDate": "2014-02-18T09:46:03.793-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-02-11T14:30:07.443-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Create help buttons to take user to Issue tracker and Discussion forum",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 25178
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

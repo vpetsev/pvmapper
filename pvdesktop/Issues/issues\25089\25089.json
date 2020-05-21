@@ -1,0 +1,76 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-02-12T08:48:56.493-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Look at HydroDesktop example.",
+    "LastUpdatedDate": "2014-02-12T08:48:56.493-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-01-17T14:27:58.163-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Basemap should appear immediately on startup",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25089
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6698,
+      "FileName": "Untitled.png",
+      "DownloadUrl": ".\\6698"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "We add this command at the form load event.\r\n\r\n pvMap.Layers.Add(BruTileLayer.CreateBingAerialLayer());",
+      "PostedDate": "2014-01-29T08:24:08.563-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-29T08:25:21.71-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "picture",
+      "PostedDate": "2014-01-29T08:25:22.523-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=25089&FileAttachmentId=6698)",
+      "PostedDate": "2014-01-29T08:26:23.753-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Use some of the ideas here to check if there is an internet connection:\r\n\r\nhttp://stackoverflow.com/questions/20309158/c-sharp-checking-internet-connection",
+      "PostedDate": "2014-02-11T14:24:51.377-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-02-12T08:48:56.493-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

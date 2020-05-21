@@ -1,0 +1,76 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-02-18T09:39:24.67-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please see the attachment.\n![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24936&FileAttachmentId=6613)",
+    "LastUpdatedDate": "2014-02-18T09:39:24.67-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2013-12-02T14:52:38.1-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Map mix up",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24936
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6613,
+      "FileName": "1.png",
+      "DownloadUrl": ".\\6613"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Steps : \r\n\r\nJust start pvdesktop. \nSelect Bing Street map. And you see this!",
+      "PostedDate": "2013-12-02T15:00:02.397-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-02T15:34:23.86-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-03T21:10:37.8-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-03T21:49:31.023-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:02:29.49-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-02-18T09:39:24.67-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

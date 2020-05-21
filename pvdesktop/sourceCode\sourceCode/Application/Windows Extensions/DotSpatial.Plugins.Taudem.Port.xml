@@ -1,0 +1,375 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DotSpatial.Plugins.Taudem.Port
+</name>
+</assembly>
+<members>
+<member name="P:DotSpatial.Plugins.Taudem.Port.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DotSpatial.Plugins.Taudem.Port.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DotSpatial.Plugins.Taudem.Port.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomData.area">
+	<summary>
+ area is number of cells, since grid considered to be unit squares
+ </summary>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.ManhattanShapes.addShape(System.Int32,DotSpatial.Plugins.Taudem.Port.manhattanPolygon,System.Int32)">
+	<summary>
+ Adds a part p with index indx.
+ </summary>
+	<param name="indx"></param>
+	<param name="p"></param>
+	<param name="area"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.ManhattanShapes.mergeShapes">
+	<summary>
+ For each index in the dictionary, merges its parts if possible.
+ </summary>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.ManhattanShapes.mergeMyPolygons(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanPolygon})">
+	<summary>
+ Merges the polygons in a list todo of polygons.
+ Two polygons can be merged if they are not disjoint and contain complementary links.
+ </summary>
+	<param name="todo"></param>
+	<returns></returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.ManhattanShapes.makeHoles">
+	<summary>
+ For each index in the dictionary, separates out any holes.
+ </summary>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.ManhattanShapes.makeHoles(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanPolygon},System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanPolygon})">
+	<summary>
+ Separates out the holes in a list of polygons.
+ There may be more than one hole in a polygon, and holes may be split into
+ several holes.  A polygon contains a hole if it contains two non-adjacent
+ complementary links.
+ </summary>
+	<param name="done">polygons with no holes</param>
+	<param name="todo">polygons which may have holes</param>
+	<returns></returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.ManhattanShapes.FinishShapes">
+	<summary>
+ Finish by merging shapes and making holes
+ </summary>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.ManhattanShapes.makeString">
+	<summary>
+ Generate a string for all the polygons.  For each grid value:
+ 1.  A line stating its value
+ 2.  A set of lines, one for each polygon for that value.
+ </summary>
+	<returns></returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.ManhattanShapes.GridToShapeManhattan">
+	<summary>
+ Converts grid to a shapefile, replacing any existing shapefile.
+ Assumed to be an integer grid.
+ Attribute "BasinID" is populated with the grid values
+ Attribute "AREA" is populated with the area of each polygon.
+ </summary>
+	<returns>null if any errors, else FeatureSet</returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.ManhattanShapes.GridToShapeManhattan(System.String,System.String)">
+	<summary>
+ Converts grid to a shapefile, replacing any existing shapefile.
+ Assumed to be an integer grid.
+ Attribute GridValueFieldName is populated with the grid values
+ Attribute "AREA" is populated with the area of each polygon.
+ </summary>
+	<returns>null if any errors, else FeatureSet</returns>
+</member><member name="T:DotSpatial.Plugins.Taudem.Port.ManhattanShapes">
+	<summary>
+		<para>ManhattanShapes are polygons with only vertical or horizontal lines in their perimeters.
+ Lists of ManhattanShapes are the parts of a shape.
+ Each collection of parts is associated with a particular integer index,
+ representing a particular grid value.</para>
+		<para>The algorithm to make the polygons from a grid of cells,
+ each polygon indexed by the grid value it belongs to is: </para>
+		<para>1. Make the basic (horizontal) boxes for each index.  
+ These boxes are unit height and integer width, and located by row and column number,
+ so that the next two steps only require integer arithmetic.</para>
+		<para>2. Merge the boxes for each index</para>
+		<para>3. Make the holes for each index</para>
+		<para>4. Convert the polygons into lists of points, the format for a shape in a shapefile</para>
+	</summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.manhattanDirection.up">
+	<summary>
+ up
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.manhattanDirection.right">
+	<summary>
+ right
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.manhattanDirection.down">
+	<summary>
+ down
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.manhattanDirection.left">
+	<summary>
+ left
+ </summary>
+</member><member name="T:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.manhattanDirection">
+	<summary>
+ Directions in a cartesian grid.
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.x">
+	<summary>
+ Horizontal coordinate of end of link
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.y">
+	<summary>
+ Vertical coordinate of end of link
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.dir">
+	<summary>
+ MyLink.Direction of link
+ </summary>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.#ctor(System.Double,System.Double,DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.manhattanDirection)">
+	<summary>
+ Generator
+ </summary>
+	<param name="x"></param>
+	<param name="y"></param>
+	<param name="dir"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.reverse(DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.manhattanDirection)">
+	<summary>
+ Returns the reverse of dir.
+ </summary>
+	<param name="dir"></param>
+	<returns></returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.dc">
+	<summary>
+ Returns a character indicating the direction
+ </summary>
+	<returns></returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.start(System.Double@,System.Double@)">
+	<summary>
+ Sets (x,y) to the start point of this link.
+ </summary>
+	<param name="x"></param>
+	<param name="y"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.finish(System.Double@,System.Double@)">
+	<summary>
+ Sets (x,y) to the finish point of this link.
+ </summary>
+	<param name="x"></param>
+	<param name="y"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.complements(DotSpatial.Plugins.Taudem.Port.manhattanCustomLink)">
+	<summary>
+ Returns true if the link l complements this link.
+ </summary>
+	<param name="l"></param>
+	<returns></returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink.connected(DotSpatial.Plugins.Taudem.Port.manhattanCustomLink,DotSpatial.Plugins.Taudem.Port.manhattanCustomLink)">
+	<summary>
+ Returns true of the finish of l1 is the same point as the start of l2.
+ </summary>
+	<param name="l1"></param>
+	<param name="l2"></param>
+	<returns></returns>
+</member><member name="T:DotSpatial.Plugins.Taudem.Port.manhattanCustomLink">
+	<summary>
+ Links are unit length directed lines, positioned in a cartesian grid
+ using integer coordinates.
+ Up and down links are positioned by their bottom ends.
+ Left and right links are positioned by their left ends.
+ This means links complement (cancel out when in sequence)
+ if they have the same position but opposite directions.
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet.origin">
+	<summary>
+ Point at top left edge of grid
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet.dX">
+	<summary>
+ E-W distance between grid points
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet.dY">
+	<summary>
+ N-S distance between grid points
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet.unitArea">
+	<summary>
+ Area of cell
+ </summary>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet.#ctor(DotSpatial.Topology.Coordinate,System.Double,System.Double)">
+	<summary>
+ Constructor
+ </summary>
+	<param name="origin"></param>
+	<param name="dX"></param>
+	<param name="dY"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet.linkToPoint(DotSpatial.Plugins.Taudem.Port.manhattanCustomLink)">
+	<summary>
+ Generate a point from a link's start position
+ </summary>
+	<param name="l">link</param>
+	<returns>point</returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet.area(System.Int32)">
+	<summary>
+ Converts a count c of unit boxes to an area
+ </summary>
+	<param name="c"></param>
+	<returns>area</returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet.addChainToShape(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanCustomLink},System.Collections.Generic.Dictionary{System.Int32,DotSpatial.Plugins.Taudem.Port.manhattanPolygonParts},System.Int32@,System.Int32@)">
+	<summary>
+ Adds a chain of links as a part to a shape
+ </summary>
+	<param name="l">chain</param>
+	<param name="simplePolygon"></param>
+	<param name="partindex"></param>
+	<param name="pointindex"></param>
+	<returns>true iff no eror</returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet.makeShape(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanPolygon})">
+	<summary>
+ Makes a shape from a list of polygons; each polygon becames a part of the shape.
+ </summary>
+	<param name="polygons"></param>
+	<returns>null if error, else shape</returns>
+</member><member name="T:DotSpatial.Plugins.Taudem.Port.manhattanCustomOffSet">
+	<summary>
+ Stores the values from a grid header used to convert link positions to grid points
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.perimeter">
+	<summary>
+ Perimeter as chain of links
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.bounds">
+	<summary>
+ Bounding rectangle
+ </summary>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.#ctor(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanCustomLink},DotSpatial.Plugins.Taudem.Port.manhattanCustomBounds)">
+	<summary>
+ Constructs a polygon
+ </summary>
+	<param name="perimeter"></param>
+	<param name="bounds"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.box(System.Double,System.Double,System.Int32)">
+	<summary>
+ Makes a polygon forming the (clockwise) perimeter of a rectangle
+ with bottom left corner (x,y), 1 unit high, and width units wide
+ </summary>
+	<param name="x"></param>
+	<param name="y"></param>
+	<param name="width"></param>
+	<returns></returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.merge(DotSpatial.Plugins.Taudem.Port.manhattanPolygon,System.Int32,DotSpatial.Plugins.Taudem.Port.manhattanPolygon,System.Int32)">
+	<summary>
+ Makes a single polygon from two polygons p1 and p2 with complementary
+ links at index i1 of perimeter of p1 and i2 of perimeter of p2.
+ Also removes any adjacent complementary links in the result.
+ </summary>
+	<param name="p1"></param>
+	<param name="i1"></param>
+	<param name="p2"></param>
+	<param name="i2"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.canMerge(DotSpatial.Plugins.Taudem.Port.manhattanPolygon,System.Int32@,DotSpatial.Plugins.Taudem.Port.manhattanPolygon,System.Int32@)">
+	<summary>
+ Returns true if p1 and p2 are not disjoint and have complementary links
+ at indexes i1 and i2 of their perimeters
+ </summary>
+	<param name="p1"></param>
+	<param name="i1"></param>
+	<param name="p2"></param>
+	<param name="i2"></param>
+	<returns></returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.removePairs(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanCustomLink},System.Int32)">
+	<summary>
+ If links at indexes i and i+1 are complementary, removes them.
+ Recurses on links originally at i-1 and i+2 if i &gt; 0 and i &lt; l.Count - 2
+ Precondition: 0 &lt;= i &lt; l.Count - 1, ie i and i+1 are indexes of l
+ </summary>
+	<param name="l"></param>
+	<param name="i"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.removeFirstLast(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanCustomLink})">
+	<summary>
+ Removes the first and last links if they complement, and repeats.
+ Precondition: l.Count &gt; 1
+ </summary>
+	<param name="l"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.rotate(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanCustomLink})">
+	<summary>
+ If a chain of links representing a closed polygon
+ has the first and last links the same direction,
+ this function puts the head of the chain to the back, and repeats.
+ This does not affect the polygon, but will reduce by one
+ the number of points representing it.
+ </summary>
+	<param name="l">Chain of links representing a closed polygon</param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.makeHole(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanCustomLink},System.Int32,System.Int32,System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanCustomLink}@)">
+	<summary>
+ List l has a link at first complemented by a link at last,
+ where first less than last.  This removes first to last inclusive
+ and makes a hole which is the list from first+1 to last-1 inclusive.
+ If the complementary links are adjacent the hole will be null.
+ Precondition: 0 &lt;= first &lt; last &lt;= l.Count - 1
+ </summary>
+	<param name="l"></param>
+	<param name="first"></param>
+	<param name="last"></param>
+	<param name="hole"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.hasHole(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanCustomLink},System.Int32@,System.Int32@)">
+	<summary>
+ Returns true if it finds a link complemented by a later one.
+ Then first is set to the index of the first link, and last to
+ the index of the complementing one.
+ </summary>
+	<param name="l"></param>
+	<param name="first"></param>
+	<param name="last"></param>
+	<returns></returns>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanPolygon.makeString(System.Collections.Generic.List{DotSpatial.Plugins.Taudem.Port.manhattanCustomLink})">
+	<summary>
+ Generate a string for display of a polygon l, in the the form of
+ a start point plus a string of direction letters.
+ This function is intended for debugging.  It also checks the 
+ polygon is connected and closed.
+ </summary>
+	<param name="l"></param>
+	<returns></returns>
+</member><member name="T:DotSpatial.Plugins.Taudem.Port.manhattanPolygon">
+	<summary>
+ A polygon is stored as a chain of links forming its perimeter, plus its bounds
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomBounds.xmin">
+	<summary>
+ Minimum horizontal coordinate of bounding rectangle
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomBounds.xmax">
+	<summary>
+ Maximum horizontal coordinate of bounding rectangle
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomBounds.ymin">
+	<summary>
+ Minimum vertical coordinate of bounding rectangle
+ </summary>
+</member><member name="F:DotSpatial.Plugins.Taudem.Port.manhattanCustomBounds.ymax">
+	<summary>
+ Maximum vertical coordinate of bounding rectangle
+ </summary>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomBounds.#ctor(System.Double,System.Double,System.Double,System.Double)">
+	<summary>
+ Constructs a bounding rectangle
+ </summary>
+	<param name="xmin"></param>
+	<param name="xmax"></param>
+	<param name="ymin"></param>
+	<param name="ymax"></param>
+</member><member name="M:DotSpatial.Plugins.Taudem.Port.manhattanCustomBounds.disjoint(DotSpatial.Plugins.Taudem.Port.manhattanCustomBounds)">
+	<summary>
+ Returns true if no overlap in bounds of this and b
+ </summary>
+	<param name="b"></param>
+	<returns></returns>
+</member><member name="T:DotSpatial.Plugins.Taudem.Port.manhattanCustomBounds">
+	<summary>
+ Bounds of a rectangle that includes the polygon
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Solved",
+    "ClosedDate": "2014-03-24T10:06:16.197-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Remove the ON OFF button for buildings and trees. Lets just have them always on. \n\nCombine \"create\" and \"make active\" buttons to the same one for both buildings and trees.",
+    "LastUpdatedDate": "2014-03-24T10:06:16.197-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2014-03-19T14:57:21.937-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "rename Solar tab as \"Shading\"",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25303
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

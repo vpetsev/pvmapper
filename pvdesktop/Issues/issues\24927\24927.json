@@ -1,0 +1,61 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-12-04T09:37:18.85-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The map layer selector is not at all obvious.\nIt should at the least have a label behind it. Or say “No base map layer selected” Or load a default one.![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24927&FileAttachmentId=6606)",
+    "LastUpdatedDate": "2013-12-04T09:37:19.313-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2013-12-02T14:17:17.593-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Base Map",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24927
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6606,
+      "FileName": "1.png",
+      "DownloadUrl": ".\\6606"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "It's one of DotSpatial plugin (Online map plugin). ",
+      "PostedDate": "2013-12-04T09:37:00.707-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:37:18.85-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:37:19.313-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

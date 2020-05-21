@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Change online map to Brutile layer",
+    "ClosedDate": "2014-02-18T11:37:48.227-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "After drawing a building, if I switch off the base map layer, an exception is thrown.![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24935&FileAttachmentId=6612)",
+    "LastUpdatedDate": "2014-02-18T11:37:48.227-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2013-12-02T14:46:55.953-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Switching off base map throughs exception.",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24935
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6612,
+      "FileName": "1.png",
+      "DownloadUrl": ".\\6612"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "It's error at DotSpatial.Plugins.ShapeEditor\\SnappableMapFunction.cs that is one of dotSpatial plugin\nand then error at DotSpatial.Controls\\Map.cs. I will looking for that problem.",
+      "PostedDate": "2013-12-03T21:56:02.013-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-03T21:56:26.08-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:04:16.233-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-02-18T11:37:48.227-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

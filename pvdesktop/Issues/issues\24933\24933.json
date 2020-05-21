@@ -1,0 +1,96 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-12-04T09:15:17.203-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Would be nice to have a \"clear reference location button\" that clears it and zooms the base map to extents. I clicked randomly without selecting a base map (we could prevent clicking on a none map as well) and then loaded the base map, but all I get is this, and I cant scroll/pan/zoom the map to where I want to.![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24933&FileAttachmentId=6610)",
+    "LastUpdatedDate": "2013-12-04T09:15:17.203-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvdesktop",
+    "ReportedDate": "2013-12-02T14:23:03.273-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Clear Reference Point button",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24933
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6610,
+      "FileName": "1.png",
+      "DownloadUrl": ".\\6610"
+    },
+    {
+      "FileId": 6617,
+      "FileName": "Screenshot 1.png",
+      "DownloadUrl": ".\\6617"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I add the new button for clear the reference location. Please look at the attachment image.",
+      "PostedDate": "2013-12-03T21:35:42.813-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-03T21:48:14.377-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-03T21:48:14.87-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "** Closed by Kasem_Pinthong 12/3/2013 9:48 PM",
+      "PostedDate": "2013-12-04T09:09:37.903-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:09:38.06-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:09:38.523-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:14:16.24-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "![Image](https://www.codeplex.com/Download/AttachmentDownload.ashx?ProjectName=pvdesktop&WorkItemId=24933&FileAttachmentId=6617)",
+      "PostedDate": "2013-12-04T09:14:40.07-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-04T09:15:17.203-08:00",
+      "Id": -2147483648
+    }
+  ]
+}
