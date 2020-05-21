@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-12-10T10:01:05.913-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We need to update the version from alpha prototype on main project page on Codeplex.",
+    "LastUpdatedDate": "2014-12-10T10:01:05.913-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-01-28T08:21:58.097-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Update version metadata",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 25142
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

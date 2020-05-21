@@ -1,0 +1,110 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T16:54:34.633-07:00",
+    "CommentCount": 0,
+    "Custom": "(BYU)",
+    "Description": "Build a module with a scoring tool which will measure the slope and aspect of a site. This should use some trend analysis to adequately characterize the site's overall slope and aspect; a simple average may not be enough.\n\nShould we score slope data by having the client request a given slope, and the server return the % of the site which is that slope?",
+    "LastUpdatedDate": "2017-11-27T16:57:58.15-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-14T18:27:18.45-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Slope scoring tool",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 23922
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "let's start with just getting the average slope.",
+      "PostedDate": "2013-08-05T09:52:16.89-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "or let's return the maximum slope",
+      "PostedDate": "2013-08-05T09:52:42.523-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-05T09:53:53.667-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Adding this to a release",
+      "PostedDate": "2013-08-07T15:37:56.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "on hold till the server is large enough to hold the data.",
+      "PostedDate": "2013-08-12T10:07:46.173-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "slight pause on this till the 30 meter dem data gets reloaded.",
+      "PostedDate": "2013-11-18T15:33:35.137-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "done. needs to be pushed...",
+      "PostedDate": "2013-11-25T15:36:26.107-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-14T14:40:47.21-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T10:38:56.7-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This is still open because we want to use the 10 m data here. We will do it by chopping up the US into 2-3 regions along one line of longitude . This line will be used by the slope scoring tool to determine which dem to use.",
+      "PostedDate": "2014-02-11T14:53:13.42-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Finished it off with 30m data itself. ",
+      "PostedDate": "2014-03-24T12:37:29.267-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-24T12:37:37.83-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-07-14T16:54:34.633-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:58.15-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

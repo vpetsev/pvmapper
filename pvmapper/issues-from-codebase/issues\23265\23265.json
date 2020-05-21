@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-23T09:36:14.717-07:00",
+    "CommentCount": 0,
+    "Custom": "This is a feature for the demo version.  The design for the beta and release versions is changed making this relevant.  Mark it close.",
+    "Description": "See attached spreadsheets for calculating weights and scores.\n \nThe set of values from which all score are calculated is the following.\n1. A number for each site calculated by the module algorithm.  The module must be rerun every time any site changes or new sites are added.\n2. The weights entered into the decision tree\n3. The parameters of the utility function",
+    "LastUpdatedDate": "2017-11-27T16:57:39.92-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T09:58:47.543-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "4 Create method to calculate the utility score using the utility weight and utility function from a value from a tool (module)",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 23265
+  },
+  "FileAttachments": [
+    {
+      "FileId": 5995,
+      "FileName": "IF_C1.xls",
+      "DownloadUrl": ".\\5995"
+    },
+    {
+      "FileId": 5994,
+      "FileName": "IF_B1.xls",
+      "DownloadUrl": ".\\5994"
+    },
+    {
+      "FileId": 5993,
+      "FileName": "IF_A1.xls",
+      "DownloadUrl": ".\\5993"
+    }
+  ],
+  "Comments": []
+}

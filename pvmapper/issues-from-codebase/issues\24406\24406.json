@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Host the actual social data inside a web service - query using a polygon - return a list of pairs of (social category, acceptance %).",
+    "LastUpdatedDate": "2013-11-14T10:37:27.82-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-17T08:55:27.05-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Host actual social data via ArcGIS web service",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24406
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

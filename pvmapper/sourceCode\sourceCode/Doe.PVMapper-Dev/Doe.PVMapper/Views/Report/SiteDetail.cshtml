@@ -1,0 +1,216 @@
+﻿@{
+    ViewBag.Title = "SiteDetailReport";
+    Layout = "~/Views/Shared/_ReportLayout.cshtml";
+}
+
+@section Header{
+    <link href="~/Content/Reports/SiteDetailReport.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.97/jsxgraphcore.js"></script>
+
+    <script type="text/javascript">
+        var pvMapper = window.opener.pvMapper; //Get access to the PVMapper framework
+
+        function eventHack(event, fn, addOn) {
+            if (window.addEventListener) {
+                window.addEventListener(event, fn, false);
+            } else {
+                //Do it the IE way. #stupid
+                window.attachEvent((addon) ? "on" : "" + event, fn);
+            }
+        }
+
+        eventHack("load", function () {
+            var pvMapper = window.opener.pvMapper;
+
+            var data = pvMapper.Data.ScoreboardProcessor.getCleanObjectTransposed(pvMapper.mainScoreboard);
+            data = prepData(data);
+            createHTML(data);
+        });
+
+        function prepData(data) {
+            pvMapper = window.opener.pvMapper;
+            data = pvMapper.Data.ScoreboardProcessor.addSummaryAndDivergence(data);
+            data = pvMapper.Data.ScoreboardProcessor.sortScoresByDivergence(data);
+            return data;
+        }
+
+        //polygon is OpenLayers.Geometry.Polygon  GeoJSON format: String.
+        function showMap(divName, polygon) {
+            //create a map.
+            var map = new OpenLayers.Map({
+                // These projections are all webmercator, but the openlayers layer wants 900913 specifically
+                projection: new OpenLayers.Projection("EPSG:3857"), //3857 //4326            900913
+                units: "m",
+                numZoomLevels: 16,
+                controls: {},
+                theme: "/Content/OpenLayers/default/style.css",
+                div: divName
+            });
+            var osmlayer = new OpenLayers.Layer.OSM();
+            map.addLayer(osmlayer);
+
+            var layer = new OpenLayers.Layer.Vector();
+
+            //since the data is in GeoJSON, we need to deserialize it.
+            var fvector = new OpenLayers.Format.WKT().read(polygon);
+
+            layer.addFeatures([fvector]);
+            map.addLayer(layer);
+
+            var bound = layer.getDataExtent();
+            bound = bound.scale(3); // Let's get a little more context for the neighborhood, here.
+            map.zoomToExtent(bound, false);
+        }
+
+        function loadGraph(divName, utilityOptions, scoreValue) {
+            //Extras.getScript("", function () {
+            var utilFunction = pvMapper.UtilityFunctions[utilityOptions.functionName];
+            var fn = utilFunction.fn;
+
+            var bounds = utilFunction.xBounds(utilityOptions.functionArgs);
+            // ensure that the buffer is > 0 (bounds being equal is a valid case for a step function)
+            var buffer = (bounds[0] == bounds[1]) ? 1 : (bounds[1] - bounds[0]) / 10;
+            bounds[0] -= buffer;
+            bounds[1] += buffer * 1.5; // a little more on the right hand side feels nice.
+
+            var board = JXG.JSXGraph.initBoard(divName, {
+                boundingbox: [bounds[0], 108, bounds[1], -20],
+                axis: true, showCopyright: false, showNavigation: false
+            });
+
+
+            //TODO: should we replace this with ScoreUtility.run(x) ...?
+            var fnOfy = board.create('functiongraph', function (x) {
+                var y = fn(x, utilityOptions.functionArgs);
+                return Math.max(0, Math.min(1, y)) * 100;
+            }, {
+                strokeWidth: 3, strokeColor: "red",
+            });
+
+            var p1 = board.create('point', [scoreValue, fnOfy.Y(scoreValue)]);
+            p1.setLabelText("");
+            var vline = board.create("segment", [p1, [scoreValue, 0]], { strokeColor: "blue", dash: 2, strokeOpacity: 0.15, withLabel: false });
+            var hline = board.create("segment", [p1, [0, fnOfy.Y(scoreValue)]], { dash: 2, withLabel: false });
+            hline.isDraggable = false;
+            //hline.setLabelText("Score");
+            vline.isDraggable = false;
+            //vline.setLabelText((vline.point1.X()).toFixed(1) + " " + utilityOptions.functionArgs.metaInfo.unitSymbol);
+        }
+
+
+        //EXT Template stuff
+        function createHTML(data) {
+            var maps = [];
+            var graphs = [];
+
+            //var panel = Ext.create('Ext.Panel', {
+            //    width: 950,
+            //    renderTo: 'Report',
+            //    style: "margin:15px",
+            //    bodyStyle: "padding:5px;font-size:11px;",
+            //    title: 'Report',
+            //    html: '<p>The Report is Rendering...</p>',
+            //    listeners: {
+            //        afterlayout: function () {
+            //            maps.map(function (value, idx) {
+            //                showMap(value.div, value.data);
+            //            });
+            //        }
+            //    }
+            //});
+
+
+            var tpl = new Ext.XTemplate(
+                '<div id="ReportTemplate">',
+                '    <tpl for="sites">',
+                '    <section class="reportPage">',
+                '        <div id="ReportHead">',
+                '            <div id="SiteImage">',
+                '                <div id="{id}-Map" class="siteMap" >{[this.drawMap(values.id+"-Map", values.geometry)]}</div>',
+                '            </div>',
+                '            <div id="SiteInfo">',
+                '                <h1 class="ribbonHeader">{name}<span class="ribbon-leftside"></span></h1>',
+                '                <div id="SiteDescription">',
+                '                    <h1 class="label">SITE DESCRIPTION:</h1>',
+                '                     {description}',
+                '                </div>',
+                '                <div id="SiteScore">',
+                '                    <span class="label">Score</span>',
+                '                    <span class="value">{[this.round(values.meanUtility)]}</span>',
+                '                    <span class="divergence">{[this.divergenceSymbol(values.divergence)]}{[this.round(values.divergence)]}</span>',
+                '                </div>',
+                '            </div>',
+                '        </div>',
+                '        <div id="ScoreDetailSection">',
+                '            <h1 class="ribbonHeader"><span class="ribbon-rightside"></span>Score Detail</h1>',
+                '            <tpl for="scores" exec="values.parent=parent">',
+                '            <div class="toolDetail">',
+                '                <h1>{scoreLine.title}</h1>',
+                '                <div id="{parent.id}-Graph{#}"  class="scoreGraph">{[this.drawGraph(parent.id+"-Graph"+xindex, values.scoreLine.scoreUtility, values.value)]}</div>',
+                '                <div class="valueField">',
+                '                    <label>Value: </label>',
+                '                    <span class="value">{popupMessage}</span>',
+                '                </div>',
+                '                <div class="utilityScoreField">',
+                '                    <label>Score: </label>',
+                '                    <span class="value">{[this.round(values.utility)]}</span>',
+                '                </div>',
+                '                <div class="weightField">',
+                '                    <label>Weight: </label>',
+                '                    <span class="value">{scoreLine.weight}</span>',
+                '                </div>',
+                '                <div class="commentsField">',
+                '                    <label>Comments on Score: </label>',
+                '                    <span class="value">{scoreLine.scoreUtility.functionArgs.metaInfo.comment}</span>',
+                '                </div>',
+                '',
+                '                <div class="toolNotesField">',
+                //'                    <label>Tool Notes:</label>',
+                '                    <div class="value">',
+                '                        {scoreLine.longDescription}',
+                '                    </div>',
+                '                </div>',
+                '            </div>',
+                '            </tpl>',
+                '        </div>',
+                '    </section>',
+                '    </tpl>',
+                '</div>',
+                {
+                    divergenceSymbol: function (val) {
+                        return (val < 0) ? '&#8595;' : '&#8593;';
+                    },
+                    round: function (value) {
+                        return Math.round(value);
+                    },
+                    drawMap: function (div, data) {
+                        maps.push({ div: div, data: data });
+                    },
+                    drawGraph: function (div, options, scoreValue) {
+                        graphs.push({ div: div, options: options, scoreValue: scoreValue });
+                    }
+                }
+            );
+
+            tpl.overwrite("Report", data);
+            //panel.doComponentLayout();
+
+            //Update the maps
+            maps.forEach(function (value, idx) {
+                showMap(value.div, value.data);
+            });
+
+            graphs.forEach(function (value, idx) {
+                loadGraph(value.div, value.options, value.scoreValue);
+            });
+        };
+    </script>
+
+}
+
+@*<h2>SiteDetailReport</h2>*@
+<div id="Report">
+</div>
+

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "One new use case was to use very few tools on many sites for a quick comparison. This will require that we can disable some score tools. It will also require that the scoreboard adjust to fit many sites comfortably without excessive scrolling (such as removing the Value column from every site, and showing the Value column contents on mouse hover above a site score).\n\nAlternately, implement a second scoreboard, which displays tools in columns and sites in rows.",
+    "LastUpdatedDate": "2013-12-11T12:38:09.91-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-11T12:38:09.91-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Modify the scoreboard to fit many many sites",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24980
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

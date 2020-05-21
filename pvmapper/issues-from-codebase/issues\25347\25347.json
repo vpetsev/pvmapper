@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T16:59:11.12-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "-Main Scorecard cluttered by several previous test sites, the only way I found to remove them was by individually scrolling [panning?] to and deleting the site\n\n* maybe add a delete button in the score card?",
+    "LastUpdatedDate": "2017-11-27T16:57:42.96-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-04-02T08:10:20.477-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Need better way to delete sites - user suggestion",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25347
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

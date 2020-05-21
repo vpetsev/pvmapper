@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Balanced against the ability to sell power is the cost associated with developing the site, i.e., the total life cycle cost.  Each developer has their own method for calculating life cycle costs.  PVMapper will assist the developer by providing information that is often difficult to obtain, saving developers time and expense necessary to find this information. PVMapper helps ensure information is not ignored and provides overall improvement to the life cycle cost analysis estimate.  PVMapper will provide information on local offset rules, transmission infrastructure, known social considerations, land use cost, and other information.  PVMapper will also inform the user of missing data, so they can seek this information out by other means if necessary.\n \nPre-Conditions for all Features in this Section:  \n·         User is in the “Site Analyzer” mode or geographic scale. \n·         User has drawn or selected a polygon that represents the land area (development area) to be studied. \nFundamental Use Case: \n·              User draws a polygon over the land area to be studied.  User clicks a button to launch a particular kind of calculation.   PVMapper responds by modifying the map and/or presenting the user with a list of information.  As the user proceeds through a set of actions of their choosing. PVMapper records the user events and calculation results in a user log that can be downloaded, printed or saved to the user workspace.",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T09:53:52.55-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Cost of Energy",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23259
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-09-14T12:48:16.9-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This work was completed 9/7/2012\nThis is a panel within the pvmapper interface that contains site comparisons inputs and outputs.",
+    "LastUpdatedDate": "2017-11-27T16:56:43.687-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-29T14:40:02.51-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Utility Function Scoring Window",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23240
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

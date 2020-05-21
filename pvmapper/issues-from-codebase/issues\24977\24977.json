@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T16:54:34.633-07:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "",
+    "LastUpdatedDate": "2017-11-27T16:57:41.98-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-11T12:32:18.54-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Export to CSV (or Excel)",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 24977
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

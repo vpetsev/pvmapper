@@ -1,0 +1,33 @@
+<div class="wikidoc">
+<p>The anatomy of a plugin</p>
+<p>A plugin is made up of one or more modules that each have one or more tools contained in it. The module can have the scoringTools, infoTools, and totalTools array objects defined. If defined the ModuleManager will process each tool and add the appropriate
+ events and callbacks to the tools. The contract for the module looks like figure 1 below</p>
+<p>Figure 1: The module contract (TypeScript)</p>
+<pre><span style="color:green">//Required properties</span>
+<span style="color:blue">public</span> id: <span style="color:blue">string</span>;      
+<span style="color:blue">public</span> author: <span style="color:blue">string</span>;
+<span style="color:blue">public</span> version: <span style="color:blue">string</span>;
+
+<span style="color:green">//The different types of tools. Each type is optional. </span>
+<span style="color:green">//There must be at least one tool defined in at least </span>
+<span style="color:green">//one of these arrays for the module to do anything in</span>
+<span style="color:green">//the system.</span>
+<span style="color:blue">public</span> scoringTools: IScoreToolOptions[];
+<span style="color:blue">public</span> infoTools: ITool[];
+<span style="color:blue">public</span> totalTools: ITotalTool[];
+
+<span style="color:green">//Setup and cleanup routines that the module can </span>
+<span style="color:green">//define. Defaults to null functions.</span>
+<span style="color:blue">public</span> init: ICallback;
+<span style="color:blue">public</span> destroy: ICallback;
+<span style="color:blue">public</span> activate: ICallback;
+<span style="color:blue">public</span> deactivate: ICallback;</pre>
+<p>contains tools</p>
+<p>the common tool contract</p>
+<p><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888330" alt="Plugin Types" width="633" height="428"></p>
+<p>Plugin Types</p>
+<ul>
+<li>Scoring plugin </li><li>Totals (aggregation) plugin </li><li>Info plugin </li></ul>
+<p>Scoring Plugin</p>
+<p>&nbsp;</p>
+</div><div class="ClearBoth"></div>

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Required Data: A service territory is a region serviced by a particular power utility. The functionality described in this section is intended to help solar companies determine potential buyers in a region.  A dataset of locations of service territories is required. \nPre-Condition: User is in the “Site Selector” mode or geographic scale.\nUse Cases: \n·         User will select from a service territory map overly showing current energy regions and power marketer’s information. \n·         If data is missing, the user will be provided with any available information on local economic development agencies which can be contacted to retrieve data.\nFunctional Requirements:\n·         PVMapper will display a map of utility company’s service area.\n·         PVMapper will provide a user contributed database of utility service areas.\nPerformance Requirements:\n·         PVMapper will respond within 10 seconds from when the overlay is selected.\nNotes:\n·         A function for uploading this data may be needed for obtaining this information from existing databases.",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:19:47.983-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Power Company Service Territories",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23267
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

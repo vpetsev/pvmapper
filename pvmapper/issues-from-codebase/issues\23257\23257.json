@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "These features and capabilites were requested by project stakeholders and are described in the document entitled: PVMapper 1.0 Concept of Operation and Funcational Specification April 2012. This document and an associated presentation can be found on the PVMapper codeplex site (https://pvmapper.codeplex.com)",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T09:51:15.503-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "PVMapper Capabilities",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23257
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

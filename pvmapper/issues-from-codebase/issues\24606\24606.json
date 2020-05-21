@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Plugin Modules",
+      "DisplayName": "Plugin Modules"
+    },
+    "ClosedComment": "Tools now use the combined service. Closing.",
+    "ClosedDate": "2013-08-12T09:56:44.047-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Justin came up with a combined service to run all the three near services, the railroad, road and river in one unit. This reduces the number of services running on the server and hence frees up memory on the server, making other processes run faster. \nThe need is to build a module that will update all three Scorelines using this one service.",
+    "LastUpdatedDate": "2013-08-12T09:56:44.047-07:00",
+    "PlannedForRelease": "Beta Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-08-12T00:49:56.51-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "New Near module to leverage the combined ArcGIS Service",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 24606
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

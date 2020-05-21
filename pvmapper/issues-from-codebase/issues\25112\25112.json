@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-04-14T15:47:22.217-07:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "",
+    "LastUpdatedDate": "2017-11-27T16:57:42.613-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-01-22T10:47:54.817-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Pie charts don't work on IE 9 (?)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 25112
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Tested on IE 9 emulator and it seems to be running just fine.  I don't have any way of testing using the actual IE-9.  \r\n\r\n\n \nHowever, there is another bigger problem with IE-9.  The utility function window is completely shock under IE-9.  It seems the load on demand doesn't work on IE9.  If I preload the Jsxgraph.js in the Index file, Chrome doesn't work right and make everything super slow in both IE11 and Chrome.   Event IE10 didn't load the JsgGraph.js right. I say minimum support is IE11. Beside all project and custom KML support require HTML5 and its fully implemented in IE11.",
+      "PostedDate": "2014-04-14T15:47:22.217-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:42.613-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

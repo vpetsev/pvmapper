@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T17:00:07.663-07:00",
+    "CommentCount": 0,
+    "Custom": "0.25 units",
+    "Description": "Also, find all references to 'utility' in any text appearing on the site, and replace it with 'score'",
+    "LastUpdatedDate": "2017-11-27T16:58:22.63-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-01-22T10:40:17.4-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Rename utility function tool to Tool Scoring Editor",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 25103
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Due to time constraints, we do not expect this feature will be included in the final release.",
+      "PostedDate": "2014-02-26T14:56:02.367-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-07-14T17:00:07.663-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:22.63-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

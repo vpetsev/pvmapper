@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-12-10T09:00:27.83-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "To issue a warning to the user if there are a large number of sites being processed and if we are certain that the browser is going to crash. Limit the maximum number of sites as well.",
+    "LastUpdatedDate": "2014-12-10T09:00:27.83-08:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-05-27T13:02:57.16-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Large Number of Sites warning",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 25504
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-09-11T14:13:17.197-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "",
+    "LastUpdatedDate": "2017-11-27T16:56:41.16-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-07-19T07:53:06.13-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Find the Data (Randy will find the services)",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 23046
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 69390: Integrate the Utility Weighting and Utility Functions into the interface.",
+      "PostedDate": "2012-09-11T14:13:17.197-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:29.687-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:56:41.16-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

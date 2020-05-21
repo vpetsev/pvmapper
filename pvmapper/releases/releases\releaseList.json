@@ -1,0 +1,73 @@
+[
+  {
+    "Id": "0",
+    "Name": "Patch (1.2.75310)",
+    "DevelopmentStatus": "Stable",
+    "Description": "Second patch release, eschewing features for bugfixes",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-12-10T10:00:28.607-08:00",
+    "Files": []
+  },
+  {
+    "Id": "1",
+    "Name": "Patch (1.1.75105)",
+    "DevelopmentStatus": "Stable",
+    "Description": "First patch release",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-12-10T09:58:44.977-08:00",
+    "Files": []
+  },
+  {
+    "Id": "2",
+    "Name": "Release (1.0.74912)",
+    "DevelopmentStatus": "Stable",
+    "Description": "First non-beta release version",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-12-10T09:56:31.89-08:00",
+    "Files": []
+  },
+  {
+    "Id": "3",
+    "Name": "Beta (0.3.74681)",
+    "DevelopmentStatus": "Beta",
+    "Description": "This is our second Beta release.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-07-14T17:24:51.61-07:00",
+    "Files": []
+  },
+  {
+    "Id": "4",
+    "Name": "Beta (0.2.73474)",
+    "DevelopmentStatus": "Beta",
+    "Description": "This was our first Beta release.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-07-14T17:11:26.18-07:00",
+    "Files": []
+  },
+  {
+    "Id": "5",
+    "Name": "Alpha Version Prototype",
+    "DevelopmentStatus": "Alpha",
+    "Description": "September 2012 release to meet project milestone for alpha version prototype release. \n\nMilestones for release:\n!! Site Properties / Attributes\t\t\n*\tSetback site property calculation tool\t\n*\tCompute the average annual solar radiation\t\n*\tCompute average and maximum slope for the site\t\n*\tCalculate the available SQFT of panel space\t\n!! Site Comparison\t\t\n*\tUtility Function Scoring Window\t\n*\tUtility Function Result Display / Interface\t\n*\tUtility Function Interface\t\n*\tProperty / Attribute Weighting Hierarchy\t\n!! Map Functionality\t\t\n*\tWork out the list of interactions for the plugins\t\n*\tTurn Layers On and Off\t\n**\t\tCreate toolbar\n*\tSave a polygon\t\n*\tLoad a WFS layer\t\n*\tLoad a polygon\t\n*\tIdentify all features intersecting a polygon\t\n*\tGet the distance to a point from a polygon\t\n*\tGet the area of a polygon\t\n*\tFind/Identify Attributes of a Point\t\n*\tFind a GIS server to post our own data to\t\n*\tAdd points via a Icon Toolbar\t\n*\tAdd a new layer that lets the user draw lines\t\n!! Data & Coverages\t\t\n*\tSolar Data\t\n*\tSocial Data\t\n*\tSlope Data\t\n*\tSite Specific Data\t\n*\tFind the Data (Randy will find the services)\t\n*\tBase Maps\t\n**\t\tTopo Maps\n**\t\tSatelite Imagery\n**\t\tOpen Street Maps\n!! Conduct Research\t\t\n*\tEvaluate the use of EXTjs vs jQuery for the building of the UI\t\n!! Architecture\t\t\n*\tJavascript plugin API\t\n*\tCreate the Add Site tool",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-10-01T09:13:12.193-07:00",
+    "Files": [
+      {
+        "Id": "22466d20-a301-4644-95d4-4ee34846ba91",
+        "FileName": "Alpha Release.zip",
+        "Url": "./5/22466d20-a301-4644-95d4-4ee34846ba91",
+        "Type": "Application",
+        "UploadDate": "2012-10-01T09:13:11.363-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Patch (1.3.75992)",
+    "DevelopmentStatus": "Stable",
+    "Description": "Third patch release, resolving critical MongoDB issue",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2015-11-01T15:41:36.73-08:00",
+    "Files": []
+  }
+]

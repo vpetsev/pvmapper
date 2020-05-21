@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Use Cases: \n·         User draws a segmented line from the development site to the transmission line or substation.  The user can assign a cost to each segment based on easement differences.  PVMapper will calculate the total transmission line cost and will record the cost of each segment and the user justification (i.e. why that segment was selected).\nFunctional Requirements:\n·         PVMapper will calculate the cost to develop transmission capability from the site to nearby transmission lines or substations identified by the user.\nPerformance Requirements:\n·         Performance will need to be assessed for digitizing, data search and data display.\nNotes:\n·         The software will provide default power line costs. These need to be editable by the user.",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:22:53.877-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Cost to Deliver Power to Transmission Line",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23271
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

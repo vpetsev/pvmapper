@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This research question concerns how extensive the API plugin should be to meet project requirements?\nThe API should include how to integration models such as SAM and possibly model integration environments, commerical and open source.",
+    "LastUpdatedDate": "2017-11-27T16:58:07.413-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-09-05T14:31:08.6-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Plugin API extent",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23306
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

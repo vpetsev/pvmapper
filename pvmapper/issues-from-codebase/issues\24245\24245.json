@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "Add a helpful tooltip for each editable property of each score function. Display these tooltips in the utility edit window.",
+    "LastUpdatedDate": "2017-11-27T16:57:41.06-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add tooltip for each utility function variable with an explanation",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24245
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "The change to display tooltip message for the properties being edited in the Utility Window are: \r\n\r\n\n1. add Tips: {minValue : string, maxValue: string} to the IMinMaxUtilityArgs in the ScoreUtility.ts. \n2. Modified ScoreUtilityWindows.ts to use the new \"tips\" and create a tooltip to display the message.  If no 'tips' is defined in the Args funciton, it displays a default \"Proerpty \" + propertyName.\n3. Modifed all modules inherited from IMinMaxUtilityArgs interface to the include the 'tips' messages.",
+      "PostedDate": "2013-06-21T08:30:30.27-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:41.06-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

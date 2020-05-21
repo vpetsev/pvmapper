@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-04-14T16:54:40.647-07:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "",
+    "LastUpdatedDate": "2017-11-27T16:58:22.867-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-01-22T10:45:50.58-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Change all units to English Imperial Standard (ie not metric)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 25109
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 74185: Convert to use only English (Imperial / Standard) units",
+      "PostedDate": "2014-04-14T16:54:40.647-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:22.867-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

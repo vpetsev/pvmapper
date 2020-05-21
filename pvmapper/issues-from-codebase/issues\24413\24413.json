@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "To inform interested users - especially beta testers",
+    "LastUpdatedDate": "2014-12-10T09:00:27.83-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-17T09:11:47.01-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Intro video",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24413
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Progress: script drafts complete and out for review.",
+      "PostedDate": "2014-02-26T14:36:09.333-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-02-26T14:36:16.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-04-07T15:00:32.86-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-12-10T09:00:27.83-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

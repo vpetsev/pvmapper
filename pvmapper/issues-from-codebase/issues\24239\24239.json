@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "API",
+      "DisplayName": "API"
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "Add a dummy category of score lines called 'Summary'. Include two dummy score lines, 'average' and 'minimum'. Calculate the correct summary score for each line. Be sure that these dummy score lines are excluded from the current event routing. So, they should not update when a site is changed; they should update whenever the scoreboard does. Also, changing them should not cause the scoreboard to update. And finally, make sure that sorting by columns doesn't move the 'summary' category from the bottom.",
+    "LastUpdatedDate": "2017-11-27T16:56:46.013-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add overall total score lines, showing average and minimum score",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24239
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

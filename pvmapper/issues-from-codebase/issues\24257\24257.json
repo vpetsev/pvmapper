@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "These work list items are all checked into Release, and are live on the site.",
+    "ClosedDate": "2014-01-10T10:53:13.867-08:00",
+    "CommentCount": 0,
+    "Custom": "3 units",
+    "Description": "Currently the site 'forgets' any changes made to utility functions and score line weights when it is closed. Instead, save edits made to score line weight and utility functions to the database, so that they can be retrieved for the next session.",
+    "LastUpdatedDate": "2014-01-10T10:53:13.867-08:00",
+    "PlannedForRelease": "Final Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Save utility function and weight from score lines to local system",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24257
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "These work list items are all checked into Release, and are live on the site.",
+    "ClosedDate": "2014-01-10T10:53:11.883-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "So that users can share configs, or save/load configs on their own as simple project management.",
+    "LastUpdatedDate": "2014-01-10T10:53:11.883-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-11T12:31:28.58-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Save/Load score, tool, and weight configs to a file",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 24976
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

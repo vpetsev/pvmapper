@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - PV Mapper</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/Content/extjs/resources/css/my-ext-theme.css" />
+    @Styles.Render("~/Content/css", "~/Content/themes/ui-lightness/jquery-ui-1.8.21.custom.css", "/Content/jsxgraph.css")
+    @Scripts.Render("~/bundles/jquery")
+
+    @*<script type="text/javascript" src="~/Scripts/jQueryExtentions/jquery.jgrowl_minimized.js"></script>*@
+
+    @*<script type="text/javascript" charset="utf-8" src="http://cdn.sencha.io/ext-4.1.0-gpl/ext-all-dev.js"></script>*@
+    @*<script type="text/javascript" charset="utf-8" src="http://cdn.sencha.io/ext-4.1.0-gpl/ext-all.js"></script>*@
+    
+    @*<script type="text/javascript" src="~/Scripts/ext-dev.js"></script>*@
+    <script type="text/javascript" src="~/Scripts/ext-all.js"></script>
+    
+    <!-- definitely consider using a custom single-file version of OpenLayers -->
+    @*<script type="text/javascript" src="http://openlayers.org/api/2.12-rc3/OpenLayers.js"></script>*@
+    <script type="text/javascript" src="~/Scripts/OpenLayers.js"></script>
+    @*<script type="text/javascript" src="http://openlayers.org/api/2.12-rc3/OpenLayers.debug.js"></script>*@
+    
+    <!-- These scripts would be loaded by Ext, but placing them here makes them easier to debug. -->
+    <script type="text/javascript" src="~/Scripts/GeoExt/GeoExt.js"></script>
+
+    <script type="text/javascript" src="/Scripts/jsxgraphcore.js"></script> @* On writing, this is version 0.99.1 *@
+    @*<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.97/jsxgraphcore.js"></script>*@
+
+    <!-- JSZip library - used here for uncompressing KMZ files -->
+    <script type="text/javascript" src="~/Scripts/JSZip/jszip.js"></script>
+    <script type="text/javascript" src="~/Scripts/JSZip/jszip-load.js"></script>
+    <script type="text/javascript" src="~/Scripts/JSZip/jszip-inflate.js"></script>
+
+</head>
+<body>
+    <div id="Header">
+        <div class="float-left">
+        <a href="/">
+            <img src="~/Images/PVMapper_TopText.png" alt="PV Mapper Logo" height="50" />
+        </a>
+    </div>
+        <div class="float-right">
+            <section id="login">
+                @Html.Partial("_LoginPartial")
+            </section>
+            <nav>
+                <ul id="menu">
+                    @*<li>@Html.ActionLink("Home", "Index", "Home")</li>*@
+                    @*<li>@Html.ActionLink("About", "About", "Home")</li>*@
+                    @*<li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+                    @*<li><a href="https://pvmapper.codeplex.com/">About</a></li>*@
+                    <li><a href="/">Home</a></li>
+                    <li><a href="http://pvmapper.org/contact-us.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="Content">
+        @RenderBody()
+    </div>
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-08-06T12:38:57.74-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Put the name that was entered into the box as the label for the polygon feature",
+    "LastUpdatedDate": "2017-11-27T16:56:42.717-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-07-26T08:55:45.893-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Put a label on the new site",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 23098
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

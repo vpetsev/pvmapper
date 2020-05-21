@@ -1,0 +1,227 @@
+<div class="wikidoc">
+<p>PVMapper is a geographical information system (GIS) that provides users with the same type of information and capabilities that are common today with open source mapping tools. In addition to these mapping functions, PVMapper has added an independent site
+ comparison capability. The site comparison framework is organized in such a way that information can flow between the PVMapper map data layer and comparison information layer.</p>
+<h4>Frameworks</h4>
+<p><img title="image_thumb15" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=890692" alt="image_thumb15" width="320" height="273" align="left" border="0" style="float:left; padding-top:0px; padding-left:0px; margin:0px 10px 0px 0px; display:inline; padding-right:0px; border-width:0px">PVMapper
+ utilizes Microsoft's open source MVC 4.0 framework and is coded in C# on the server side. Much of PVMapper&rsquo;s functions run on the client&rsquo;s computer instead of a central server. Similar to most browser-centric applications, the client side uses
+ JavaScript as its programming language. PVMapper utilizes several well-established frameworks in JavaScript in order to calculate and render the page to the client. The figure to the left shows the different frameworks and what part of the system uses them.
+ Ext JS was selected as the overall page layout and display handler. Ext JS enables PVMapper to essentially become a single page application. PVMapper depends on the OpenLayers platform to process map data and display it on the screen. OpenLayers is used as
+ a JavaScript GIS engine. While it is not fully featured when compared to server side systems, it is still very powerful and runs completely on the client, which was a design goal of PVMapper. The GeoExt software is a great piece of community work that helps
+ in the setup of OpenLayers objects into Sencha Ext JS controlled windows.</p>
+<h4>Modularity through Plug-ins</h4>
+<p>Separating the mapping function and decision-making function adheres to well-known software development patterns that require business logic to be organized separately from the data processing. This separation simplifies changing business rules (e.g., solar
+ site selection rules) without disturbing code associated with processing map layers or calculating site properties, thus users can change their site selection preferences quickly and easily.</p>
+<p>PVMapper&rsquo;s modules and module application programming interface provide the interface between map-based data processing and the PVMapper decision analysis structure. Modules are created as part of the initial development effort, but they also can be
+ added at any time in the future, aiding the sustainability of the open source code. The modules are simply algorithms contained in JavaScript. The JavaScript code is written to conform to the plug-in architecture of the system following the definitions of
+ the application programming interface. This process is simple enough that someone with very little JavaScript experience could successfully write a module that pulls data from a data source, displays a map on the application map window, and calculates a score
+ based on their data that would be automatically pulled into the scoreboard for each site.</p>
+<p><a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888329"><img title="image_thumb12" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888330" alt="image_thumb12" width="633" height="428" border="0" style="padding-top:0px; padding-left:0px; margin:0px; display:inline; padding-right:0px; border-width:0px"></a>Each
+ custom module has one or more tool objects that will interact with the system. Currently, there are the following three types of tools:</p>
+<p>1. ScoreTool, which will calculate scores for the scoreboard for each site.</p>
+<p>2. InfoTool, which is used to add functionality to the system.</p>
+<p>3. TotalTool, which is used to change the scoreboard summary statistics.</p>
+<p>Using one of these types of tools, a programmer can customize almost any part of the system without having to re-write base code. Many of the features in the current version of PVMapper are Idaho National Laboratory and Brigham Young University developed
+ plug-in modules. Figure 3 provides an example of the minimal code that has to be written to enable a module that will score all sites that would be called &ldquo;ThisTool&rdquo; in the scoreboard.</p>
+<div style="color:black; background-color:white">
+<pre>    <span style="color:blue">var</span> mytool: IScoreTool = {
+        title: <span style="color:#a31515">&quot;ThisTool&quot;</span>,
+        description: <span style="color:#a31515">&quot;My super sweet score thingy&quot;</span>,
+        init: <span style="color:blue">null</span>,
+        destroy: <span style="color:blue">null</span>,
+        activate: <span style="color:blue">null</span>,
+        deactivate: <span style="color:blue">null</span>,
+        updateScoreCallback: (score: pvMapper.Score) =&gt; {
+            score.updateValue(1);
+        },
+        onSiteChange: <span style="color:blue">null</span>,
+        onScoreAdded: <span style="color:blue">function</span> (context: any, event: EventArg, score: pvMapper.Score) =&gt; <span style="color:blue">void</span> {}
+    };
+</pre>
+</div>
+<p><a name="_Ref383414336"></a>Figure 3. Example module code (TypeScript).</p>
+<p>By virtue of the module manager, the programmer does not have to worry about how the module will interact with the system. The programmer simply has to supply the needed properties and event handlers in the module code and the plug-in framework connects
+ everything automatically. The controller for the PVMapper module handles recalculation of values for all user-created sites for each of the activated ScoreTools when needed. Using this technique, a module can be written that uses a unique data set, a unique
+ map display, and unique data calculations. It could also provide derived values from its data in any way it needs to without the constraint of predesigned limits. This framework also allows the module to provide a configuration window for the user to further
+ customize the tool to the user&rsquo;s preferences. For example, the &ldquo;Distance to a Power Line&rdquo; tool uses a custom window to ask the user which type and rating of power line they would like to use to calculate distance. The tool provides the custom
+ algorithm and the user provides the business logic without modifying code. This modular approach creates an environment where loosely coupled tools can be added to the system throughout the software&rsquo;s life without having to change base code. This enhances
+ the sustainability of the software, because it is easier to maintain and it can grow easily with new functionality. This open approach invites collaboration by the software users and ensures that PVMapper will stay relevant for the years to come.</p>
+<h4>Site Comparison through Multi-Objective Comparison</h4>
+<p>Solar site selection is a multi-objective decision analysis problem, because no single site property can be used to determine the best sites for solar development. Levels of solar insolation, access to roads and transmission lines, distance from sensitive
+ wildlife habitat and residential areas, and so forth all influence site selection decisions. Many mathematical techniques (such as optimization, decision trees, simulation, and goal programming) of varying level of mathematical sophistication are available
+ for comparing, contrasting, and ranking such decisions. Over time, PVMapper may incorporate multiple techniques; however, to begin, PVMapper has adopted a simple-to-understand, straightforward approach that has been used in many areas for decision making.</p>
+<p>The approach, which is a type of multi-attribute utility theory<a href="#ref1">[1]</a> and is entitled the Scoring Function Approach, has been used for general engineering decision analysis (Wymore, 1993), automotive energy technology (Burns et al., 2004),
+ natural resource ranking (Yakowitz et al, 1993), environmental quality, soil quality assessment (Karlen and Stott, 1994, Andrews and Carroll, 2001), and health care (Ruland, 2002). One educational website<a href="#ref2">[2]</a> states &ldquo;One of the first
+ applications of multi-attribute utility theory involved a study of alternative locations for a new airport in Mexico City in the early 1970s. The factors that were considered included cost, capacity, access time to the airport, safety, social disruption and
+ noise pollution.&rdquo;</p>
+<p>The scoring function multi-objective approach is useful because it is easy for users to follow how numbers are transformed from site properties to dimensionless scores and weighted and rolled up into overall site comparisons. This numerical transparency
+ facilitates interpretation and helps users to have more confidence in the comparisons produced.</p>
+<p>This approach allows users to quantify their site preferences through the scoring function shape and location. Then, the scoring function maps the numeric property values that the user has deemed important for site comparison into a score value that lies
+ between 0 and 1. Because all dimensional property values are mapped on a 0 to 1 dimensionless scale and are thereby normalized, properties with widely varying dimensional scales can be compared. The score is then multiplied by a weight assigned by the user
+ and the product summed over all properties included in the overall site comparison scoring hierarchy.</p>
+<p>&nbsp;</p>
+<p><a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888333"><img title="image7_thumb1" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888334" alt="image7_thumb1" width="628" height="29" border="0" style="padding-top:0px; padding-left:0px; margin:0px; display:inline; padding-right:0px; border-width:0px"></a>&nbsp;</p>
+<p>Equation 1</p>
+<h4>&nbsp;</h4>
+<h4>Scoring Functions</h4>
+<p>Table 1 shows example scoring function weightings and parameterizations. Simple increasing and decreasing curves are used, which are defined by the following six parameters: weight, scoring function, minimum value, target value, maximum value, and slope.
+ The target value is the site parameter value for which the user prefers a middle score of 0.5. The minimum value is the smallest site value where the score reaches a limit of 0 or 1, depending on the scoring function form. The maximum value is the largest
+ site value where the score reaches a limit of 0 or 1, depending on the scoring function form. Slope controls how rapidly or gradually the curve increases or decreases. The scoring function&rsquo;s shapes are often described by their name; for example, &ldquo;Less
+ is Better&rdquo; is a curve transitioning from 1 to 0, &ldquo;More is Better&rdquo; is a curve transition from 0 to 1, &ldquo;Center is Best&rdquo; is a bell-shaped curve, and &ldquo;Small and Large are Better&rdquo; is an upside down bell-shaped curve. Scoring
+ functions can take on many shapes<a href="#ref3">[3]</a> to represent stakeholder preferences.</p>
+<p><a name="_Ref383423136"></a>Table 1. Example site selection preferences parameters and values.</p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="140">
+<p><strong>Decision Category</strong></p>
+</td>
+<td valign="top" width="72">
+<p><strong>Weight</strong></p>
+</td>
+<td valign="top" width="162">
+<p><strong>Scoring Function</strong></p>
+</td>
+<td valign="top" width="246">
+<p><strong>Scoring Function Parameters</strong></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="140">
+<p><strong>Environment:<br>
+Road Access Distance</strong></p>
+</td>
+<td valign="top" width="72">
+<p>40%</p>
+</td>
+<td valign="top" width="162">
+<p>Less is Better</p>
+<p><a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888335"><img title="clip_image010_thumb" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888336" alt="clip_image010_thumb" width="60" height="47" border="0" style="padding-top:0px; padding-left:0px; margin:0px; display:inline; padding-right:0px; border-width:0px"></a></p>
+</td>
+<td valign="top" width="246">
+<p>Minimum: 0 miles</p>
+<p>Target: 2 miles</p>
+<p>Maximum: 20 miles</p>
+<p>Slope: -20</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="140">
+<p><strong>Environment:<br>
+Habitat Buffer</strong></p>
+</td>
+<td valign="top" width="72">
+<p>60%</p>
+</td>
+<td valign="top" width="162">
+<p>More is Better</p>
+<p><a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888337"><img title="clip_image012_thumb" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888338" alt="clip_image012_thumb" width="63" height="49" border="0" style="padding-top:0px; padding-left:0px; margin:0px; display:inline; padding-right:0px; border-width:0px"></a></p>
+</td>
+<td valign="top" width="246">
+<p>Minimum: 0.5 miles</p>
+<p>Target: 5 miles</p>
+<p>Maximum: 15 miles</p>
+<p>Slope: &#43;20</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="140">
+<p><strong>Energy:<br>
+Net Annual Energy </strong></p>
+</td>
+<td valign="top" width="72">
+<p>70%</p>
+</td>
+<td valign="top" width="162">
+<p>More is Better</p>
+<p><a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888339"><img title="clip_image013_thumb" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888340" alt="clip_image013_thumb" width="64" height="50" border="0" style="padding-top:0px; padding-left:0px; margin:0px; display:inline; padding-right:0px; border-width:0px"></a></p>
+</td>
+<td valign="top" width="246">
+<p>Minimum: 30 MkW</p>
+<p>Target: 35 MkW</p>
+<p>Maximum: 40 MkW</p>
+<p>Slope: &#43;20</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="140">
+<p><strong>Energy: Intermittency</strong></p>
+</td>
+<td valign="top" width="72">
+<p>30%</p>
+</td>
+<td valign="top" width="162">
+<p>More is Better</p>
+<p><a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888341"><img title="clip_image014_thumb" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888342" alt="clip_image014_thumb" width="64" height="51" border="0" style="padding-top:0px; padding-left:0px; margin:0px; display:inline; padding-right:0px; border-width:0px"></a></p>
+</td>
+<td valign="top" width="246">
+<p>Minimum: 35%</p>
+<p>Target: 55%</p>
+<p>Maximum: 60%</p>
+<p>Slope: &#43;20</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="140">
+<p><strong>Social:<br>
+Public Perception </strong></p>
+</td>
+<td valign="top" width="72">
+<p>100%</p>
+</td>
+<td valign="top" width="162">
+<p>More is Better</p>
+<p><a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888343"><img title="clip_image015_thumb" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888344" alt="clip_image015_thumb" width="65" height="51" border="0" style="padding-top:0px; padding-left:0px; margin:0px; display:inline; padding-right:0px; border-width:0px"></a></p>
+</td>
+<td valign="top" width="246">
+<p>Minimum: 80%</p>
+<p>Target: 98%</p>
+<p>Maximum: 100%</p>
+<p>Slope: &#43;20</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" width="297" cellspacing="0" cellpadding="2" style="float:right">
+<tbody>
+<tr style="border-color:white">
+<td valign="top" width="295" style="border:none"><a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888345"><img title="image_thumb10" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888346" alt="image_thumb10" width="288" height="139" border="0" style="padding-top:0px; padding-left:0px; margin:0px; display:inline; padding-right:0px; border-width:0px"></a></td>
+</tr>
+<tr style="border-color:white">
+<td valign="top" width="295" style="border:none">Figure 4. Example Star Rating</td>
+</tr>
+<tr style="border-color:white">
+<td align="center" valign="top" width="295" style="border:none">
+<h5><a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=890695" target="_blank"><img title="clip_image002" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=890696" alt="clip_image002" width="242" height="205" border="0" hspace="12" style="padding-top:0px; padding-left:0px; display:inline; padding-right:0px; border:0px"></a></h5>
+</td>
+</tr>
+<tr style="border-color:white">
+<td valign="top" width="295" style="border:none">Figure 5. Modular Utility Functions</td>
+</tr>
+</tbody>
+</table>
+<p>The scoring functions are designed to take a value that is produced by a module tool and translate that value into a dimensionless and normalized value between 0 and 1. The functions in Table 1 show how this could be accomplished when the tool provides numeric
+ values. In order to normalize textual values, PVMapper uses a user‑configurable star rating system illustrated in Figure 4. The default ratings are provided by the module, giving the developer of the tool a way to present sane defaults. The user can reconfigure
+ the ratings to match their preferences, which will affect the value that is used in the selected score function. In this way, a textual value can be transformed into a numeric value that then is normalized through the same method as the other tools.</p>
+<h4>Scoring Calculation Plug-in Architecture</h4>
+<p>The available scoring functions in the function collection can be modified by virtue of PVMapper&rsquo;s plug-in architecture (Figure 5). Using the native strengths of JavaScript to enhance an object through object injection, an author could create an InfoTool
+ plug‑in that adds or overrides a function to the system. All object and properties of the utility function system can be overridden by independently created code. By using loosely coupled utility function code, the software is able to morph and grow to fit
+ the exact needs of the user.</p>
+<p>&nbsp;<a href="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888349"><img title="image_thumb11" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=pvmapper&DownloadId=888350" alt="image_thumb11" width="407" height="160" border="0" style="padding-top:0px; padding-left:0px; margin:0px; display:inline; padding-right:0px; border-width:0px"></a><br>
+The utility functions also are changeable by the user without the need for code. The calculations are run in a parameterized function, which allows the user to modify the parameters to more closely match their desired scenario. For example, if a user wanted
+ a &ldquo;more is better&rdquo;-type function to become a &ldquo;more is better up to a point&rdquo; (say 30) and then the desirability of the site drops off quickly to 50 but is always somewhat desirable, a function could be modified by the user from the default
+ (see figure above).</p>
+<h3>Summary</h3>
+<p>PVMapper is designed to help utility-scale solar development companies make siting decisions. In addition to a basic GIS capability, PVMapper has added an independent site comparison analysis framework. The two components interact to provide users with information
+ on the properties of the sites, as well as scores that represent a convolution of site properties and user-oriented site comparison preferences. These site comparison preferences can consist of a combination of predefined regulatory‑oriented and user-oriented
+ preference choices.</p>
+<p>In the current and initial version of PVMapper, scores are calculated using the scoring function approach. In future versions of PVMapper, additional decision analysis tools could be added. The scoring function approach is attractive because of its simplicity
+ and easy user interpretability. An overview of the modular plug-in architecture is given in regard to the user interface, map data aggregation and value extraction, and utility scoring functions and their respective graphical user interfaces. The modular approach
+ creates an excellent opportunity for PVMapper to grow with the user&rsquo;s needs. The architecture is open, thus it is more sustainable into the future. It has been shown how PVMapper is a highly customizable software designed to meet the broad needs of the
+ various users who will be interacting with the software.</p>
+<hr align="left" size="1" width="33%">
+<p><a name="ref1"></a>[1] <a href="http://wiki.ece.cmu.edu/ddl/index.php/Multiattribute_utility_theory">
+http://wiki.ece.cmu.edu/ddl/index.php/Multiattribute_utility_theory</a></p>
+<p><a name="ref2"></a>[2] <a href="http://www.hsor.org/what_is_or.cfm?name=mutli-attribute_utility_theory">
+http://www.hsor.org/what_is_or.cfm?name=mutli-attribute_utility_theory</a></p>
+<p><a name="ref3"></a>[3] Many additional scoring functions can be used. Wymore (1993) lists 12 types, which include bell shapes, step shapes, and asymptotic forms.</p>
+</div><div class="ClearBoth"></div>

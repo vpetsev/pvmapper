@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "These work list items are all checked into Release, and are live on the site.",
+    "ClosedDate": "2014-01-10T10:53:12.487-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Zoom to a city / county / zip code / point of interest by typing it into a search bar, ala Google Maps. Let's use Nominatim from OpenStreetMap for this. MapQuest has an open Nominatim service here: http://developer.mapquest.com/web/products/open/nominatim",
+    "LastUpdatedDate": "2014-01-10T10:53:12.487-08:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-08-07T15:45:37.01-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Search for a location on the map by typing in a name or an address",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 2,
+    "Id": 24596
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Voting for this, as this was mentioned in the BT session by several folks",
+      "PostedDate": "2013-12-11T09:03:57.953-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-11T09:34:53.24-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-11T16:58:02.367-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-10T10:33:51.95-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-10T10:53:12.487-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

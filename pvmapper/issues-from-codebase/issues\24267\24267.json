@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:50:40.45-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "When we have too many score tools to comfortably fit them all in, or when users decide they want to remove some tools completely, allow score tools to be made invisible through a right-click menu. While invisible, score lines will not update or contribute to the total score.",
+    "LastUpdatedDate": "2013-11-14T10:50:40.45-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Hide score option on right-click of score line",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 24267
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

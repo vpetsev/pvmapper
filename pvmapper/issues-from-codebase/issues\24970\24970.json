@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-12-10T09:00:27.83-08:00",
+    "CommentCount": 0,
+    "Custom": "(BYU)",
+    "Description": "Rohit - \n\nCan you please change the BSU logo on the pvmapper.org website?  It should be the primary 2-color logo found here:  \nhttp://brandstandards.boisestate.edu/logo-download-library/",
+    "LastUpdatedDate": "2014-12-10T09:00:27.83-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-11T08:41:05.997-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "BSU Logo",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 24970
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

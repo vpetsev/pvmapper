@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Add a pie chart with a wedge for each cateogory, with wedge width based on the total weight of all tools under each category, where clicking on a wedge will show the current in-category pie chart on one side of it. Think of this as a nested pie chart. This way the user has a good overall view of all scores, along with a detail view of one selected category.",
+    "LastUpdatedDate": "2013-12-11T14:06:20.887-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-11T13:04:19.87-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add a pie chart by category",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 24983
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

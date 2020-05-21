@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Implement a tool or two using the social acceptability survey data, so that we can talk about it when demoing the completed Beta. This was requested on today's team conference call.",
+    "LastUpdatedDate": "2017-11-27T16:58:22.047-08:00",
+    "PlannedForRelease": "Beta Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-08-07T15:42:45.417-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Proof of concept tool using some of our social survey data",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24595
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

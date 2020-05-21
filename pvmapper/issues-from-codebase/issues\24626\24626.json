@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "If IIS is not allowing case insensitivity then this needs to be checked so that all files and folders are consistently cased.",
+    "LastUpdatedDate": "2013-11-14T10:37:27.82-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-08-16T08:18:25.39-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Check for consistent uppercase/lower case files/folder names",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24626
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

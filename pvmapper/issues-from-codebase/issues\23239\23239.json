@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This feature is a table with sites across the top and leaf nodes of the property weighting hierarchy.  Shown are the global weights, site scores with the capability to sort properties for a given site.",
+    "LastUpdatedDate": "2017-11-27T16:56:43.563-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-29T14:38:31.523-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "5 Utility Function Result Display / Interface",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23239
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

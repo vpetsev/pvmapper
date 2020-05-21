@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "This is done in terms of the nearness to water tool.",
+    "ClosedDate": "2013-08-12T10:10:57.72-07:00",
+    "CommentCount": 0,
+    "Custom": "BYU (0.5 units)",
+    "Description": "Find data on water availability. One good potential source is the Western States Water Council. Create a score tool based on water availability.",
+    "LastUpdatedDate": "2013-08-12T10:10:57.72-07:00",
+    "PlannedForRelease": "Final Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Water availability tool",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 24264
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Arcgis service was created that finds the nearest river to the centroid of the specified site and calculates the distance.  \nCurrently the name of the nearest river and the distance from proposed site publishes to the score card. ",
+      "PostedDate": "2013-08-07T14:04:23.28-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Marking as active and assigning to, oh, let's say Justin; he touched it last.",
+      "PostedDate": "2013-08-07T15:37:56.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-09T08:43:09.14-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-12T10:10:57.72-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "UI",
+      "DisplayName": "UI"
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-12-10T09:00:27.83-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Pvmapper needs a function that will delete all sites in a project.",
+    "LastUpdatedDate": "2014-12-10T09:00:27.83-08:00",
+    "PlannedForRelease": "Final Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-05-15T14:43:19.95-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Delete Sites",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 25472
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Starting with just a delete all button under the sites menu. Will later on develop this to further add support for too many sites case. ",
+      "PostedDate": "2014-05-27T12:51:02.177-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-07-14T16:50:44.84-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-12-10T09:00:27.83-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

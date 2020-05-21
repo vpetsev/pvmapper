@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "PVMapper allows calculations for site properties to be created.  Site property calculations (previously called tools) calculate values for each site defined by the user.  These site properties values that represent the abscissa (x value) of the utility function.  User property tool allows the user to create site properties that have been calculated outside of PVMapper.",
+    "LastUpdatedDate": "2017-11-27T16:58:05.99-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-29T12:51:17.82-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Site Properties / Attributes",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23234
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "To demonstrate working capability we need to calculate site values for all modules/properties in the decision tree.\nA preferred way to generate values for the alpha version is to generate random numbers for each site.  See 1 Modify Design Tree Category and Property Names #23367 for an explanation of how to do this.\n \nProbably the simplest way to accomplish this is to modify the dialog window that appears after a new site is defined to show the decision hierarchy and allow the user to type values for each leaf property.\n \nCost\n   Land\n      Area        ________  $\n      Buffer      ________  $\n      Easement ________ $\n  Capital\n      Bulidings     ________ $\n      Perimeter    ________ $\n      Equipment  _________ $\netc.",
+    "LastUpdatedDate": "2017-11-27T16:58:07.943-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-09-14T13:06:02.4-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "2 Create summary property values for sites",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23369
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

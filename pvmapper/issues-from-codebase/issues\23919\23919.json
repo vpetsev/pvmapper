@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-10T09:04:15.34-07:00",
+    "CommentCount": 0,
+    "Custom": "2 units",
+    "Description": "Our current windowing code shows a stubborn bug where windows occasionally disappear. This should be resolved eventually, but it can we worked around at present.",
+    "LastUpdatedDate": "2013-05-15T19:28:25.19-07:00",
+    "PlannedForRelease": "Beta Version Release",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-14T18:24:34.7-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Debug current windowing behavior",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23919
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Associated with changeset 71419: Power line tool is in and working; we now have several functional scoring tools. Jsonp requests are working (in one module against one server), so we can start migrating away from the proxy if we need to. Lots of changes, bugfixes, cleaning and revamping. Migrated tsindex into the regular index, as things seem rather (fairly?) stable. Good news all around.",
+      "PostedDate": "2013-03-08T00:35:37.363-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Closing because we can't measure when this is really 'finished', though we did put work in on it. Future tasks on windowing should represent sepcific testable bugs or features, so we better understand when they're finished.",
+      "PostedDate": "2013-05-10T09:04:15.34-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:25.19-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

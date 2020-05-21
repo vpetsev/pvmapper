@@ -1,0 +1,125 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": "4 units (BYU)",
+    "Description": "A tool which accepts a score value (in text and numeric format), and then uses the normal utility function business. Would this depend on a tool selection screen, where tools can be added or removed (or added multiple times?)\n\nAlso, should we instead implement double-clicking to override a tool value or score? That is what they asked for, and it would impact this task.",
+    "LastUpdatedDate": "2014-12-10T09:00:27.83-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-17T09:07:52.513-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Stupid text score line entry tool",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24410
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "The idea is to add a new category called \"User Generated Scores\". User can add new lines with free text entry for the name and the score value.",
+      "PostedDate": "2013-11-11T15:48:33.09-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-11T15:48:56.247-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-25T15:45:14.833-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Let's hold off on this till after beta testing date.",
+      "PostedDate": "2013-11-25T16:30:56.63-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Let's hold off on this till after beta testing date.",
+      "PostedDate": "2013-11-25T16:30:58.437-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T09:58:00.29-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T10:38:56.7-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T10:58:10.677-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "to be assigned to summer interns at BYU working with Dan and Rohit",
+      "PostedDate": "2014-02-25T14:39:00.75-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-02-26T14:56:02.367-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Assigned to Rohan(Intern at BYU). ",
+      "PostedDate": "2014-05-07T08:44:08.497-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-05-07T09:09:09.62-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Basic Implementation done. Code to be pushed out soon to the dev branch. ",
+      "PostedDate": "2014-05-27T12:51:58.58-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Need to add validation to the form. \n",
+      "PostedDate": "2014-05-27T12:58:05.69-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-08-06T12:33:53.807-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-12-10T09:00:27.83-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

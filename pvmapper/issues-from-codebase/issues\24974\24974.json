@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": "2 units",
+    "Description": "Add a tool which returns values of km/mi for every social distance tool (which return values as % acceptance).\n\nThis probably should be done after we've allowed enabling and disabling of score tools, so that the user is not overwhelmed by duplicitous tools.",
+    "LastUpdatedDate": "2014-02-26T14:56:02.367-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-11T12:26:47.3-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "A regular distance score tool for every social distance score tool",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24974
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Due to time constraints, we do not expect this feature will be included in the final release.",
+      "PostedDate": "2014-02-26T14:56:02.367-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

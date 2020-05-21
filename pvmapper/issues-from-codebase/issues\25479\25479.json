@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have noticed that Tools such as  Wetland Proximity , Slope, Historic proximity works real slow to calculate the result to be added to Main scoreboard. \nAlso historic Proximity often shows 'didn't have results'. And If Pvmapper freezes for moment then it will remain the same forever and will not perform any action and browser suggests to kill the page or reload. Both of these options doesn't resolve the problem.",
+    "LastUpdatedDate": "2014-05-16T11:31:21.297-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-05-16T11:31:21.297-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Processing Speed of different tools",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25479
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

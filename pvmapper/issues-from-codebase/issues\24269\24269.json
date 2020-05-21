@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "BYU (0.5 units)",
+    "Description": "We have an excel spreadsheel describing possible data layers we can use. Add a sheel to describe the data layers which are currently in use. Include information on what they are used for, what tools use them, and how they are queried. If convenient, also include what types of queries are supported by the layer (WMS Identify, WFS get features, ESRI Identify, ESRI Query, etc)",
+    "LastUpdatedDate": "2013-11-14T10:37:27.82-08:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Update layer spreadsheet with current use and server feature availability",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 24269
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Assigning to Justin.",
+      "PostedDate": "2013-08-05T09:36:17.103-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

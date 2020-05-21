@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "2 units",
+    "Description": "Slope and aspect are interreelated values, and as such a two-dimensional utility surface is required to property score them. For example, a north-facing aspect has a very different meaning when the slope is 6 degrees and 0 degrees, and a 6 degree slope has a different meaning when it faces north or west. Create a custom score utility function for these tools which can account for this. Bonus points if it can also account for changing utility as a function of site latitude, for example a 2 degree southern facing site has different utility when closer to or further from the equator.",
+    "LastUpdatedDate": "2013-11-14T10:37:27.82-08:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Combined scoring & utility for slope and aspect tool(s)",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24250
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Required Data: Nearby transmission indicates all high voltage power lines used for transmission. Several commercial vendors of geospatial information provide this data in licensed format. We will need to negotiate licensing terms for use of the data. \nPre-Condition:  \n·         User has selected a site and has drawn a polygon that delineates the proposed site boundary(s).  \nUse Cases: \n·         User selects “Nearby Transmission” and PVMapper finds all transmission lines within a user defined search radius, forms a distance sorted list and presents the list to the user.\n·   User right clicks an item on the list and PVMapper presents a dialog window containing data for the transmission line, including the following:\n·         Company\n·         Company Contact\n·         Company Phone Number\n·         Company URL\n·         Transmission Capacity\n·         Transmission Availability\n·         Distance to Transmission\n·         Development Cost to reach Transmission\nFunctional Requirements:\n·         PVMapper will calculate and present a list of nearby transmission line capacities and associated metadata. \nPerformance Requirements:\n·         PVMapper will rank and display power purchasers within 5 seconds.\n \nNotes:\n·         “User Defined Transmission Cost” configuration parameter can be changed by the user.  Default is $1M/mile.\n·         A more sophisticated calculation of transmission cost is provided in the Cost of Energy section.",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:21:11.523-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Properties of Nearby Transmission",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23269
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

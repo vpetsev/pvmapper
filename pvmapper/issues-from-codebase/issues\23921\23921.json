@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-07T15:17:28.78-07:00",
+    "CommentCount": 0,
+    "Custom": "2 units",
+    "Description": "Build a module with a scoring tool which will measure distance from a site to the nearest suitable electrical infrastructure. For instance, it will give the distance to the nearest power line of 135 kv or higher.",
+    "LastUpdatedDate": "2017-11-27T16:58:20.753-08:00",
+    "PlannedForRelease": "Solar 2013 Conference Demo",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-14T18:26:38.173-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Power line/substation distance scoring tool",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 23921
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Associated with changeset 71400: Interim check-in of the power line distance tool. I've managed to get GeoJSON back from ArcGIS Server (who natively outputs EsriJSON). This means we can use an OpenLayers vector layer to show a layer from Esri. I've also been able to use Json-P instead of the proxy script to make cross-domain calls. Fetching every power line in the nation is expensive, however (7.3 MB compressed, which then takes time to parse); the next iteration might draw the layer as a raster, and then request only those lines near to a site.",
+      "PostedDate": "2013-03-06T16:37:53.85-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 71419: Power line tool is in and working; we now have several functional scoring tools. Jsonp requests are working (in one module against one server), so we can start migrating away from the proxy if we need to. Lots of changes, bugfixes, cleaning and revamping. Migrated tsindex into the regular index, as things seem rather (fairly?) stable. Good news all around.",
+      "PostedDate": "2013-03-08T00:35:36.153-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-03-08T00:36:33.423-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-07T15:17:28.78-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:24.783-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:20.753-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

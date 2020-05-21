@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "Create a pie chart to show a site's scores. Size a score's wedge based on it's weight. Color a score's wedge based on its utility score. Put this pie chart in a window shown through a menu button. Update/redraw the window based on scoreboard changed events. Include a drop down to select which site is shown, or alternately show a pie chart for every site in the same window.",
+    "LastUpdatedDate": "2017-11-27T16:57:41.697-08:00",
+    "PlannedForRelease": "Beta Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add pie chart window to display weights",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24253
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Finished put in the pie chart to view the weights for each category.  Displaying the pie for ethe score for each site under each category will require a bit more development.",
+      "PostedDate": "2013-08-06T11:44:10.567-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:41.697-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

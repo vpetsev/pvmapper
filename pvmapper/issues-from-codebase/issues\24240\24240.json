@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "Add a tooltip to the score tool's name; use it to describe what kind of data the tool uses (ie flat vs tilt irradiance, summer vs winter data, etc), as well as the data source, and any other brief particulars of how the tool gets a value",
+    "LastUpdatedDate": "2017-11-27T16:58:21.627-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Show a tooltip describing the source data used by a score tool",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24240
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 72403: Added tooltips for all of the modules, to better explain where they get their source data and what they do with it. Also, added a data layer & score tool for irradiance on tilted PV arrays. Also, improved the result display for the Protected Areas and Land Management tools (though more work could be done on this).",
+      "PostedDate": "2013-06-24T15:29:36.783-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-24T15:32:25.513-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:21.627-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

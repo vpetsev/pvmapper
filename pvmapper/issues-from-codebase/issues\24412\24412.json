@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-01-22T10:38:56.7-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Does OpenLayers support this out of the box?",
+    "LastUpdatedDate": "2014-01-22T10:38:56.7-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-17T09:10:07.877-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Export map as a GeoTiff (or other georeferenced image)",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24412
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

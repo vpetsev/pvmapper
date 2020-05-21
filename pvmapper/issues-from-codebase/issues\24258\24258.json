@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "These work list items are all checked into Release, and are live on the site.",
+    "ClosedDate": "2014-01-10T10:53:09.933-08:00",
+    "CommentCount": 0,
+    "Custom": "2 units",
+    "Description": "Add basic project management (save, load, etc) so that users can compare different sets of sites separately",
+    "LastUpdatedDate": "2014-01-10T10:53:09.933-08:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Project management - save, load, etc.",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24258
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Low priority but will need to be done in a later release.",
+      "PostedDate": "2013-11-11T15:44:11.243-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:50:40.45-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-10T10:48:58.887-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-10T10:53:09.933-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

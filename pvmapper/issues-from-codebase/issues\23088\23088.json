@@ -1,0 +1,90 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-06-19T14:57:19.91-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Develop a tool that puts a button on the toolbar that will allow the user to add a site polygon to the system. The site will be saved in the database with the description, name, id, geometry input by the user. The tool needs a wizard that allows the user to click on the map to define the site geometry, then the user needs to be asked to name and describe the site in a pop up form. The user will then click save, and the site will be saved to the system. The site can then be retrieved by the system for use in the score card and for display when the user logs in",
+    "LastUpdatedDate": "2013-06-19T14:57:19.91-07:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-07-25T07:51:41.723-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Create the Add Site tool",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 23088
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Working on creating a plugin that will define the way future plugins are created. The new code is being developed in the AddSite.js ",
+      "PostedDate": "2012-07-25T07:53:36.22-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-08-06T12:38:57.74-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-08-29T14:45:05.67-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-08-30T09:37:27.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-08-30T09:38:34.49-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-13T16:37:28.903-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:28.557-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:28.67-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-14T00:28:52.423-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-19T14:57:19.91-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

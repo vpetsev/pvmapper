@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "Each score line has a weight. At present any changes to these made in the score board are not propegated to the underlying object. Fix that.",
+    "LastUpdatedDate": "2017-11-27T16:57:40.773-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Make score weights editable",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 24238
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

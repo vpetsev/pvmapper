@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-12-10T09:00:27.83-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "Field names aren't updating right.",
+    "LastUpdatedDate": "2014-12-10T09:00:27.83-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-11-25T15:29:35.473-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Identify tool has several known issues; resolve them",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 24910
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Changed estimate from 4 units to 1 unit, as instead of rebuilding the identify tool entirely, we will provide better error messages and other small fixes to help clarify its limited functionality to users.",
+      "PostedDate": "2014-02-26T14:56:02.367-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-07-16T18:06:13.233-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-12-10T09:00:27.83-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

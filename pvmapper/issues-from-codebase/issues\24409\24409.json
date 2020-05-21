@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Add score tool config options - add a config option to the power line tool to specify minimum and/or maximum (!) line kV, and a config option on the irradiance tool to select among flat or angled irradiance estimates (!)",
+    "LastUpdatedDate": "2017-11-27T16:58:21.917-08:00",
+    "PlannedForRelease": "Beta Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-17T09:05:30.863-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Tool configuration options - line kV & flat/angled irradiance",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24409
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Associated with changeset 72675: Lots of changes. Tied in star ratings with Land Management tool (still need to tie them into Protected Areas and Land Cover tools). Added an options window to the transmission line distance tool (along with API facilities for future tool options windows). Made a number of bug fixes to the utility function edit window. And I've made several other bug fixes.",
+      "PostedDate": "2013-07-23T20:19:56.77-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-07-30T10:36:02.017-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-07-30T10:46:28.417-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:21.917-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

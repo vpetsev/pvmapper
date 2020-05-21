@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-01-22T10:38:56.7-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "(before this feature is implemented, there will be no way to enable or disable modules; the module list will be stubbed out as a static placeholder until then)\n\nThis list window will allow users to turn modules on and off, turn tools on and off, and access advanced commands and options available within modules or their tools.",
+    "LastUpdatedDate": "2014-01-22T10:38:56.7-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-14T18:19:26.49-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Interactive module list",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 23917
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

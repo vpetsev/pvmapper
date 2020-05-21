@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "Allow the user to change the utility function being used by a score line (with a drop down from the util function edit window).",
+    "LastUpdatedDate": "2017-11-27T16:57:41.813-08:00",
+    "PlannedForRelease": "Beta Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-24T16:18:46.957-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "User can pick a different utility function for a score line",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24440
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "The utility window is now allow switch between functions.  However, the built-in function are hardcoded for now.  Until the utility information is saved to database, they don't have cache memories of previously setting.",
+      "PostedDate": "2013-08-07T16:02:06.527-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:41.813-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

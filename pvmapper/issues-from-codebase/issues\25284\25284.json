@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T16:54:34.633-07:00",
+    "CommentCount": 0,
+    "Custom": "0.25 units",
+    "Description": "Need to name the tool after the specified layer tool name for KML uploads",
+    "LastUpdatedDate": "2017-11-27T16:57:42.83-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-03-18T14:26:05.66-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Need to name the tool after the specified layer tool name for KML distance tool uploader thing",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 25284
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

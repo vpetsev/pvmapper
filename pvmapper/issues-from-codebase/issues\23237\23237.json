@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-09-14T12:43:36.96-07:00",
+    "CommentCount": 0,
+    "Custom": "Complete on 9/7/2012",
+    "Description": "This feature allows the user to define a hierarchical list of organizational categories and site properties that define how the user would like to compare sites numerically.\nThe hierarchial list assigns weights in groups at each hierarchical level.  Global weights are calculated by multiplying weights within the category structure.",
+    "LastUpdatedDate": "2017-11-27T16:56:43.29-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-29T14:33:35.013-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Property / Attribute Weighting Hierarchy",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23237
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

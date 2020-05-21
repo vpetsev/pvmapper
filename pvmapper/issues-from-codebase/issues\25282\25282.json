@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "ESRI has pulled their slope, aspect, and elevation layers. This might be related to their upcoming World Elevation Service (currently in Beta; see http://resources.arcgis.com/en/help/main/10.1/index.html#//009t00000244000000). A brief search didn't find a suitable replacement for these data sources, so I've disabled the tool at present. Hopefully the new slope tool can be expanded to include aspect and elevation data, as appropriate.",
+    "ClosedDate": "2014-03-26T14:53:38.777-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Server problems?",
+    "LastUpdatedDate": "2017-11-27T16:58:22.977-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-03-18T14:08:17.623-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Elevation, slope, area errors",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 25282
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Compute the potential surface area of the panels based on the total area of the plot minus set-backs (internal buffer) minus some fraction of the area that would be lost to walking and equipment areas (~5%?)\n \nThe tool must use the setback tool to get the polygon. (use the intents framework)\nThe tool must have an input that is the lost area for equipment (Perhaps many inputs for paths, buildings, roads, equipment...)\nThe tool must post this figure in the scorecard",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-13T10:12:28.62-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Calculate the available SQFT of panel space",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 23159
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

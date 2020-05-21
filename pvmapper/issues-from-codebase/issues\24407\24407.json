@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "These work list items are all checked into Release, and are live on the site.",
+    "ClosedDate": "2014-01-10T10:53:18.507-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Will this require some meta-control, where you can add or remove tools (so that you can add several copies of this tool) ?",
+    "LastUpdatedDate": "2014-01-10T10:53:18.507-08:00",
+    "PlannedForRelease": "Final Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-17T08:57:50.44-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Local data - Add tool to calculate distances from local point + line data",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24407
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

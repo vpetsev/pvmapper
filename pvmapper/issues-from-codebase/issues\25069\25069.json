@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-01-22T10:38:56.7-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This is a suggestion to make it easy to see the full map or the full score card on one monitor (flip it with the map) or on two monitors (undock it).",
+    "LastUpdatedDate": "2017-11-27T16:57:42.26-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-01-13T09:11:56.127-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Allow the score card to be maximized",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25069
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

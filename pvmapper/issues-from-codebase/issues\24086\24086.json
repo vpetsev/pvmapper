@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "API",
+      "DisplayName": "API"
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-10T10:01:50.32-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Event.fire needs to have a way to safely call the registered methods.\nUse a try catch with meaningful output and action.",
+    "LastUpdatedDate": "2017-11-27T16:56:45.87-08:00",
+    "PlannedForRelease": "Solar 2013 Conference Demo",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-03-18T12:47:17.823-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Update the try/catch in Event.fire",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 24086
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Adding a console log message of the error object",
+      "PostedDate": "2013-03-19T07:28:23.72-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-02T14:57:14.013-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Setting this as fixed  as the log message seems to be enough for now.",
+      "PostedDate": "2013-05-02T14:57:46.643-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-10T10:01:50.32-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:24.07-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:56:45.87-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

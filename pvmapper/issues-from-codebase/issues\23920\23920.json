@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-07T15:17:28.78-07:00",
+    "CommentCount": 0,
+    "Custom": "2 units",
+    "Description": "Build a module with a scoring tool which will measure solar irradiance at a site",
+    "LastUpdatedDate": "2017-11-27T16:58:20.617-08:00",
+    "PlannedForRelease": "Solar 2013 Conference Demo",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-14T18:25:28.89-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Solar irradiance scoring tool",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 23920
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Associated with changeset 71291: Made progress on irradiance module, including new module with score tool, map data, and an (incomplete) feature data query.",
+      "PostedDate": "2013-02-25T19:56:37.603-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 71307: First working GetFeatureInfo requests returning correctly.",
+      "PostedDate": "2013-02-27T10:21:26.453-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 71367: I believe I am all finished with the solar irradiance tool. Note that I changed the Score object again; it now accepts numbers instead of strings for its value. Also, I fixed a bug with adding sites. Huzzah!",
+      "PostedDate": "2013-03-04T18:33:09.04-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I believe this is now checked in and working.",
+      "PostedDate": "2013-03-04T18:45:10.613-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 71419: Power line tool is in and working; we now have several functional scoring tools. Jsonp requests are working (in one module against one server), so we can start migrating away from the proxy if we need to. Lots of changes, bugfixes, cleaning and revamping. Migrated tsindex into the regular index, as things seem rather (fairly?) stable. Good news all around.",
+      "PostedDate": "2013-03-08T00:35:36.9-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-07T15:17:28.78-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:25.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:20.617-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

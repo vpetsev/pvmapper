@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Need to remove tomcat from BYU server - check all possible optimizations for the server. Remove geoserver software. Try to make it faster. Reinstall and reconfigure PVMapper. Look for and document any obscurities related to setup.",
+    "LastUpdatedDate": "2017-11-27T16:57:58.603-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-08-12T10:05:30.153-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Rebuild BYU server for development version of PVMapper",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24611
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I have removed TomCat and GeoServer. Reinstalled IIS. Reinstalled PVMapper. I have a document stating the steps I needed to do before I could get it running perfectly. \r\n\r\nBUT! It is still slow.\r\n\r\nI have tried running iis at 32 bit(as was one of the suggestions I found online, to speed up the process), but to no improvement. \n",
+      "PostedDate": "2013-08-13T19:02:25.33-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "You can check out the demo at \ngeoserver.byu.edu/pvmapper\r\n\r\nAnd basically any Module that sends out a request to an external server is running really slow. ",
+      "PostedDate": "2013-08-13T19:04:08.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Okay! After 9 days of work on the server..Hitting my head against the wall working with IIS, The best so far I have got on IIS speeds is this instance : https://geoserver.byu.edu/pvMapper/\r\n\r\nI am still tackling the issue to get it running perfectly through IIS but I have exhausted all my options so far, and unless I get divine inspiration, I am at a dead end on though IIS. \r\n\r\nBut, Well, some good news. I found another server (Abyss) which has ASP.NET support and runs on Windows pretty well, (compared to MONO for linux, which was another pain to set up). So, we have a much faster dev version set up at https://geoserver.byu.edu:4431/ . Please make sure to accept the certificate. As of now its just a dummy one. But the site works. And much faster than the one through IIS. You can test it out with the username: admin and password: admin1. \r\n\r\nI have contacted a few experts on IIS, even (for the first time) posted on StackOverFlow and am waiting on responses. If something comes along in a few days that works, then Yaaay! Till then I am going to spend my time in perfecting the Abyss server as a tool for development hosting and maybe future deployment as well?\r\n\r\n",
+      "PostedDate": "2013-08-22T17:03:10.113-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:58.603-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

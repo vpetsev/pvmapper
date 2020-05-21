@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Open PVMapper, click 'Sun Rose Diagram' button: Get unhandled exception, Input String was not in a correct format.  Stack:\n\nSee the end of this message for details on invoking \njust-in-time (JIT) debugging instead of this dialog box.\n\n************** Exception Text **************\nSystem.FormatException: Input string was not in a correct format.\n   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)\n   at System.Convert.ToDouble(String value)\n   at PVDESKTOP.frm01_MainForm.DrawRoseDiagram() in c:\\Kasem\\codeplex\\pvdesktop\\PVDesktopRibbon\\01_MainForm.cs:line 605\n   at PVDESKTOP.frm01_MainForm.cmdRoseModel_Click(Object sender, EventArgs e) in c:\\Kasem\\codeplex\\pvdesktop\\PVDesktopRibbon\\01_MainForm.cs:line 574\n   at System.Windows.Forms.Control.OnClick(EventArgs e)\n   at System.Windows.Forms.Button.OnClick(EventArgs e)\n   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)\n   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)\n   at System.Windows.Forms.Control.WndProc(Message& m)\n   at System.Windows.Forms.ButtonBase.WndProc(Message& m)\n   at System.Windows.Forms.Button.WndProc(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)\n   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)",
+    "LastUpdatedDate": "2015-07-23T15:14:10.793-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2015-07-23T15:14:10.793-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unhandled Exception",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 63740
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

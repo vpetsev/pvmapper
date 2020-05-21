@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-12-10T09:00:27.83-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Currently, when folks \"Register for updates\" their email address goes to a google doc, and nothing else occurs.\n\nWe need to develop the rules associated with sending updates to these folks.  One example rule could be \"when a new version is released.\"\n\nThen we need some mechanism that will automatically send the updates to the entire list.  Additionally, the update messages need an \"opt out\" mechanism.",
+    "LastUpdatedDate": "2014-12-10T09:00:27.83-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-02-13T10:46:04.707-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Register for Updates",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 25187
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

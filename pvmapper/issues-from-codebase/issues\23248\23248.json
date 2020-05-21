@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "duplicate of 23923",
+    "ClosedDate": "2013-08-05T09:49:24.613-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "",
+    "LastUpdatedDate": "2013-08-05T09:49:24.613-07:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-29T14:52:28.533-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Slope Data",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 23248
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

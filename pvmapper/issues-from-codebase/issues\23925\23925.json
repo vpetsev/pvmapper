@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-07T15:17:28.78-07:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "Color code sites based on the value of their total score. Must select an appropriate color ramp and function to map from scores to colors.",
+    "LastUpdatedDate": "2017-11-27T16:58:21.067-08:00",
+    "PlannedForRelease": "Solar 2013 Conference Demo",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-14T18:38:07.433-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Symbolize sites based on total score",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 23925
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 71765: Finished color coding sites based on total utility score.",
+      "PostedDate": "2013-04-03T16:11:24.77-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-04-03T18:06:02.46-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-07T15:17:28.78-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:24.5-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:21.067-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

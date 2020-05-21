@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "These work list items are all checked into Release, and are live on the site.",
+    "ClosedDate": "2014-01-10T10:53:14.543-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "Allow users to export their sites in KML format, including score and utility information for all tools and summary scores.",
+    "LastUpdatedDate": "2014-01-10T10:53:14.543-08:00",
+    "PlannedForRelease": "Final Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Export site and scoreboard data in KML format",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24259
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Special request from Mike, can we instead export in (or __in addition to__) in WKT (well known text). ",
+      "PostedDate": "2013-11-11T15:45:23.847-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-10T09:19:13.993-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-10T10:53:14.543-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Checked the version on the server. It does correct the errors the old jquery definition file was having.",
+    "ClosedDate": "2013-02-07T07:51:21.357-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I was looking through some of the TypeScript files to understand the language better, and Visual Studio spit out some errors and warnings.  See the attached image.",
+    "LastUpdatedDate": "2013-05-15T19:28:26.257-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-01T13:24:49.617-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Errors with Typescript files",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 23864
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6182,
+      "FileName": "ErrorsWithTypescriptFiles.png",
+      "DownloadUrl": ".\\6182"
+    },
+    {
+      "FileId": 6183,
+      "FileName": "ErrorsWithTypescriptFiles.png",
+      "DownloadUrl": ".\\6183"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I have experienced the same problem yesterday and today ",
+      "PostedDate": "2013-02-01T13:56:01.067-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T13:56:17.347-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This could be fixed by finding out if there is an updated version of the jQuery framework definition file. Could one of you take ownership of the issue and set it active and fix it?\n",
+      "PostedDate": "2013-02-06T09:43:00.2-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I can work on this.",
+      "PostedDate": "2013-02-06T11:37:22.393-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-06T11:37:47.153-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I don't know how to help with the site.ts parent file not being where it is supposed to be though.",
+      "PostedDate": "2013-02-06T11:49:12.617-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I updated the jquery.d.ts and lib.d.ts files.  For the other error, it is only saying that the parent file site.ts isn't there for the site.js files in the TS Versions directory.  The sitemanager.ts file in that same directory isn't finished, but the version of that file in the TSMapper directory is.  Are the files in the TS Versions directory old versions of the files?",
+      "PostedDate": "2013-02-06T12:16:31.283-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Yes, the files in the TS Versions are the older versions of the TS conversion. As I am going through the TSMapper directory creating tests and validating the new TS versions, I will delete the other files out of the TS Versions directory.",
+      "PostedDate": "2013-02-06T13:15:18.713-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-06T14:05:20.313-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-07T07:51:21.357-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-13T16:37:17.987-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:26.257-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

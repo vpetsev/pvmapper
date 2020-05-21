@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Reference layers are in. More can easily be added as needed. Closing this.",
+    "ClosedDate": "2013-08-12T09:52:49.53-07:00",
+    "CommentCount": 0,
+    "Custom": "BYU (0.25 units)",
+    "Description": "Add some handy reference layers to the map. These should include counties and existing solar plants. Other reference layers may also be worth including; research this. Possibly also add a score tool which would list the county (or counties) a site lies in, though this is optional.",
+    "LastUpdatedDate": "2013-08-12T09:52:49.53-07:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Add additional reference layers, such as pollitical boundaries",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24241
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

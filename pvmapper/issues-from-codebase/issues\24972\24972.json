@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T16:54:34.633-07:00",
+    "CommentCount": 0,
+    "Custom": "2 units",
+    "Description": "Include in reports: either 1) the user's custom utility weight functions and weights, or 2) the defaults used in scoreboard calculations.",
+    "LastUpdatedDate": "2017-11-27T16:56:46.167-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-11T09:36:54.367-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Include utility functions and weights in reports",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 24972
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Checked in  feature in changeset 74188",
+      "PostedDate": "2014-04-15T07:28:42.337-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-07-14T16:54:34.633-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:56:46.167-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

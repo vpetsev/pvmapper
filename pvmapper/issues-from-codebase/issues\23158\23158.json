@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Create a tool that can calculate the setback polygon for a site. The tool must have an input that will get the setback distance from the user. The tool will create a new layer that will have the setback polygon. The layer must not have a highly visible fill (no more than 50% opacity???) as it might cover other tool's markers. However the line can be solid and completely opaque. Styling should make sense.",
+    "LastUpdatedDate": "2017-11-27T16:56:43.103-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-13T09:22:16.483-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Setback site property calculation tool",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 23158
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

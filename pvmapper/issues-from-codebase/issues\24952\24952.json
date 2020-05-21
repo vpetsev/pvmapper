@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-01-22T10:38:56.7-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "BLM established 17 \"Solar Energy Zones\" -- places where BLM thinks solar development is compatible/preferable with the landscape on BLM-managed lands across the West.\n\nMaps are publicly available from Argonne National Lab here:  http://solareis.anl.gov/maps/index.cfm.\n\nWould be great to incorporate these as an additional layer within PVMapper.",
+    "LastUpdatedDate": "2017-11-27T16:58:22.163-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-06T12:16:30.177-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Add BLM Solar Energy Zones (SEZs) as a layer",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 24952
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "shape files and KMZ available",
+      "PostedDate": "2013-12-11T08:48:28.61-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T10:38:56.7-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:22.163-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Closed as presently unresolvable. BYU will take another look at this, time permitting, later on.",
+    "ClosedDate": "2013-11-25T15:44:42.453-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "1) Increase from one instance per server.\n2) ???\n3) Profit.",
+    "LastUpdatedDate": "2013-11-25T15:44:42.453-08:00",
+    "PlannedForRelease": "Final Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-10-08T13:20:39.807-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ArcGIS Server score speed issue",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 24777
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

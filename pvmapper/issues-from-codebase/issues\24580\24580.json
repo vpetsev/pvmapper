@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "deployed to BYU server successfully. New task to redo to make faster...",
+    "ClosedDate": "2013-08-12T10:00:36.46-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We are going to set up a server at byu that is the current dev snapshot from Codeplex. Optimally this will always (daily? instantly?) reflect what is on codeplex. Perhaps through an automatic script to load the latest code there.",
+    "LastUpdatedDate": "2013-08-12T10:00:36.46-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-08-05T10:00:52.223-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Build new dev site configuration",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 24580
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I'm not too familiar with deploying projects from VS into IIS. I found what looks like initial guidance here (http://msdn.microsoft.com/en-us/library/dd465323.aspx) and here (http://msdn.microsoft.com/en-us/library/dd465337.aspx). Hope it helps.",
+      "PostedDate": "2013-08-05T10:05:06.1-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "A dev version is up at: https://geoserver.byu.edu/pvMapper1/\r\n\r\nIt is not yet set to be updated regularly with the code(The plan is to have an automatic script to do that). That will be done within the following week. ",
+      "PostedDate": "2013-08-12T00:08:29.607-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-12T10:00:36.46-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

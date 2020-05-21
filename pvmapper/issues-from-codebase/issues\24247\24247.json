@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "When hovering the mouse over a score utility function, draw a vertical line on the cursor's x-axis position, from the axis up to the function. Draw a corresponding horizontal line from the point of intersection to the y-axis. List both the x and y values of the intersection point. Color code the y-axis (utility score) line using the score color scale.",
+    "LastUpdatedDate": "2017-11-27T16:57:41.327-08:00",
+    "PlannedForRelease": "Beta Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add on-hover x-value score preview lines to utility function edit window",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24247
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Added to the ScoreUtilityWindow.ts: it uses the function (fn) to find the intersecting Y point on the graph for a given X dragging value.  This should work with all utility functions.",
+      "PostedDate": "2013-07-17T10:12:48.323-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 72675: Lots of changes. Tied in star ratings with Land Management tool (still need to tie them into Protected Areas and Land Cover tools). Added an options window to the transmission line distance tool (along with API facilities for future tool options windows). Made a number of bug fixes to the utility function edit window. And I've made several other bug fixes.",
+      "PostedDate": "2013-07-23T20:19:55.76-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-07-29T09:11:17.813-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:41.327-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-01-22T09:58:00.29-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "mentioned in the BT session",
+    "LastUpdatedDate": "2014-01-22T09:58:00.29-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-11T09:05:04.303-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Delete a site",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 24971
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I believe this is supposed to refer to deleting all sites for a user. Either that, or selecting and deleting a site from the scoreboard (in addition to the current functionality available through the map).",
+      "PostedDate": "2013-12-11T09:52:54.16-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Yes, selecting and deleting a site from the scoreboard, but not necessarily all sites for the user.  Basically, the reverse of the \"Add Site\" button/function.",
+      "PostedDate": "2013-12-11T10:33:57.133-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-11T12:52:07.633-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T09:58:00.29-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Required data: The DSIRE database/website provides incentive information for renewable energy. These data will be mined and brought into a dataset for PVMapper. \nPre-condition:\n·              User is in Site Selector or Site Analyzer mode\nUse Cases: \n·         User selects “Incentives” and PVMapper displays the row in the DSIRE database for the site in which the development site is located for both financial incentives, rules, regulations and policies for renewable energy.  The user then chooses and reads the available information.\n \n { see Attachment }\n \n·              User can bookmark information that appears useful for costing the development site.\nFunctional Requirements:\n·         PVMapper will provide access to the DSIRE state incentives database (NREL)\nPerformance Requirements:\n·         Will be dependent on DSIRE’s web site response.\nNotes:\n·              See DSIRE at http://dsireusa.org/ or at \n·              North Carolina State University http://www.mydsireusa.org/mydsire/index.php",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:25:19.18-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Incentives",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23272
+  },
+  "FileAttachments": [
+    {
+      "FileId": 5953,
+      "FileName": "Incentives.pptx",
+      "DownloadUrl": ".\\5953"
+    }
+  ],
+  "Comments": []
+}

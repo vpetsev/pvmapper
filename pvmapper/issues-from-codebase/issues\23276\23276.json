@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Developers need to know the source and quality of the data provided by PVMapper.  PVMapper uses data from three main sources; 1) Existing authoritative Federal and State data, 2) User contributed data, and 3) Model generated data.  The main data quality approaches used will be transparency and reporting of extreme values.\n \nPre-Condition:  \n·           None\nUse Cases: \n·         User selects “Data Quality Mode”  PVMapper displays a table of data sources and includes an indication of data quality level.\n·         The user can search the data source web site for information on data quality\nFunctional Requirements:\n·         PVMapper will provide user links to all authoritative data used.\nPerformance Requirements:\n·         TBD\nNotes:",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:29:52.25-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Data Quality",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23276
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

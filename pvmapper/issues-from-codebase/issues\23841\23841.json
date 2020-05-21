@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-07T15:17:28.78-07:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "The images for the Pan and Zoom control buttons are not showing when logged into pvmapper.com",
+    "LastUpdatedDate": "2017-11-27T16:58:20.38-08:00",
+    "PlannedForRelease": "Solar 2013 Conference Demo",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-01-25T11:54:16.92-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Pan/Zoom Images not showing on pvmapper.com",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 23841
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Is this because we haven't rolled up our dev branch changes to the release branch?",
+      "PostedDate": "2013-02-14T17:34:48.187-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-15T11:37:55.693-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-15T11:46:01.02-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-22T12:16:50.027-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "We just need to check in the OpenLayers style and theme objects into a single home in the repository (rather than multiple as we now have it), and then set the OpenLayers imgPath and themePath to point to them.",
+      "PostedDate": "2013-03-01T13:06:51.44-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-03-14T12:53:12.37-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-07T15:17:28.78-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:26.593-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:20.38-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

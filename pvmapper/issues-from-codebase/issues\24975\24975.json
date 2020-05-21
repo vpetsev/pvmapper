@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "Allow users to select a different utility function. This is in the code base, but was removed prior to Beta release because it was shown to be buggy. Re-add this feature, and debug it.",
+    "LastUpdatedDate": "2014-02-26T14:56:02.367-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-11T12:29:28.163-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Utility functions - allow users to select different functions",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 24975
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Due to time constraints, we do not expect this feature will be included in the final release.",
+      "PostedDate": "2014-02-26T14:56:02.367-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

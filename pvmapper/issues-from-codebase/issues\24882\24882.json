@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "These work list items are all checked into Release, and are live on the site.",
+    "ClosedDate": "2014-01-10T10:53:16.687-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Create static text (paragraphs) describing where each score tool gets its source data, and how it calculates its values (ie the values Km or KW or whatever). Show this metadata in the UI and in the final report.\n\nInclude links (urls) for source layers, pointing to their full metadata if possible.",
+    "LastUpdatedDate": "2014-01-10T10:53:16.687-08:00",
+    "PlannedForRelease": "Final Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-11-14T10:56:35.333-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Show metadata describing Tools and their data",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24882
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

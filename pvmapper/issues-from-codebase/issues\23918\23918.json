@@ -1,0 +1,90 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "2 units",
+    "Description": "At present, our layer list is the default offering from OpenLayers.\n\nThis feature will replace that with an ExtJS layer list, which will follow the same hierarchical organization as used for modules and tools (ie, energy, water, social, etc). Users will be able to toggle layer visibility on and off.\n\nThis feature will also allow users to choose a base map, and to turn on and off some assorted reference layers (such as US county boundaries).\n\nPerhaps most crucially, this feature will include/display a legend for every layer that can provide one.",
+    "LastUpdatedDate": "2017-11-27T16:58:20.493-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-14T18:23:14.06-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Stylish layer list (showing legend)",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 23918
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I believe the layer list style has been improved enough for the time being. I'm moving this task back to a later release.",
+      "PostedDate": "2013-03-21T17:14:40.937-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-07T15:17:28.78-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-10T09:51:04.187-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T12:24:33.36-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-17T09:14:15.19-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-18T17:39:20.88-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 72363: Finished layer list with legend display.",
+      "PostedDate": "2013-06-19T18:11:18.18-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-19T18:11:49.557-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:20.493-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

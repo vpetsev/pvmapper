@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T16:58:13.79-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When downloading files, such as a csv of the scoreboard, or a pvProj file, the filename input into the box is being ignored in Google Chrome. Chrome instead uses a default file name of \"download\" (or \"download (1)\", etc), and doesn't include any file extension. It works correctly in IE 11.",
+    "LastUpdatedDate": "2017-11-27T16:58:23.65-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-05-29T15:00:07.01-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Downloaded file names are wrong",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 25515
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

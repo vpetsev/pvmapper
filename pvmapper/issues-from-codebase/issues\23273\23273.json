@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Required Data: Modeled or simulated data from weather estimation tools. \nPre-Condition:  \n·          User is in site analyzer mode\nUse Cases: \n·         User selects PVMapper Forecast Mode.  User selects future time series sources that forecast available solar radiation, electrical energy demand and price, construction costs, etc.  PVMapper then uses the site development costs as a starting value and forecasts future estimated balance sheets for the site.\nFunctional Requirements:\n·         PVMapper will provide a forecast of the potential energy output including confidence intervals.\nPerformance Requirements:\n·         We expect to run the SAM model via web services through the NREL system. This will have some performance implications that will need to be managed through appropriate user feedback.\nNotes:\n·         The specific variables to be forecast, method for generating forecasts, and means by which forecasts are aggregated, displayed, and/or summarized will be determined upon consultation. The SAM model is a likely candidate for providing most/all of the functionality described here.",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:26:23.35-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Energy Forecast",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23273
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Required Data: Database of locations of existing power purchasers. \nPre-Condition:  \n·         User is in the “Site Analyzer” mode or geographic scale.  \nUse Cases: \n·         The user will activate the “Off-Taker” tool, select a search radius, and click a point on the map interface.  PVMapper will query the appropriate data and will display a list of companies, addresses, contact names, phone numbers, URLs of existing power purchasers in the area.  PVMapper may also display who is currently purchasing solar power in the region and who is physically connected to the grid in the area. \nFunctional Requirements:\n·         PVMapper will provide a list of available power purchasers within a given search radius of the map point selected by the user.\nPerformance Requirements:\n·         PVMapper will respond within 5 seconds from when the point is selected.\nNotes:\n·         “User Defined Radius” is defined by a PVMapper configuration parameter. Default is 10 miles.",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:20:27.15-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Power Purchaser (Off-Takers) Demographic",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23268
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

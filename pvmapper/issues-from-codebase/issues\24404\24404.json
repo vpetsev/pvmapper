@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": "4 units",
+    "Description": "This will allow users to run the program right away, without having to register (which can certainly be tedious). Their changed should be saved to a temporary user account. There should be a Register button in the top right someplace, (instead of Log Out) which will allow the temporary user account to be upgraded to a perminant user, retaining all of their edits. Also, we'll need to decide on a retention policy for temporary account info (manually delete them with a script, or regularly delete them based on a last login time, or something?)",
+    "LastUpdatedDate": "2014-02-26T14:56:02.367-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-17T08:48:54.547-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add generic guest user access - can create new account to save work",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24404
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Due to time constraints, we do not expect this feature will be included in the final release.",
+      "PostedDate": "2014-02-26T14:56:02.367-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+**Solar Data**
+http://developer.nrel.gov/
+http://mapservices.nrel.gov/web/
+http://solarmapper.anl.gov/arcgis/rest/services
+
+**WMS**
+http://www.nationalatlas.gov/infodocs/ogcwms.html
+
+**Sites of people that might share data/catalogs**
+http://earthexplorer.usgs.gov/ 
+http://openpv.nrel.gov/ 
+http://www.google.com/publicdata/ 
+http://www.mapmatters.org/ 
+http://toolserver.org/~geohack/geohack.php?params=52_00_34_N_5_57_52_E_type:landmark
+http://viewer.nationalmap.gov/example/gallery/openlayers/index.html 
+http://inside.uidaho.edu/popular_data.html

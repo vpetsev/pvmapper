@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Hey, they're back! Must've been a temporary outage on the third-party data server hosting those layers.",
+    "ClosedDate": "2014-03-26T14:56:32.937-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please check at your earliest convenience.",
+    "LastUpdatedDate": "2014-03-26T14:56:32.937-07:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-03-18T14:07:02.073-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Protected areas and land cover not working...",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 25281
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-12-10T09:19:13.993-08:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "Provide a link to the full web metadata provided for each layer shown (or to the layer publisher's site, if the layer metadata is not published). If possible, place these links in the layer list. Otherwise, find a suitable location.",
+    "LastUpdatedDate": "2013-12-10T09:19:13.993-08:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add links to layer metadata",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 24249
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

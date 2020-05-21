@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "Argonne shared national data with us. Create score tools to use this data. When finished, disable the old ANL score tool which only gives data for the southwest.\n\n... Has Argonne shared any endangered species data with us?",
+    "LastUpdatedDate": "2017-11-27T16:58:21.8-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Tool using the data Argonne recently shared",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24242
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Argonne hasn't shared endangered species data with us... so, either this task is done (because I updated tools to point to the data Argonne has shared), or the task is not yet doable (because we don't have a ready supply of endangered species data).",
+      "PostedDate": "2013-06-24T12:00:22.273-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-07-24T18:00:30.913-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:21.8-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

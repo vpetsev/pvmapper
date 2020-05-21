@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "PVMapper users will be able to conduct an integrated performance and financial analysis of the chosen site.  This capability will be developed by integrating NREL’s System Advisor Model (SAM).  “SAM makes performance predictions and cost of energy estimates for grid-connected power projects based on installation and operating costs and system design parameters that you specify as inputs to the model.  SAM Projects can be either on the customer side of the utility meter, buying and selling electricity at retail rates, or on the utility side of the meter, selling electricity at a price negotiated through a power purchase agreement (PPA).”[1]\n \nRequired data: Required SAM input data for the site. \nPre-condition: \n·         User is in Site Analyzer mode and has defined a site boundary.\n \n[1] https://sam.nrel.gov/",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:27:33.267-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Site Financial and Performance Analysis",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23274
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

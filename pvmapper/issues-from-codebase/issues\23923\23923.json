@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "See final jbrewer comment.",
+    "ClosedDate": "2014-03-25T14:18:42.18-07:00",
+    "CommentCount": 0,
+    "Custom": "(BYU)",
+    "Description": "Starting from 30m DEM data, construct and host a dataset which provides slope and aspect information at an adequate scale (or at several scale pyramids). This data should be efficient to query from the scoring tool.\n\nWe are going to first load all the 10 M DEM for Utah\n\nSlope will be calculated on the fly at run time based on the polygon of the study area.",
+    "LastUpdatedDate": "2014-03-25T14:18:42.18-07:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-14T18:27:50.517-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Build and host DEM data",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 23923
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Assigning to Justin. We have the 10m data from INL. Need to be loaded. Should we pre-calculate slope and aspect on the whole country to speed things up? or not?",
+      "PostedDate": "2013-08-05T09:48:02.82-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Adding this to a release",
+      "PostedDate": "2013-08-07T15:37:56.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-12T10:13:57.63-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "The 10m data was too big. In order to publish to the argis server a staging folder is created on the computer's hard drive. The folder to publish the DEM data is around 700GB and I don't have space to build it right now. To get around this problem I published the task using 30m data for just California, Arizona, New Mexico, Utah, and New Jersey. I can replace this data set with the full 10m data later when I find a good solution.",
+      "PostedDate": "2013-08-29T13:42:38.617-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Justin wil reload 30 meter data as a service so that we can make the client side terrain calculations.",
+      "PostedDate": "2013-11-18T15:31:14.41-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I wasn't able to host the 10m dataset so I will publish 30m dataset for the remaining states",
+      "PostedDate": "2013-11-19T12:52:33.637-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T10:38:56.7-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "10m slope dataset is proving to be too big to publish on the arcserver. I have successfully created the service definition file. This is the file that packages all the data and service info into a file ready to upload to the server. However, the difficulty uploading large service definition files over 200GB has been well documented by arcserver users and I haven't come across a solution yet. Until a solution is found I will load the 30m slope service back on to the server. ",
+      "PostedDate": "2014-03-13T09:39:02.763-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-25T14:18:42.18-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

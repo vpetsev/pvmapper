@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "User may have site properties that they have calculated outside of PVMapper.  To handle this situation, a generic property tool creator can be used.  The following defines behavior for this \"user defined property\" tool.\nUser clicks the \"user property\" button located in the header area of the \"site property\" panel (also located on the \"site property\" menu)\nPVMapper opens a dialog box (see attached)\nUser enters information and presses save\nPVMapper addes a new property tool entitled as the \"site name\" subsetted in a category of \"property name\"\n \n-------------------------------------------\nWhen PVMapper recalculates, the property value will always be returned.\nNote that what appears as separate sites in the property calculation panel, will appear on one line acorss sites in the property display window and in the weighted decision treel",
+    "LastUpdatedDate": "2017-11-27T16:57:40.063-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T13:11:22.123-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "User Defined Property",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23277
+  },
+  "FileAttachments": [
+    {
+      "FileId": 5955,
+      "FileName": "User Property Dialog.pptx",
+      "DownloadUrl": ".\\5955"
+    }
+  ],
+  "Comments": []
+}

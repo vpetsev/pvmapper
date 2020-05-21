@@ -1,0 +1,58 @@
+<div class="wikidoc">
+<p>Someday I need to merge this with the other framework API definitions</p>
+<h1>Public Methods</h1>
+<h3>registerTool</h3>
+<p>Parameters: tool object, toolId string, options hash</p>
+<p>Description: Registers a tool in the tools array. This allows the system to fire events for each tool in the toolset. The options hash can carry event callbacks and grouping information to further help the framework understand the tool</p>
+<h3>registerIntent</h3>
+<p>Parms: tool object, intent string</p>
+<p>Parms: intent, callback function &lt;----- perhaps this would be a better way to do this?</p>
+<p>Description: Registers a tool for a specific intent. This will allow other tools to use the specified tool&rsquo;s functionality without having to rewrite the tool or know the tool&rsquo;s name.</p>
+<h3>runIntent</h3>
+<p>Parms: intent string</p>
+<p>Description: Gets the tool that is registered with a specific intent. Perhaps it might be best to use something more akin to &lsquo;runIntent&rsquo; and let the system run the tool with some provided options. Then the tools themselves would not be directly
+ callable from other tools.</p>
+<h3>registerLayer</h3>
+<p>Params: layer object, update callback function, toolId string</p>
+<p>Description: Adds a layer to the layers array. The tool must provide a way for the layer to be updated and a tool that owns/manages the layer.</p>
+<h3>getLayers</h3>
+<p>Description: Gets all the layers that have been added to the system by tools</p>
+<p>Params:</p>
+<h3>getSite</h3>
+<p>Description: Gets a site by its ID (Should this be a copy? Force the tool to call updateSite?)</p>
+<p>Params:ID of the site</p>
+<h3>getSites</h3>
+<p>Description: Gets the whole array of sites on the map</p>
+<p>Params:</p>
+<h3>updateSite</h3>
+<p>Description: Updates a site by ID</p>
+<p>Params: siteID</p>
+<h3>invalidateScores</h3>
+<p>Description: Lets the system know that a tool has changed its scoreboard data and the rest of the system should see if it needs to reflect the changes</p>
+<p>Params: The ID of the tool that updated it&rsquo;s data</p>
+<h1>Private Arrays</h1>
+<h3>tools[object]</h3>
+<p>An array that holds all the registered tools in the system. The tools will have to conform to a specification to have this make sense</p>
+<h3>Layers [OpenLayers.Layer]</h3>
+<p>All the layers that are on the map. Perhaps we don&rsquo;t need this as we have access to the map which has its own collection of layers</p>
+<h1>Public Events</h1>
+<h3>onSiteChanged</h3>
+<p>Description: Will fire when a Site geometry or attribute is changed.</p>
+<p>Params: The Site that has changed</p>
+<h3>onToolAdded</h3>
+<p>Description: Raised after a tools has registered itself in the system. This may be used by other tools to monitor for co-tools.</p>
+<p>Params: toolId string, intents[] strings</p>
+<h3>onScoresInvalidated</h3>
+<p>Description: Will fire when something has changed on the scoreboard that may have caused it to be invalid. The event will provide the scoreboard and the intent object that invalidated the score. When a tool responds to this event, to avoid infinite looing,
+ it must not also invalidate the scoreboard if it changes something.</p>
+<p>Params: data object, event object</p>
+<ul>
+<li>&middot;<span style="font:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>The data object will have
+<ul>
+<li>o<span style="font:7pt 'Times New Roman'">&nbsp;&nbsp; </span>Scoreboard: The system scoreboard that was invalidated
+</li><li>o<span style="font:7pt 'Times New Roman'">&nbsp;&nbsp; </span>changedScoreIds[]: string names of the intents or toolIds of the tools that changed their score. This is may be used by other tools to determine if they too should recalculate their score or
+ not. If the tool changes its score by using the updateScore method of the Scoreboard object then it will also be added to this array automatically.
+</li></ul>
+</li></ul>
+</div><div class="ClearBoth"></div>

@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "BYU (2 units)",
+    "Description": "Some maps come as Raster Layer's, not Feature Layer's. At present our score tools query the center pixel of a site for metadata on the entire site. So, if in the middle of the site there is a small lake or pond, the land cover for the entire site will show as \"open water.\" Ideally, such a score tool would read something like \"81% grassy plains, 13% temperate forrest, 6% open water\".\n\nThere are several ways to achieve this, and we may need to use different methods for each tool/layer this applies to. The first and most direct is to host the data ourselves in vector/polygon format (WFS I presume) so that the client can query features directly. Another good method would be to serve raster data, but provide a geoprocessing tool which accepts a polygon and returns aggregate properties within that polygon, like ground cover percentages. Other methods include finding a publicly available server which already supports these sorts of queries.\n\nThe task is to complete this transition/improvement for as many affected tools as possible.",
+    "LastUpdatedDate": "2013-11-14T10:37:27.82-08:00",
+    "PlannedForRelease": "Final Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-03-07T16:21:35.2-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Calculate area / proportion of overlap for polygon & coverage",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24050
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Assigning to Justin. \r\n\r\nGoal is to 1) find a good land cover data set\n2) create ArcGis tool to compute percentage of each land cover type within our polygon\n3) pass back a list of the land covers and the percentage of each type in the polygon.",
+      "PostedDate": "2013-08-05T09:42:00.17-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "A service that computes land cover percentages and area based on a NLCD raster has been published to the Arcgis server. The service extracts the user defined polygon from the raster. A table, using the raster data, is then created and the area/percentage is computed. The result is a json string containing the area and percentage for each land cover category.",
+      "PostedDate": "2013-08-26T08:57:09.9-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Modified the Land Cover module to load data from ARCGIS server. Presently it just uses the built in Star rating system. However, each time a Star is changed, it sends out a new request for data, which seems like a waste of time and server processing power. This is something that can be optimized. ",
+      "PostedDate": "2013-08-26T16:40:24.98-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-10-09T15:19:07.487-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This is done. Just needs to be recommitted to the server to run. Was temporarily commented out for speed problems.",
+      "PostedDate": "2013-11-11T15:39:17.363-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-11T15:39:32.707-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

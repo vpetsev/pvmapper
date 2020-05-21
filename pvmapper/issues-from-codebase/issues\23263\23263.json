@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-23T09:34:49.6-07:00",
+    "CommentCount": 0,
+    "Custom": "Finished for the demo version.  The design for beta and release versions has changed making this relevant.  Mark it as close.",
+    "Description": "Default site property values that are input when the site is created are linked to utility functions to create scores",
+    "LastUpdatedDate": "2017-11-27T16:57:39.61-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T09:56:03.8-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "3 Tie the site property values  to the utility score process",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 23263
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

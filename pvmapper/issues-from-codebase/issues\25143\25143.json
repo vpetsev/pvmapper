@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "UI",
+      "DisplayName": "UI"
+    },
+    "ClosedComment": "done. see pvmapper.org",
+    "ClosedDate": "2014-02-11T14:51:14.313-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We need to get the required Acknowledgement and the Disclaimer on the pvmapper.org website.\n\nAcknowledgment: \n“This material is based upon work supported by the Department of\nEnergy Office of Energy Efficiency & Renewable Energy under Award Number DE-EE0005351.”\n\nDisclaimer: \n“This website was prepared as an account of work sponsored by an agency of\nthe United States Government. Neither the United States Government nor any\nagency thereof, nor any of their employees, makes any warranty, express or implied,\nor assumes any legal liability or responsibility for the accuracy, completeness, or\nusefulness of any information, apparatus, product, or process disclosed, or represents\nthat its use would not infringe privately owned rights. Reference herein to any\nspecific commercial product, process, or service by trade name, trademark,\nmanufacturer, or otherwise does not necessarily constitute or imply its endorsement,\nrecommendation, or favoring by the United States Government or any agency thereof.\nThe views and opinions of authors expressed herein do not necessarily state or reflect\nthose of the United States Government or any agency thereof.”",
+    "LastUpdatedDate": "2014-02-11T14:51:14.313-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-01-28T08:23:31.643-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Acknowledgement & Disclaimer",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 25143
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

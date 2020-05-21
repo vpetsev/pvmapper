@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "The layer symbology has been updated for the reference layers on the geoserver. There is an issue with \"counties\" layer in the key. Scott said it is an issue that can be solved on the client side.",
+    "ClosedDate": "2014-04-08T15:36:19.163-07:00",
+    "CommentCount": 0,
+    "Custom": "(BYU) 1 unit",
+    "Description": "Look for a preset symbology from Esri for roads so that each road type gets a different symbol.\n\nCounties could be colored by unique colors \n\nStates similarly\n\nAdd labels... \n\nRivers should be blue\n\nCities - create categories for sizes.",
+    "LastUpdatedDate": "2014-04-08T15:36:19.163-07:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-08-26T09:45:53.27-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Update coloring symbology for all reference layers",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 24658
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Not going to be done in time for beta testing session. Layers on ArcGIS Server don't know their name. There's got to be a solution to this. Please investigate.",
+      "PostedDate": "2013-11-25T15:35:47.737-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T09:58:00.29-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T10:38:56.7-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T10:58:10.677-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Please make the rivers blue\r\n\r\nPlease make the roads black\r\n\r\nPlease make the railways dk gray with cross hatches\r\n\r\nMake the cities red\r\n\r\nMake the dams blue upsidedown triangles",
+      "PostedDate": "2014-02-11T14:59:43.613-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Layer symbology has been changed to specifications. ",
+      "PostedDate": "2014-04-08T12:28:18.92-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "The \"counties\" layer map key on the right gets all jumbled because the list of counties is too long. I will try and fix it from the server side. ",
+      "PostedDate": "2014-04-08T12:37:20.15-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-04-08T15:36:19.163-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

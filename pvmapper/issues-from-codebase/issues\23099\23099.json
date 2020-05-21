@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-08-06T12:38:57.74-07:00",
+    "CommentCount": 0,
+    "Custom": "AddNewSite.js",
+    "Description": "If the user clicks the Add Site button to initiate the adding of a new site, the map needs to become visible if it is not already",
+    "LastUpdatedDate": "2017-11-27T16:56:42.82-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-07-26T08:58:01.63-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Switch the user to the map tab if they are not already there",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 23099
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

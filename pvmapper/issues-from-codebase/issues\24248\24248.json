@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "For the previous task, when showing the x-axis score tool value that the mouse is hovering over, include the units that the score tool gives values in. For example, while hovering on x-value '135', show the user '135 km2' (or whatever the appropriate units are)",
+    "LastUpdatedDate": "2017-11-27T16:57:41.46-08:00",
+    "PlannedForRelease": "Beta Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add units to the on-hover x-value score preview",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24248
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Associated with changeset 72675: Lots of changes. Tied in star ratings with Land Management tool (still need to tie them into Protected Areas and Land Cover tools). Added an options window to the transmission line distance tool (along with API facilities for future tool options windows). Made a number of bug fixes to the utility function edit window. And I've made several other bug fixes.",
+      "PostedDate": "2013-07-23T20:19:56.277-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-07-29T09:11:17.813-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:41.46-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

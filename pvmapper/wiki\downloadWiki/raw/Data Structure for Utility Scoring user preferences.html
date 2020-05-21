@@ -1,0 +1,33 @@
+<div class="wikidoc">
+<h2>Data Structure for Utility Scoring user preferences</h2>
+<p>Every entry has all the utility scoring information and can contain an array of entries (entries[]).<br>
+If the array exists, this entry is a group, if not then the entry is a leaf.<br>
+</p>
+<div style="color:black; background-color:white">
+<pre>entry = {
+    name: <span style="color:#a31515">&quot;&quot;</span>,
+    weight: <span style="color:#a31515">&quot;&quot;</span>,
+    Max: 100,
+    Min: 0,
+    Target: 50,
+    Slope: 50,
+    Func: <span style="color:#a31515">&quot;UtlityFunction1&quot;</span>,
+    entries: [
+        {
+            name: <span style="color:#a31515">&quot;b&quot;</span>,
+            weight: .5,
+        },
+        {
+            name: <span style="color:#a31515">&quot;c&quot;</span>,
+            weight: <span style="color:#a31515">&quot;.3&quot;</span>,
+            entries: [{
+                name: <span style="color:#a31515">&quot;&quot;</span>,
+                weight: <span style="color:#a31515">&quot;&quot;</span>
+            }]
+        }
+    ]
+}
+</pre>
+</div>
+<p></p>
+</div><div class="ClearBoth"></div>

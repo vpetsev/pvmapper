@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-01-22T10:38:56.7-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "NREL does analysis and posts data using utility service territories:\nhttp://en.openei.org/wiki/File:2012_12_14_Electricity_Price-01.jpg\n\nBilly Roberts is listed on the map:\nhttp://www.nrel.gov/analysis/staff/billy_roberts.html\n\nNot sure of their sourcing...\n\nThis could enable:\n* developers to more easily determine the local utility for interconnection\n* could be linked to the interconnection webpage for that utility (source is probably DSIRE)\n* could be linked to any renewable energy policies (source is probably DSIRE)\n* could be linked to existing or past utility RFPs (through SEPA's USD, http://usd.solarelectricpower.org/summarytables/index.cfm?view=procurement)\n* could be linked to current or past utility Integrated Resource Plans (through SEPA's USD, http://usd.solarelectricpower.org/summarytables/index.cfm?view=reports)",
+    "LastUpdatedDate": "2014-01-22T10:38:56.7-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-06T12:27:41.68-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Investigate Electric Utility Service Territory layers",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 24955
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "These data are not widely available from a consistant source. As such, we will not be implementing this feature.",
+      "PostedDate": "2014-01-22T10:38:56.7-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

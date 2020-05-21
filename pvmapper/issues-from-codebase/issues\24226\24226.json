@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "If you move the scorecard above the location of the map it makes it so that the heading of the scorecard can no longer be accessed so the scorecard is stuck in place and cant be moved. \n\nIt should be locked to just within the map.",
+    "LastUpdatedDate": "2017-11-27T16:57:40.66-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-02T11:17:09.79-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Score Card Can Be Dragged Outside of the Map and then cant be dragged again",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 24226
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

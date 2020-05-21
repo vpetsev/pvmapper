@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "This task will create a general window where users see a 5-star rating system, and use it to give a value measure to categorical / qualitative map data. For example, forrest land cover might get two stars, while high plains might get five stars, and open water might get no stars. Score tools can opt in to using this window; they will provide two functions, one a function to fetch from the tool all of the qualitative values to be scored, and a second function to provide the tool with star ratings for each of the provided string categories/values. This screen is accessed through a star icon on the score line, shown only for tools which use it.",
+    "LastUpdatedDate": "2017-11-27T16:58:21.353-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-03-07T15:52:21.403-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Window for scoring qualitative / categorical data (star ratings)",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24048
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "The tool class is implemented and ready to be integrate into the scoreboard.  The class is called RatingTool found in the RatingTool.js file.",
+      "PostedDate": "2013-05-22T17:53:28.377-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-07-23T20:16:09.527-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 72675: Lots of changes. Tied in star ratings with Land Management tool (still need to tie them into Protected Areas and Land Cover tools). Added an options window to the transmission line distance tool (along with API facilities for future tool options windows). Made a number of bug fixes to the utility function edit window. And I've made several other bug fixes.",
+      "PostedDate": "2013-07-23T20:19:54.79-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 72681: Added star ratings to two other tools (protected areas and land cover)",
+      "PostedDate": "2013-07-24T17:57:39.14-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-07-24T17:58:07.08-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:21.353-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

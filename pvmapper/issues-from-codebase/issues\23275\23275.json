@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The majority of data within PVMapper will come from pre-existing databases derived from trustworthy sources (Appendix A: Data Providers).  Additionally, when valuable data is limited or does not currently exist, PVMapper will provide interfaces for the developers themselves or other users such as, regional economic developers, and companies that purchase power to enter data into PVMapper.\n \nUse of contributed data will impose data quality restrictions that will be mediated in multiple ways, as follows:  \n·         Users will be informed that publically contributed data is in use.  \n·         Contributed data providers must first register and be a valid representative of their organization.\n·         Data will be version controlled.  \n·         Data quality algorithms will be periodically run and reports made available. \n·         Data provided by developers will be only available privately to that developer.\n The goal is to provide data to developers that are difficult and costly to obtain.",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:29:06.843-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Data Management",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23275
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

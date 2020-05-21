@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-12-10T09:00:27.83-08:00",
+    "CommentCount": 0,
+    "Custom": "4 units",
+    "Description": "Need ability to turn on or off tools.\n\nThis will take the form of a separate window listing all Score Tools, which allows the user to disable and enable tools.\n\nDisabled tools will not show up on the scoreboard, and will not get requests for score updates.\n\nOptional: allow disabling tools with a right-click on the scoreboard (cute but not necessary).",
+    "LastUpdatedDate": "2014-12-10T09:00:27.83-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-11-11T15:50:52.2-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Turn tools on and off - Basic",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 24867
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "To be assigned to BYU summer interns working with Dan and Rohit",
+      "PostedDate": "2014-02-25T14:40:07.397-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-02-26T14:56:02.367-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-04-16T09:26:41.677-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-04-16T13:20:54.997-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-07-14T16:50:44.84-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-12-10T09:00:27.83-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

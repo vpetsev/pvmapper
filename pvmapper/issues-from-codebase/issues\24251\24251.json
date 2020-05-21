@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Near tool for roads is done.",
+    "ClosedDate": "2013-08-12T10:11:15.727-07:00",
+    "CommentCount": 0,
+    "Custom": "BYU (0.5 units)",
+    "Description": "Create a score tool similar to the power line distance tool, which calculates the distance to nearby roads. Optionally, also include a tool to calculate distance to rail (should the data be available and seem useful).",
+    "LastUpdatedDate": "2013-08-12T10:11:15.727-07:00",
+    "PlannedForRelease": "Final Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Road access tool",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24251
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This has been worked on (by both Rohit and Justin). I'm marking it Active, and assigning it out.",
+      "PostedDate": "2013-08-07T15:40:33.197-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "The Road access tool is functional though it computes the distance from the centroid of created site to the nearest waterway. The rail access tool is on my list and I will have to come back to it in a few days. ",
+      "PostedDate": "2013-08-09T08:40:18.37-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-12T10:11:15.727-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "0.25 units",
+    "Description": "If you select one of the headings in the scorecard (Geography) the whole row will be filled with expand buttons. The section minimizes likes its supposed to and then expands when clicked again however there should'nt be so many buttons.",
+    "LastUpdatedDate": "2017-11-27T16:57:40.557-08:00",
+    "PlannedForRelease": "Beta Version Release - 1st Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-02T11:13:07.783-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Selecting Heading in Scorecard Results in Lots of Expand Buttons",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 24225
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Edit the my-ext-theme.css and set the background-image: none;  Checked in.",
+      "PostedDate": "2013-05-22T17:38:16.893-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:40.557-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

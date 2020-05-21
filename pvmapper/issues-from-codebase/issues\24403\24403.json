@@ -1,0 +1,110 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Done as drop down list on menu.",
+    "ClosedDate": "2013-11-25T15:26:09.29-08:00",
+    "CommentCount": 0,
+    "Custom": "0.25 units",
+    "Description": "Add links someplace appropriate to navigate to PV Watts and SAM. And to the Desire database search.",
+    "LastUpdatedDate": "2013-11-25T15:26:09.29-08:00",
+    "PlannedForRelease": "Final Version Release - 2nd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-17T08:44:16.377-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Add a link to PV Watts (and SAM) (and Desire)",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 24403
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This was mentioned on the call today as desierable for the beta release. I'll put it there, and if we find the time to do it, we'll do it.",
+      "PostedDate": "2013-08-07T15:53:54.08-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-08T10:11:04.143-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-10-08T12:27:28.787-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-10-08T12:43:11.627-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-10-09T15:19:36.9-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-10-15T09:21:49.493-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-11T15:27:10.74-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Add spacer bar to app menu. Add menu \"Related Tools\" this gives a drop down menu with links to \"PV Watts\" \"SAM\" \"EISPC Mapper\" \"Solar Mapper\"",
+      "PostedDate": "2013-11-11T15:30:41.743-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolved with changeset 73373: Added Button for popup window for related links.  Not completely functional yet",
+      "PostedDate": "2013-11-21T12:08:26.773-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "** Closed by whizkid338 11/21/2013 12:08 PM",
+      "PostedDate": "2013-11-22T05:52:02.227-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-22T05:52:06.857-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Forgot Visual Studio closes by default, so reopening.",
+      "PostedDate": "2013-11-22T05:52:36.33-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-22T05:53:05.18-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-25T15:26:09.29-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

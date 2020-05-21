@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": "2 units",
+    "Description": "Because some data sources are better/worse than others and/or have issues that need to be dealt with, we should add an \"info icon\" next to each layer in the list. When the user clicks it, pop up a window showing the detailed metadata for that layer. We already show this info in reports so it should be easy to access for a pop up window display.",
+    "LastUpdatedDate": "2014-08-06T12:34:00.26-07:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-01-13T08:49:05.777-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add metadata for layers",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 25067
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Due to time constraints, we do not expect this feature will be included in the final release.",
+      "PostedDate": "2014-02-26T14:56:02.367-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Assigned to Yash(Intern at BYU). \r\n\r\nQuick question : Which metadata in the report are we talking about exactly here? I was looking at the reports and they don't really have metadata about the data source. Its just an over view description of what the tool does. ",
+      "PostedDate": "2014-05-07T08:49:57.803-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hmm. Yes, the information on the layer is mixed in with the information on the tool. It may be prudent to either write your own description of each data source, or to link to the generated metadata which each layer offers (for example, this page for the soil type layer: http://server.arcgisonline.com/ArcGIS/rest/services/Specialty/Soil_Survey_Map/MapServer/ ).\r\n\r\n",
+      "PostedDate": "2014-05-08T08:32:59.78-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Well some of the data hosted by us at our geoserver, for example the Reference layers also do not have any metadata associated with it. What are we doing in that case? Should we just provide a link to the metadata source in that box? ",
+      "PostedDate": "2014-05-27T14:01:04.093-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "For the layers you host yourselves, you should fill out the metadata pages using Arc Catalog. The source data you used should have come with suitable information to provide in this space.\r\n\r\nFor any of the other layers we link to which provide no metadata whatsoever (not even a human-readable WMS service description page or the like), I suppose it would be sensible to either write a short blurb describing the data, or simply omit the metadata icon from those layers.",
+      "PostedDate": "2014-05-28T11:12:28.513-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-08-06T12:34:00.26-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

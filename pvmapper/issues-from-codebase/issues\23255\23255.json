@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A site finder function allows the user to look at a large scale US map and identify potential “hot spots” for utility scale solar power development. \nRequired Data: National level solar “insolation”, slope, public lands\nPre-Condition: User choses the “Site Locator” mode or large scale (USA) map.\nUse Case:\n·         User activates the function/plugin\n·         Map highlights areas with the highest solar potential\n·         User zooms to areas of interest for higher detail views.\nFunctional Requirements: \n·         PVMapper will display a map of the United States with highlighted areas showing good potential for solar development.\nPerformance Requirements: \n·         We expect these data to be pre-computed and hence response should be very fast.",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T09:43:19.157-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Site Finder",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23255
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

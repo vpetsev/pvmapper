@@ -1,0 +1,95 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-07T15:17:28.78-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There is an error when I try to log into pvmapper.com.  I copied it below.  \n\nServer Error in '/' Application.\n\nConfiguration Error\n\nDescription: An error occurred during the processing of a configuration file required to service this request. \nPlease review the specific error details below and modify your configuration file appropriately. \n\nParser Error Message: Safemode detected an error 'need to login'. (response was { \"errmsg\" : \"need to login\", \"ok\" : 0.0 }).\n\nSource Error: \n\n\nLine 68:       \nLine 69:         \nLine 70:         \n\nLine 71:       \nLine 72:     \n\nSource File: D:\\websites\\9d\\0cfbe\\15766\\0x0001\\_PublishedWebsites\\Doe.PVMapper\\web.config    Line: 70 \n\nVersion Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.0.30319.18034",
+    "LastUpdatedDate": "2017-11-27T16:56:45.02-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-01T13:57:07.217-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Login Configuration Error",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 23865
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Brant and I took a look at this today. We made some progress, and Brant is continuing that progress. It seems that the latest version of mongodb included a new authentication scheme, which appharbor adopted, but which our software was not participating in. Brant is in the process of upgrading the c# mongo driver, the latest version of which has the up-to-date authentication scheme.",
+      "PostedDate": "2013-02-11T11:14:25.233-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-11T11:14:43.697-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 71084: Further attempts to get appharor working again. Updated the MongoMembership package to the latest version. Hopefully this will solve the authentication issue...",
+      "PostedDate": "2013-02-11T15:32:25.79-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 71085: Mirroring package updates into dev branch...",
+      "PostedDate": "2013-02-11T15:50:12.23-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Fixed. I finally go Appharbor to build the version with the fixed web.config. ",
+      "PostedDate": "2013-02-12T15:09:42.7-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-12T15:15:41.183-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "It is working! ",
+      "PostedDate": "2013-02-12T20:10:09.317-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-13T16:37:17.45-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-07T15:17:28.78-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:26.113-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:56:45.02-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

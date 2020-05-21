@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-07-30T10:51:18.17-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Can we generate KML on the client? Should we do this on the server?",
+    "LastUpdatedDate": "2013-07-30T10:51:18.17-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-06-17T08:58:48.563-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Export to KML",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 0,
+    "Id": 24408
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

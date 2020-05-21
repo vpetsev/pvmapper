@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-08-06T12:38:57.74-07:00",
+    "CommentCount": 0,
+    "Custom": "AddNewSite.js",
+    "Description": "Allowing the user to create a state or county wide solar site doesn't make sense. We need a way to limit the user from creating a polygon until they are zoomed into the appropriate level. 10 mile zoom was suggested and accepted as a good starting point.",
+    "LastUpdatedDate": "2017-11-27T16:56:42.617-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-07-26T08:53:28.567-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Limit create polygon to 10 mile zoom",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 23097
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "PV Mapper doesn't work on Internet Explorer 9.\n\nFirst it shows a warning that IndexedDB is not available, which will forbid any local storage. This wasn't an issue when IndexedDB only stored local KML files, which users could re-add during their next session. However, IndexDB now stores all local configuration. Is there a polyfill or other backward compatible partial fix for storing this configuration data on IE9?\n\nSecond, after the warning popup, no scoreboard appears. I assume this is directly related to the IndexedDB issue, which may be preventing tools from running correctly. No errors were shown in the console. It may be a separate issue, but it will also need to be fixed to support IE9.",
+    "LastUpdatedDate": "2014-09-03T09:30:15.83-07:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-09-03T09:20:25.563-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Site fails on IE9",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 25710
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

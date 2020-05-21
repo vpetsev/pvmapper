@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T16:54:34.633-07:00",
+    "CommentCount": 0,
+    "Custom": "0.5 units",
+    "Description": "Add a KML custom \"InfoTool\" layer.  Save the uploaded KML file onto the client database and reload them when the app refresh.  Allow it to be removed on command.\n\n\nDevelopment time:  the actual time took too create the module is less than 4 hours,  however it took me 6 hours figuring out how to do context menu from the GeoExt Layer Tree to remove the added module.",
+    "LastUpdatedDate": "2017-11-27T16:57:42.497-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-01-22T10:47:22.313-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add a KML layer which is not scored",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 25111
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

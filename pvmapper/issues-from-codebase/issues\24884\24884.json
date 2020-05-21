@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "These work list items are all checked into Release, and are live on the site.",
+    "ClosedDate": "2014-01-10T10:53:17.24-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "1) Make the pie chart window color each tool's wedge based on the score the tool given to a site.\n2) Add a drop-down menu to the top to select which site to color code by.\n3) Move the open pie chart button next to the category subtotals for each site, and select that site in the window when the button is clicked.\n4) Add a tool tip to show the tool's name and value (the long string value) for each pie wedge on mouseover.",
+    "LastUpdatedDate": "2014-01-10T10:53:17.24-08:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-11-14T11:47:33.38-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Color-code pie chart based on site scores",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 24884
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

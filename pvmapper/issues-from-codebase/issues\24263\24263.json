@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:37:27.82-08:00",
+    "CommentCount": 0,
+    "Custom": "BYU (0.5 units)",
+    "Description": "Find data on substation locations. If found, create a tool to estimate the distance to a substation, based on the current distance to power line tool.",
+    "LastUpdatedDate": "2017-11-27T16:57:58.477-08:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-05-10T14:40:08.94-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Substation distance tool",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 24263
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Darian is going to search for some station data. We may not find any. In which case w'll close this issue. ",
+      "PostedDate": "2013-08-05T09:25:15.747-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This information can be extracted from OpenStreeMaps using the tags power=* and voltage=*.  AN example of this is the first link below.\nhttp://www.itoworld.com/map/4?lon=-108.25710&lat=27.43294&zoom=8\r\n\r\n\nThis second link is a group that the previous one comes from.  It has different extracts from the OSM.  \nhttp://www.itoworld.com/map/group/16",
+      "PostedDate": "2013-08-07T13:16:22.55-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-07T15:37:56.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-12T09:53:46.41-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Reassigning to Justin to extract all useful substation (and other power) data from OSM and convert to files we can use on our server.",
+      "PostedDate": "2013-08-12T09:54:31.383-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This module has been added. Instead of downloading massive amounts of data from OSM servers, this module sends out a query to the servers to get an OSM file for the Sub Stations in the search region(Based on SNL module). Then this OSM is converted to geo json and distance to the closest Sub Station is calculated. \r\n\r\nMe and Justin discussed about the two possibilities, one having to load the data on the server, which is possible but then causes us to use our own server, uses storage and also might contain outdated data until we run additional scripts everyday(or so) to get the latest data from OSM servers. This was the second possibility and it leverages the powerful API that OSM has already built in around which most of the OSM applications are built. ",
+      "PostedDate": "2013-08-13T17:52:44.42-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:58.477-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

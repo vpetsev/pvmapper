@@ -1,0 +1,71 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "These work list items are all checked into Release, and are live on the site.",
+    "ClosedDate": "2014-01-10T10:53:13.177-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Main scoreboard default view cuts off totals at the bottom and I can't scroll to them until I resize the window (see screenshot)",
+    "LastUpdatedDate": "2014-01-10T10:53:13.177-08:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-12-06T12:15:09.407-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Main Scoreboard window cut off at bottom",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 24950
+  },
+  "FileAttachments": [
+    {
+      "FileId": 6621,
+      "FileName": "MainScoreboardWindow.jpg",
+      "DownloadUrl": ".\\6621"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 73489: Make the initial scoreboard height proportional to the window height. Resolves reported issue.",
+      "PostedDate": "2013-12-10T09:58:50.6-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "** Closed by scottbbrown 12/10/2013 9:58 AM",
+      "PostedDate": "2013-12-10T10:03:11.91-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-12-10T10:03:12.167-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Made the initial scoreboard height proportional to the window height. This should resolve the issue.",
+      "PostedDate": "2013-12-10T10:03:12.62-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-10T10:53:13.177-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

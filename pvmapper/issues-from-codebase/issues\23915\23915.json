@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Data Model",
+      "DisplayName": "Data Model"
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-04-14T20:30:23.687-07:00",
+    "CommentCount": 0,
+    "Custom": "1 unit",
+    "Description": "The module object only needs to hold scoring tool information at the point.\n\nSpecifically, for each scoring tool it ought to store:\n* scoring tool name\n* scoring tool parent category (a 2-level hierarchy is all we need, right?)\n* raw score value for all sites\n* normalized score for all sites\n\nAlso, we will need a method to recalculate a score somewhere (where a score, it's parent category subtotal, and the grand total are recalculated in order)",
+    "LastUpdatedDate": "2017-11-27T16:56:45.443-08:00",
+    "PlannedForRelease": "Solar 2013 Conference Demo",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-02-14T18:11:43.177-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create a data object to hold information on scoring tools",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 23915
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 71867: Added the graph to the Utility Editor window. Hooked up the property grid to the graph using a cloned args object.",
+      "PostedDate": "2013-04-14T20:30:23.687-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:25.44-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:56:45.443-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

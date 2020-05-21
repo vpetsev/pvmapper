@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Pre-Condition:  \n·         User is in the “Site Analyzer” mode or geographic scale.\nUse Cases: \n·         With the selected sites from the Site Comparisons tool, the user can further evaluate suitability by viewing social, political, and environmental factors that can affect site suitability.\n·         User is presented with a set of layers including:\n·   Public Perception – measure of how much the public may oppose or favor specific areas for solar energy production\n·   Threatened or endangered species (plants and animals)\n·   Cultural resource sensitive areas\n·   Zoning types (industrial, residential, commercial)\n·   Soil – soils suitable for construction\n·   Geology – bedrock near the surface\n·   Water availability – adequate water available\n·   Other relevant data sets identified through the social survey.\nFunctional Requirements:\n·         PVMapper will analyze overlapping polygons from the list above and produce a heat map based on acceptability.  Each polygon in the layers above will be given a value based on the attributes of each and perceived acceptability of solar utility construction in each polygon type.  For instance, zoning polygons with high acceptability will receive a high score, while areas with low acceptability will get a low score.  PVMapper will then intersect all layers chosen by user and sum the values for each polygon into a single new polygon layer.  That layer will be colored by the new value.\nPerformance Requirements:\n·         PVMapper will calculate and draw new polygons in 5 seconds.\nNotes:",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:18:10.183-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Social Political and Environmental Factors",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23266
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

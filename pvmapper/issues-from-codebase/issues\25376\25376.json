@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-12-10T09:00:27.83-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "As pointed out by ST member Alain Gallet, when a site intersect or is adjacent to a characteristic such as power infrastructure, the report verbiage states something like \"0.0 km from nearest substation, kV unknown.\"  This can be confused as PVMapper not knowing the values, or other interpretations.  We need to figure out a way to change this verbiage in layman's terms, so it is easily understood as actually intersecting or really damn close.",
+    "LastUpdatedDate": "2014-12-10T09:00:27.83-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-04-09T11:31:49.023-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Report verbiage",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 25376
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "When switching to imperial units, I made changes to several of the distance tools to show the distance in feet as well for distances under half a mile, and to include an additional clarifying statement for distances - 0 (ie when the feature overlaps / crosses / intersects the site)",
+      "PostedDate": "2014-04-16T09:22:50.407-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-04-16T09:23:09.887-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-12-10T09:00:27.83-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

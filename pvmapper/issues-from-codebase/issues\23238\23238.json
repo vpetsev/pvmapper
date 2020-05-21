@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-09-14T12:46:47.123-07:00",
+    "CommentCount": 0,
+    "Custom": "Compete on 9/7/2012",
+    "Description": "This interfaces allows the user to select and parameterize utility curves that represent user preference.  Additional utility curves will be defined for goverenmental regulations.",
+    "LastUpdatedDate": "2017-11-27T16:56:43.43-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-29T14:35:42.837-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Utility Function Interface",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23238
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

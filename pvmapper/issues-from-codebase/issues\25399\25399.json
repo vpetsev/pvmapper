@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-06-09T10:24:08.983-07:00",
+    "CommentCount": 0,
+    "Custom": "0.25 units",
+    "Description": "A user has requested that we add the USGS Topo map as a basemap (the one with contour lines and the like).",
+    "LastUpdatedDate": "2017-11-27T16:58:23.38-08:00",
+    "PlannedForRelease": "Final Release Software",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-04-16T09:33:10.76-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add USGS topo basemap",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 25399
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 74546: Added USGS Topo basemap",
+      "PostedDate": "2014-06-09T10:24:08.983-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:23.38-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

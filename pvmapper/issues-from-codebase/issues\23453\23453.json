@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-07T15:17:28.78-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We need a working prototype to demonstrate displaying and querying WFS format GIS layers.\n\nThis will take the form of an html file located in the source repository's TestPages directory. The html page should use OpenLayers calls to show a map containing a WFS hosted at BYU. The page should also include some interactivity to demonstrate leveraging strengths of the WFS.\n\nAn identify feature, whereby a point is clicked and a table of point attributes is shown, should be easy to include (The GeoServer admin page provides a template for this - click Layer Preview on the left, then navigate to a WFS layer, and click 'OpenLayers' to see this behavior - 'View Source' on that page for a complete example of this). It will be useful to leverage GeoExt for this as well (it's a mix of OpenLayers and Ext JS, our UI/windowing library) - see [here](http://workshops.opengeo.org/geoext/stores/getfeatureinfo.html) for an extensive guide.\n\nWe would also like a demonstration of user interaction with the WFS geometries on the client side, without sending additional queries to the server. This should take the form of a 'highlight' color style applied to the nearest point, line, or polygon on mouseover (there's an example using OpenLayers [here](http://openlayers.org/dev/examples/highlight-feature.html)).\n\nIn summary:\n* Add an html page to the TestPages directory.\n* Have this page show map data from BYU's server (using GeoExt as in [this guide](http://workshops.opengeo.org/geoext/basics/map.html)).\n* Show server queries by fetching attributes on click (using GeoExt and [GetFeatureInfo](http://workshops.opengeo.org/geoext/stores/getfeatureinfo.html))\n* Show client geometry interaction by highlighting a feature on mouseover (GeoExt relies on OpenLayers for this; see [here](http://openlayers.org/dev/examples/highlight-feature.html))",
+    "LastUpdatedDate": "2013-06-19T14:57:19.91-07:00",
+    "PlannedForRelease": "Beta Version Release",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-10-03T14:29:57.79-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "WFS compatability demonstration",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 23453
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "We need a working prototype to demonstrate displaying and querying WFS format GIS layers.\r\n\r\nThis will take the form of an html file located in the source repository's TestPages directory. The html page should use OpenLayers calls to show a map containing a WFS hosted at BYU. The page should also include some interactivity to demonstrate leveraging strengths of the WFS.\r\n\r\nAn identify feature, whereby a point is clicked and a table of point attributes is shown, should be easy to include (The GeoServer admin page provides a template for this - click Layer Preview on the left, then navigate to a WFS layer, and click 'OpenLayers' to see this behavior - 'View Source' on that page for a complete example of this). It will be useful to leverage GeoExt for this as well (it's a mix of OpenLayers and Ext JS, our UI/windowing library) - see [here](http://workshops.opengeo.org/geoext/stores/getfeatureinfo.html) for an extensive guide.\r\n\r\nWe would also like a demonstration of user interaction with the WFS geometries on the client side, without sending additional queries to the server. This should take the form of a 'highlight' color style applied to the nearest point, line, or polygon on mouseover (there's an example using OpenLayers [here](http://openlayers.org/dev/examples/highlight-feature.html)).\r\n\r\nIn summary:\n* Add an html page to the TestPages directory.\n* Have this page show map data from BYU's server (using GeoExt as in [this guide](http://workshops.opengeo.org/geoext/basics/map.html)).\n* Show server queries by fetching attributes on click (using GeoExt and [GetFeatureInfo](http://workshops.opengeo.org/geoext/stores/getfeatureinfo.html))\n* Show client geometry interaction by highlighting a feature on mouseover (GeoExt relies on OpenLayers for this; see [here](http://openlayers.org/dev/examples/highlight-feature.html))\n",
+      "PostedDate": "2013-01-22T17:35:46.317-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-22T18:02:36.217-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-22T18:04:08.34-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-13T16:37:19.857-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T17:19:27.28-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "We seem to have all of these features in the code base now, so I'm provisionally closing this task.",
+      "PostedDate": "2013-05-07T15:17:28.78-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:26.883-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-19T14:57:19.91-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

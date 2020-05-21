@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-11-14T10:17:57.76-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Required Data: Database of local offset requirements for the study area of interest. If this data is not available for an area, the user will be able to add it.\nUse Cases: \n·         User clicks the “Offsets” button and PVMapper either draws a buffer based on distances in existing county/state level offsets, or presents the user with an opportunity to add an offset distance.  PVMapper may reduce the size of the user drawn polygon if the buffer zone would impinge on any restricted or unavailable areas.  PVMapper will calculate the buffer zone acquisition and maintenance cost based on a user defined land cost parameter.\nFunctional Requirements:\n·         PVMapper will automatically draw offset buffer zones surrounding user defined development sites.\n·         PVMapper will calculate the buffer zone cost based on a user defined land cost.\nPerformance Requirements:\n·         TBD",
+    "LastUpdatedDate": "2013-11-14T10:17:57.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-08-30T10:22:16.917-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Local Offsets",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23270
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

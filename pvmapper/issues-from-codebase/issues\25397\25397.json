@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T16:57:17.74-07:00",
+    "CommentCount": 0,
+    "Custom": "4 units",
+    "Description": "Only load tool js files which the user will need. This an optional / secondary task for turning tools on and off.",
+    "LastUpdatedDate": "2014-07-14T16:57:17.74-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-04-16T09:27:32.51-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Turn tools on and off - Load tool js files dynamically",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 25397
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

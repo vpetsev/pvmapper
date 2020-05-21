@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2014-07-14T16:58:50.21-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Pvmapper will not add a kml or kmz file from a computer that does not have google earth downloaded. During testing, PVmapper did not recognize kml or kmz files when adding sites. Once I downloaded Google Earth, I had no problem adding kml files to my project.",
+    "LastUpdatedDate": "2017-11-27T16:58:23.55-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2014-05-15T14:50:40.14-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Google Earth Issue",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25474
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I have also noticed that pvmapper does not recognize a kml or kmz file when using Mozilla.",
+      "PostedDate": "2014-05-15T16:40:50.48-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-07-14T16:58:50.21-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:58:23.55-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

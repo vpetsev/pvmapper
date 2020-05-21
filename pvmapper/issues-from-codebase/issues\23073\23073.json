@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-06-19T14:57:19.91-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Need to eval the use of the EXTjs combined with GEO-EXT vs just doing it all ourselves using jQuery.\nOne of the requirements for the site is that it doesn't just 'copy' the common look of all the other GEO-EXT/OpenLayers sites out there. This will probably mean that the GEO-EXT will not be used, but EXTjs may offer more value in the UI than the more DIY jQuery framework.\n \nA few common things have to be considered\n>>Menu system\n>>>>Easy to use dialogs that have drag/drop/dock capability\n>>>>Easy for plugin devs to be able to program against. Something like menu.add or tool.add to create a toolbox set\n>>>>Must not look and feel like all other GIS systems built on GEO-EXT\n>>>>Must be easy to style\n>>Map control\n>>>>Easy to interact with OpenLayers API \n>>>>Can control HTML DOM elements directly to change the look/feel/opporation of the map (draggable icons, save icon, overlays...)\n>>AJAX\n>>>>Update data via AJAX calls\n>>>>Recieve info via AJAX\n>>>>Implement some kind of easy EIP (edit in place) functionality)\n>>Extenable\n>>Opensource compatible with our license\n>>Graphing\n>>Animation\n \n \nI have already created a panel manager for the maps that will allow the developers to create a panel that can hold custom map controls (or plugin controls). The plugin was created in jQuery using the jQuery UI. I used animation effects and docking into a menu.\n \nI am now going to evaluate doing the same thing in EXTjs.",
+    "LastUpdatedDate": "2013-06-19T14:57:19.91-07:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-07-20T09:38:58.603-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Evaluate the use of EXTjs vs jQuery for the building of the UI",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 23073
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I have already created a panel manager for the maps in jQuery that will allow the developers to create a panel that can hold custom map controls (or plugin controls). The plugin was created in jQuery using the jQuery UI. I used animation effects and docking into a menu.\nI am now going to evaluate doing the same thing in EXTjs.",
+      "PostedDate": "2012-07-20T09:39:23.017-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-08-06T12:38:57.74-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "After working with both frameworks over the last few weeks. I think that it would be best to just use both for now. The power of Extjs is evident in the windows like management of the display, the easy creation of a layout and such. However, fine control over animation and DOM manipulation is best in class with jQuery. I think mixing the two is the best bet for the best UX. If there are functions that both handle well, Extjs should be used as it is handling the bulk of the layout manipulation.",
+      "PostedDate": "2012-08-13T09:18:11.553-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-08-14T07:31:34.51-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-13T16:37:29.077-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:28.803-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-15T19:28:28.923-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-14T00:28:52.597-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-19T14:57:19.91-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

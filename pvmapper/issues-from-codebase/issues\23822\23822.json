@@ -1,0 +1,115 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": "4 units",
+    "Description": "For future tool developers, both in our team and outside it, we will need an accurate documentation base for the API that modules and tools will use. The first (and largest) step in producing this documentation is formatting existing comments in a standard way.\n\nFor every .ts file in the repository, take all one-line code comments describing an object, class, method, member, etc. and format them following the [Javadoc standard](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html). For example, a comment like this:\n\n    //Creates a Score object. Ties the site's change event to this scores score changed event\n    constructor(site:any){...}\n\nwould be reformatted like this:\n\n    /**\n    * Creates a Score object. Ties the site's change event to this scores score changed event\n    *\n    * @constructor\n    * @param {PVMapper.Site} site The site that this score will track\n    * @return {PVMapper.Score} New Score object\n    */\n    constructor(site:any){...}\n\nFinally, run the [Javadoc](http://www.oracle.com/technetwork/java/javase/documentation/index-jsp-135444.html) tool or [JS Doc](http://code.google.com/p/jsdoc-toolkit/) tool to produce a complete API documenation in some format (html, pdf, etc) as demonstration of success.",
+    "LastUpdatedDate": "2014-08-04T07:00:52.66-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-01-22T13:47:47.017-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Basic API documentation for future tool developers",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 23822
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "For future tool developers, both in our team and outside it, we will need an accurate documentation base for the API that modules and tools will use. The first (and largest) step in producing this documentation is formatting existing comments in a standard way.\r\n\r\nFor every .ts file in the repository, take all one-line code comments describing an object, class, method, member, etc. and format them following the [Javadoc standard](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html). For example, a comment like this:\r\n\r\n    //Creates a Score object. Ties the site's change event to this scores score changed event\n    constructor(site:any){...}\r\n\r\nwould be reformatted like this:\r\n\r\n    /**\n    * Creates a Score object. Ties the site's change event to this scores score changed event\n    *\n    * @constructor\n    * @param {PVMapper.Site} site The site that this score will track\n    * @return {PVMapper.Score} New Score object\n    */\n    constructor(site:any){...}\r\n\r\nFinally, run the [Javadoc](http://www.oracle.com/technetwork/java/javase/documentation/index-jsp-135444.html) tool or [JS Doc](http://code.google.com/p/jsdoc-toolkit/) tool to produce a complete API documenation in some format (html, pdf, etc) as demonstration of success.",
+      "PostedDate": "2013-01-22T17:38:09.11-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-22T17:38:24.943-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-22T17:45:40.533-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-22T17:49:28.89-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-22T17:54:09.67-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-13T16:37:19.173-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T17:23:09.817-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-06T15:36:31.017-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-19T14:57:19.91-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-07-30T10:36:02.017-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-10-08T13:31:33.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-14T10:37:27.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-22T10:38:56.7-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Due to time constraints, we do not expect this feature will be included in the final release.",
+      "PostedDate": "2014-02-26T14:56:02.367-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Most of the commonly used features will be documented in the Documentation tab. The documentation will be a WIKI style instructional set using markdown.",
+      "PostedDate": "2014-08-04T07:00:52.66-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

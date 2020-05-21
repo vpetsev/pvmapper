@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2013-05-23T09:31:13.65-07:00",
+    "CommentCount": 0,
+    "Custom": "No longer being use.",
+    "Description": "In the alpha version we will fix the site property calculations that are used to derive site scores\nThe new list, consistent with functional specs.  Please put at the top this text.\n\"This alpha version of PVMapper's decision analysis component has been configured for demonstration purposes only.  The numbers produced are randomly generated for each site and do not represent actual values.  Future versions of PVMapper will use authoritative data sources for these values.  Also, future version may or may not contain all the currently listed decision elements. All costs values and indicies are determined by the use based on analysis conducted outside of PVMapper and input as parameters or by using the SAM model with has been integrated into PVMapper.\"\nInformation in { } is hover information.\n \nCost\n  LCOE {Levelized Cost of Energy:  The price at which electricity must be generated from a specific source to break even over the lifetime of the  \n            project. It is an economic assessment of the cost of the energy-generating system including all the costs over its lifetime: initial investment, \n            operations and maintenance, cost of fuel, cost of capital, and is very useful in calculating the costs of generation from different sources. \n            http://en.wikipedia.org/wiki/Cost_of_electricity_by_source }\n \n                     Generate a random number between the min and max for each site that the user creates\n                      min:  100     target: 144   max: 200  slope: 50   type: less is better\n \n   IRR {After-tax Internal Rate of Return: You can think of IRR as the rate of growth a project is expected to generate. While the actual rate of return \n          that a given project ends up generating will often differ from its estimated IRR rate, a project with a substantially higher IRR value than other \n          available options would still provide a much better chance of strong growth.  http://www.investopedia.com \n           http://en.wikipedia.org/wiki/Internal_rate_of_return }\n                     Generate a random number between the min and max for each site that the user creates\n                      min:  0     target: 10   max: 35  slope: 20   type: more is better\n \n \n  DSCR {Pre-tax min Debt Service Coverage Ratio:  A DSCR of less than 1 would mean a negative cash flow. A DSCR of less than 1, say .95, would \n            mean that there is only enough net operating income to cover 95% of annual debt payments.  http://www.investopedia.com }\n \n                     Generate a random number between the min and max for each site that the user creates\n                      min:  1     target: 2   max: 5  slope: 10   type: more is better\n \n  NPV {After-Tax Net Present Value: The difference between the present value of cash inflows and the present value of cash outflows.\n          NPV is used in capital budgeting to analyze the profitability of an investment or project. http://www.investopedia.com }\n                     Generate a random number between the min and max for each site that the user creates\n                      min:  1,000000     target: 20,000,000   max:  50,000,000 slope: 50   type: more is better\n \n  Transmission {Cost to connect to preferred transmission line}\n                     Generate a random number between the min and max for each site that the user creates\n                      min:  0     target: 500,000   max:  3,000,000 slope: 30   type: less is better\n \n  Incentives {Index of tax and other incentives offered to promote development}\n                     Generate a random number between the min and max for each site that the user creates\n                      min:  0     target: 50   max: 100 slope: 50   type: more is better\n \nEnergy\n  Net Annual Energy {Annual expected kWh generation}\n                     Generate a random number between the min and max for each site that the user creates\n                      min:  1,000,000     target: 40,000,000   max: 400,000,000 slope: 30   type: more is better\n  Intermittency {Index of solar radiation intermittency}\n                     Generate a random number between the min and max for each site that the user creates\n                      min:  0     target: 0.85   max: 1 slope: 20   type: more is better\n  Contract Risk {Power Purchase Agreement Risk}\n                    Generate a random number between the min and max for each site that the user creates\n                      min:  0     target: 0.20   max: 1 slope: 20   type: less is better\nEnvironment\n  Endangered Species {Index of presence of endangered species}\n                    Generate a random number from a normal distribution with mean = target and std = target/25\n                      min:  0     target: 0.1   max: 1 slope: 10   type: less is better\n  Cultural Resources {Index of presence of cultural resources}\n                     Generate a random number from a normal distribution with mean = target and std = target/25                      \n                      min:  0     target: 0.1   max: 1 slope: 10   type: less is better\n  Zoning {Index of zoning risk}\n                    Generate a random number from a normal distribution with mean = target and std = target/40\n                      min:  0     target: 0.80   max: 1 slope: 20   type: more is better\n  Soil {Index of soil type appropriate for development}\n                    Generate a random number from a normal distribution with mean = target and std = target/50\n                      min:  0     target: 0.80   max: 1 slope: 20   type: more is better\n  Geology {Index of geology appropriate for development}\n                    Generate a random number from a normal distribution with mean = target and std = target/30\n                      min:  0     target: 0.80   max: 1 slope: 20   type: more is better\n  Water {Index of adequate water is available for development}\n                    Generate a random number from a normal distribution with mean = target and std = target/50\n                      min:  0     target: 0.8   max: 1 slope: 20   type: more is better\nSocial\n   Public Perception {Index of public perception adequately positive for development}\n                    Generate a random number from a normal distribution with mean = target and std = target/10\n                      min:  0     target: 0.5   max: 1 slope: 20   type: more is better",
+    "LastUpdatedDate": "2017-11-27T16:57:40.333-08:00",
+    "PlannedForRelease": "Alpha Version Prototype",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2012-09-14T12:59:03.53-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "1 Modify Design Tree Category and Property Names",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 23367
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "It was completed for the demo.  The design changed so it is not being used any more.  Mark it closed.",
+      "PostedDate": "2013-05-23T09:31:13.65-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T16:57:40.333-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

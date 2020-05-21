@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Caching for near tools is done. New issue to be opened later for caching for other tools - requires a framework revision...",
+    "ClosedDate": "2013-08-12T09:58:58.04-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We want to cache scores in the user database on the server so that they don't always have to be computed dynamically.",
+    "LastUpdatedDate": "2013-08-12T09:58:58.04-07:00",
+    "PlannedForRelease": "Final Version Release - 3rd Priority",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "pvmapper",
+    "ReportedDate": "2013-08-05T10:03:37.233-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "Cache score card to the database",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 24581
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Adding this to a release",
+      "PostedDate": "2013-08-07T15:37:56.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Caching phase 1 completed. This issue will be reopened when ExtJS framework modification is undertaken. Presently the Caching is managed using jStorage Library which uses the local storage feature associated with most modern browsers and HTML5. ",
+      "PostedDate": "2013-08-12T00:43:17.08-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-08-12T09:58:58.04-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

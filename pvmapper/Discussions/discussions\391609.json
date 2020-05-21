@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "899324",
+    "ThreadId": "391609",
+    "Html": "\r\n<p>I am concerned that if we let other developers out there in the wild create tools that can call JS from anywhere, that we will never be able to call ourselves secure at any level. Suppose that a developer creates a tool that has a useful function, but along\r\n side that function, the tool also sends the sites information back to his servers. This would in effect mean that that dev would have access to any and all information the user enters into the system.</p>\r\n<p>How are we going to prevent that?</p>\r\n<ul>\r\n<li>Can we sandbox the code coming from outside devs? </li><li>Do we review all tools before making them available to the public? </li><li>Are we going to take responsibility for ensuring that the JS doesn't behave badly?\r\n</li></ul>\r\n",
+    "PostedDate": "2012-08-14T15:00:02.31-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "900020",
+    "ThreadId": "391609",
+    "Html": "<p>Google Chrome's approach is to notify the user when they are installing an extension as to which&nbsp;extensibility&nbsp;points the extension will use. \"Access all your data\" etc. Facebook does something similar. \"Access your pictures and your friends pictures\"</p>",
+    "PostedDate": "2012-08-16T11:24:42.893-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
