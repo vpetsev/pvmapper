@@ -75,6 +75,14 @@ public class proxy : IHttpHandler {
         if (uri.StartsWith("http%3a%2f%2f", StringComparison.InvariantCultureIgnoreCase) || uri.StartsWith("https%3a%2f%2f", StringComparison.InvariantCultureIgnoreCase))
             uri = HttpUtility.UrlDecode(uri);
         
+        Uri targetUri;
+        if (!Uri.TryCreate(uri, UriKind.Absolute, out targetUri) ||
+            (targetUri.Scheme != Uri.UriSchemeHttp && targetUri.Scheme != Uri.UriSchemeHttps))
+        {
+            sendErrorResponse(response, null, "Only absolute HTTP(S) service URLs are supported", System.Net.HttpStatusCode.BadRequest);
+            return;
+        }
+
         log(TraceLevel.Info, uri);
         ServerUrl serverUrl;
         bool passThrough = false;
@@ -394,6 +402,8 @@ public class proxy : IHttpHandler {
     private System.Net.WebResponse doHTTPRequest(string uri, byte[] bytes, string method, string referer, string contentType, System.Net.NetworkCredential credentials = null)
     {
         System.Net.HttpWebRequest req = (System.Net.HttpWebRequest)System.Net.HttpWebRequest.Create(uri);
+        // An allowlisted service must not redirect this server to an unchecked destination.
+        req.AllowAutoRedirect = false;
         req.ServicePoint.Expect100Continue = false;
         req.Referer = referer;
         req.Method = method;
