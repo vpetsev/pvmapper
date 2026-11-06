@@ -19,7 +19,8 @@ var pvMapper;
                 var b = isNaN(args.target) ? ((h - l) / 2) + l : args.target;
                 var s = isNaN(args.slope) ? 1 : args.slope;
 
-                if (l > h) {
+                var descending = l > h;
+                if (descending) {
                     // we're going from high to low, rather than from low to high
                     // swap values and negate the slope
                     var swap = l;
@@ -32,9 +33,9 @@ var pvMapper;
 
                 var y = 0;
                 if (x >= h)
-                    y = 1;
+                    y = descending ? 0 : 1;
                 else if (x <= l)
-                    y = 0;
+                    y = descending ? 1 : 0;
                 else
                     y = (x < b) ? 1 / (1 + Math.pow((b - l) / (x - l), (2 * s * (b + x - 2 * l)))) : 1 - (1 / (1 + Math.pow((b - (2 * b - h)) / ((2 * b - x) - (2 * b - h)), (2 * s * (b + (2 * b - x) - 2 * (2 * b - h))))));
 
